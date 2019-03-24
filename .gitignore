@@ -11,6 +11,7 @@
 # docz
 .dovz/
 # production
+build/
 
 # misc
 .DS_Store

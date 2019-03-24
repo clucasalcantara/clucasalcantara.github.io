@@ -1,7 +1,7 @@
 {
   "name": "clucasalcantara.github.io",
   "description": "My personal website written in react",
-  "homepage": "http://clucasalcantara.github.io",
+  "homepage": "http://clucasalcantara.github.io/build",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
