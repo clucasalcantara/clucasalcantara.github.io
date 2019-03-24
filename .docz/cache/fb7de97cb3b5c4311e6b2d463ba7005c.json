@@ -1,0 +1,44 @@
+{
+  "remainingRequest": "/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/node_modules/docz/node_modules/babel-loader/lib/index.js?{\"presets\":[[\"/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/node_modules/docz/node_modules/babel-preset-docz/dist/index.js\",{\"flow\":true,\"typescript\":false,\"parseProps\":true}]],\"plugins\":[[\"/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/node_modules/docz-utils/lib/named-asset-import.js\",{\"loaderMap\":{\"svg\":{\"ReactComponent\":\"@svgr/webpack?-prettier,-svgo![path]\"}}}],\"/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/node_modules/docz/node_modules/react-hot-loader/babel.js\"],\"babelrc\":false,\"cacheCompression\":false,\"compact\":false}!/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/src/components/molecules/header/Header.js",
+  "dependencies": [
+    {
+      "path": "/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/src/components/molecules/header/Header.js",
+      "mtime": 1548595942358
+    },
+    {
+      "path": "/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/node_modules/docz/node_modules/cache-loader/dist/cjs.js",
+      "mtime": 1548265359778
+    },
+    {
+      "path": "/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/node_modules/docz/node_modules/babel-loader/lib/index.js",
+      "mtime": 1548158528866
+    }
+  ],
+  "contextDependencies": [],
+  "result": [
+    "var _jsxFileName = \"/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/src/components/molecules/header/Header.js\";\n\n(function () {\n  var enterModule = require('react-hot-loader').enterModule;\n\n  enterModule && enterModule(module);\n})();\n\nimport React from 'react';\nimport { array } from 'prop-types';\nimport { Link } from 'react-router-dom'; // Styles\n\nimport './style.scss';\n\nvar Header = function Header(_ref) {\n  var navItems = _ref.navItems;\n  return React.createElement(\"header\", {\n    className: \"fixed-top wwc-header\",\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 9\n    },\n    __self: this\n  }, React.createElement(\"div\", {\n    className: \"wwheader ui container\",\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 10\n    },\n    __self: this\n  }, React.createElement(\"a\", {\n    href: \"/\",\n    className: \" \",\n    alt: \"wwc-logo\",\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 11\n    },\n    __self: this\n  }, \"Work With Coffee\"), React.createElement(\"nav\", {\n    className: \"wwc-menu\",\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 14\n    },\n    __self: this\n  }, navItems.map(function (item) {\n    return React.createElement(Link, {\n      key: item.path,\n      to: item.path,\n      className: \"item\",\n      __source: {\n        fileName: _jsxFileName,\n        lineNumber: 16\n      },\n      __self: this\n    }, item.text);\n  }))));\n};\n\nHeader.propTypes = {\n  navItems: array\n};\nHeader.defaultProps = {\n  navItems: []\n};\nvar _default = Header;\nexport default _default;\n;\n\n(function () {\n  var reactHotLoader = require('react-hot-loader').default;\n\n  var leaveModule = require('react-hot-loader').leaveModule;\n\n  if (!reactHotLoader) {\n    return;\n  }\n\n  reactHotLoader.register(Header, \"Header\", \"/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/src/components/molecules/header/Header.js\");\n  reactHotLoader.register(_default, \"default\", \"/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/src/components/molecules/header/Header.js\");\n  leaveModule(module);\n})();\n\n;\nHeader.__docgenInfo = {\n  \"description\": \"\",\n  \"methods\": [],\n  \"displayName\": \"Header\",\n  \"props\": {\n    \"navItems\": {\n      \"defaultValue\": {\n        \"value\": \"[]\",\n        \"computed\": false\n      },\n      \"type\": {\n        \"name\": \"array\"\n      },\n      \"required\": false,\n      \"description\": \"\"\n    }\n  }\n};",
+    {
+      "version": 3,
+      "sources": [
+        "/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/src/components/molecules/header/Header.js"
+      ],
+      "names": [
+        "React",
+        "array",
+        "Link",
+        "Header",
+        "navItems",
+        "map",
+        "item",
+        "path",
+        "text",
+        "propTypes",
+        "defaultProps"
+      ],
+      "mappings": ";;;;;;;;AAAA,OAAOA,KAAP,MAAkB,OAAlB;AACA,SAASC,KAAT,QAAsB,YAAtB;AACA,SAASC,IAAT,QAAqB,kBAArB,C,CACA;;AACA,OAAO,cAAP;;AAEA,IAAMC,MAAM,GAAG,SAATA,MAAS,OAAkB;AAAA,MAAfC,QAAe,QAAfA,QAAe;AAC/B,SACE;AAAQ,IAAA,SAAS,EAAC,sBAAlB;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,KACE;AAAK,IAAA,SAAS,EAAC,uBAAf;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,KACE;AAAG,IAAA,IAAI,EAAC,GAAR;AAAY,IAAA,SAAS,EAAC,GAAtB;AAA0B,IAAA,GAAG,EAAC,UAA9B;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,wBADF,EAIE;AAAK,IAAA,SAAS,EAAC,UAAf;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,KACGA,QAAQ,CAACC,GAAT,CAAa,UAAAC,IAAI;AAAA,WAChB,oBAAC,IAAD;AAAM,MAAA,GAAG,EAAEA,IAAI,CAACC,IAAhB;AAAsB,MAAA,EAAE,EAAED,IAAI,CAACC,IAA/B;AAAqC,MAAA,SAAS,EAAC,MAA/C;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,OACGD,IAAI,CAACE,IADR,CADgB;AAAA,GAAjB,CADH,CAJF,CADF,CADF;AAgBD,CAjBD;;AAmBAL,MAAM,CAACM,SAAP,GAAmB;AACjBL,EAAAA,QAAQ,EAAEH;AADO,CAAnB;AAIAE,MAAM,CAACO,YAAP,GAAsB;AACpBN,EAAAA,QAAQ,EAAE;AADU,CAAtB;eAIeD,M;AAAf;;;;;;;;;;;;0BA3BMA,M",
+      "sourcesContent": [
+        "import React from 'react'\nimport { array } from 'prop-types'\nimport { Link } from 'react-router-dom'\n// Styles\nimport './style.scss'\n\nconst Header = ({ navItems }) => {\n  return (\n    <header className=\"fixed-top wwc-header\">\n      <div className=\"wwheader ui container\">\n        <a href=\"/\" className=\" \" alt=\"wwc-logo\">\n          Work With Coffee\n        </a>\n        <nav className=\"wwc-menu\">\n          {navItems.map(item => (\n            <Link key={item.path} to={item.path} className=\"item\">\n              {item.text}\n            </Link>\n          ))}\n        </nav>\n      </div>\n    </header>\n  )\n}\n\nHeader.propTypes = {\n  navItems: array\n}\n\nHeader.defaultProps = {\n  navItems: []\n}\n\nexport default Header\n"
+      ]
+    }
+  ]
+}

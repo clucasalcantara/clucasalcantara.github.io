@@ -1,0 +1,58 @@
+{
+  "remainingRequest": "/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/node_modules/docz/node_modules/babel-loader/lib/index.js?{\"presets\":[[\"/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/node_modules/docz/node_modules/babel-preset-docz/dist/index.js\",{\"flow\":true,\"typescript\":false,\"parseProps\":true}]],\"plugins\":[[\"/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/node_modules/docz-utils/lib/named-asset-import.js\",{\"loaderMap\":{\"svg\":{\"ReactComponent\":\"@svgr/webpack?-prettier,-svgo![path]\"}}}],\"/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/node_modules/docz/node_modules/react-hot-loader/babel.js\"],\"babelrc\":false,\"cacheCompression\":false,\"compact\":false}!/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/src/components/molecules/search-bar/SearchBar.js",
+  "dependencies": [
+    {
+      "path": "/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/src/components/molecules/search-bar/SearchBar.js",
+      "mtime": 1548667261073
+    },
+    {
+      "path": "/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/node_modules/docz/node_modules/cache-loader/dist/cjs.js",
+      "mtime": 1548265359778
+    },
+    {
+      "path": "/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/node_modules/docz/node_modules/babel-loader/lib/index.js",
+      "mtime": 1548158528866
+    }
+  ],
+  "contextDependencies": [],
+  "result": [
+    "var _jsxFileName = \"/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/src/components/molecules/search-bar/SearchBar.js\";\n\n(function () {\n  var enterModule = require('react-hot-loader').enterModule;\n\n  enterModule && enterModule(module);\n})();\n\nfunction _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _nonIterableRest(); }\n\nfunction _nonIterableRest() { throw new TypeError(\"Invalid attempt to destructure non-iterable instance\"); }\n\nfunction _iterableToArrayLimit(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i[\"return\"] != null) _i[\"return\"](); } finally { if (_d) throw _e; } } return _arr; }\n\nfunction _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }\n\nimport React, { useState } from 'react';\nimport algoliasearch from 'algoliasearch/lite';\nimport { InstantSearch } from 'react-instantsearch-dom';\nimport { func } from 'prop-types'; // UI Elements\n\nimport AutoComplete from './AutoComplete';\nvar searchClient = algoliasearch('B1G2GM9NG0', 'aadef574be1f9252bb48d4ea09b5cfe5');\nsearchClient.initIndex('wwcoffee-places');\n\nvar SearchBar = function SearchBar(_ref) {\n  var handleSelect = _ref.handleSelect;\n\n  var _useState = useState(''),\n      _useState2 = _slicedToArray(_useState, 2),\n      query = _useState2[0],\n      setQuery = _useState2[1];\n\n  var handleSuggestion = function handleSuggestion(_) {\n    var _ref2 = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {},\n        _ref2$suggestion = _ref2.suggestion,\n        suggestion = _ref2$suggestion === void 0 ? {} : _ref2$suggestion;\n\n    if (suggestion.length) {\n      return setQuery(suggestion.name);\n    }\n\n    return setQuery('');\n  };\n\n  var handleSubmitQuery = function handleSubmitQuery(value) {\n    console.info('Request search object', value);\n    return handleSelect ? handleSelect(value) : null;\n  };\n\n  return React.createElement(\"div\", {\n    className: \"container\",\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 33\n    },\n    __self: this\n  }, React.createElement(InstantSearch, {\n    indexName: \"wwcoffee-places\",\n    searchClient: searchClient,\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 34\n    },\n    __self: this\n  }, React.createElement(AutoComplete, {\n    value: query,\n    handleClick: handleSubmitQuery,\n    onSuggestionSelected: handleSuggestion,\n    onSuggestionCleared: handleSuggestion,\n    defaultRefinement: {\n      lat: 37.7793,\n      lng: -122.419\n    },\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 35\n    },\n    __self: this\n  })));\n};\n\nSearchBar.propTypes = {\n  handleSelect: func\n};\nSearchBar.defaultProps = {\n  handleSelect: function handleSelect(query) {\n    return console.info('Search Query: ', query);\n  }\n};\nvar _default = SearchBar;\nexport default _default;\n;\n\n(function () {\n  var reactHotLoader = require('react-hot-loader').default;\n\n  var leaveModule = require('react-hot-loader').leaveModule;\n\n  if (!reactHotLoader) {\n    return;\n  }\n\n  reactHotLoader.register(searchClient, \"searchClient\", \"/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/src/components/molecules/search-bar/SearchBar.js\");\n  reactHotLoader.register(SearchBar, \"SearchBar\", \"/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/src/components/molecules/search-bar/SearchBar.js\");\n  reactHotLoader.register(_default, \"default\", \"/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/src/components/molecules/search-bar/SearchBar.js\");\n  leaveModule(module);\n})();\n\n;\nSearchBar.__docgenInfo = {\n  \"description\": \"\",\n  \"methods\": [],\n  \"displayName\": \"SearchBar\",\n  \"props\": {\n    \"handleSelect\": {\n      \"defaultValue\": {\n        \"value\": \"query => console.info('Search Query: ', query)\",\n        \"computed\": false\n      },\n      \"type\": {\n        \"name\": \"func\"\n      },\n      \"required\": false,\n      \"description\": \"\"\n    }\n  }\n};",
+    {
+      "version": 3,
+      "sources": [
+        "/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/src/components/molecules/search-bar/SearchBar.js"
+      ],
+      "names": [
+        "React",
+        "useState",
+        "algoliasearch",
+        "InstantSearch",
+        "func",
+        "AutoComplete",
+        "searchClient",
+        "initIndex",
+        "SearchBar",
+        "handleSelect",
+        "query",
+        "setQuery",
+        "handleSuggestion",
+        "_",
+        "suggestion",
+        "length",
+        "name",
+        "handleSubmitQuery",
+        "value",
+        "console",
+        "info",
+        "lat",
+        "lng",
+        "propTypes",
+        "defaultProps"
+      ],
+      "mappings": ";;;;;;;;;;;;;;;;AAAA,OAAOA,KAAP,IAAgBC,QAAhB,QAAgC,OAAhC;AACA,OAAOC,aAAP,MAA0B,oBAA1B;AACA,SAASC,aAAT,QAA8B,yBAA9B;AACA,SAASC,IAAT,QAAqB,YAArB,C,CACA;;AACA,OAAOC,YAAP,MAAyB,gBAAzB;AAEA,IAAMC,YAAY,GAAGJ,aAAa,CAChC,YADgC,EAEhC,kCAFgC,CAAlC;AAKAI,YAAY,CAACC,SAAb,CAAuB,iBAAvB;;AAEA,IAAMC,SAAS,GAAG,SAAZA,SAAY,OAAsB;AAAA,MAAnBC,YAAmB,QAAnBA,YAAmB;;AAAA,kBACZR,QAAQ,CAAC,EAAD,CADI;AAAA;AAAA,MAC/BS,KAD+B;AAAA,MACxBC,QADwB;;AAGtC,MAAMC,gBAAgB,GAAG,SAAnBA,gBAAmB,CAACC,CAAD,EAAiC;AAAA,oFAAP,EAAO;AAAA,iCAA3BC,UAA2B;AAAA,QAA3BA,UAA2B,iCAAd,EAAc;;AACxD,QAAIA,UAAU,CAACC,MAAf,EAAuB;AACrB,aAAOJ,QAAQ,CAACG,UAAU,CAACE,IAAZ,CAAf;AACD;;AAED,WAAOL,QAAQ,CAAC,EAAD,CAAf;AACD,GAND;;AAQA,MAAMM,iBAAiB,GAAG,SAApBA,iBAAoB,CAAAC,KAAK,EAAI;AACjCC,IAAAA,OAAO,CAACC,IAAR,CAAa,uBAAb,EAAsCF,KAAtC;AAEA,WAAOT,YAAY,GAAGA,YAAY,CAACS,KAAD,CAAf,GAAyB,IAA5C;AACD,GAJD;;AAMA,SACE;AAAK,IAAA,SAAS,EAAC,WAAf;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,KACE,oBAAC,aAAD;AAAe,IAAA,SAAS,EAAC,iBAAzB;AAA2C,IAAA,YAAY,EAAEZ,YAAzD;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,KACE,oBAAC,YAAD;AACE,IAAA,KAAK,EAAEI,KADT;AAEE,IAAA,WAAW,EAAEO,iBAFf;AAGE,IAAA,oBAAoB,EAAEL,gBAHxB;AAIE,IAAA,mBAAmB,EAAEA,gBAJvB;AAKE,IAAA,iBAAiB,EAAE;AACjBS,MAAAA,GAAG,EAAE,OADY;AAEjBC,MAAAA,GAAG,EAAE,CAAC;AAFW,KALrB;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,IADF,CADF,CADF;AAgBD,CAjCD;;AAmCAd,SAAS,CAACe,SAAV,GAAsB;AACpBd,EAAAA,YAAY,EAAEL;AADM,CAAtB;AAIAI,SAAS,CAACgB,YAAV,GAAyB;AACvBf,EAAAA,YAAY,EAAE,sBAAAC,KAAK;AAAA,WAAIS,OAAO,CAACC,IAAR,CAAa,gBAAb,EAA+BV,KAA/B,CAAJ;AAAA;AADI,CAAzB;eAIeF,S;AAAf;;;;;;;;;;;;0BAlDMF,Y;0BAOAE,S",
+      "sourcesContent": [
+        "import React, { useState } from 'react'\nimport algoliasearch from 'algoliasearch/lite'\nimport { InstantSearch } from 'react-instantsearch-dom'\nimport { func } from 'prop-types'\n// UI Elements\nimport AutoComplete from './AutoComplete'\n\nconst searchClient = algoliasearch(\n  'B1G2GM9NG0',\n  'aadef574be1f9252bb48d4ea09b5cfe5'\n)\n\nsearchClient.initIndex('wwcoffee-places')\n\nconst SearchBar = ({ handleSelect }) => {\n  const [query, setQuery] = useState('')\n\n  const handleSuggestion = (_, { suggestion = {} } = {}) => {\n    if (suggestion.length) {\n      return setQuery(suggestion.name)\n    }\n\n    return setQuery('')\n  }\n\n  const handleSubmitQuery = value => {\n    console.info('Request search object', value)\n\n    return handleSelect ? handleSelect(value) : null\n  }\n\n  return (\n    <div className=\"container\">\n      <InstantSearch indexName=\"wwcoffee-places\" searchClient={searchClient}>\n        <AutoComplete\n          value={query}\n          handleClick={handleSubmitQuery}\n          onSuggestionSelected={handleSuggestion}\n          onSuggestionCleared={handleSuggestion}\n          defaultRefinement={{\n            lat: 37.7793,\n            lng: -122.419\n          }}\n        />\n      </InstantSearch>\n    </div>\n  )\n}\n\nSearchBar.propTypes = {\n  handleSelect: func\n}\n\nSearchBar.defaultProps = {\n  handleSelect: query => console.info('Search Query: ', query)\n}\n\nexport default SearchBar\n"
+      ]
+    }
+  ]
+}

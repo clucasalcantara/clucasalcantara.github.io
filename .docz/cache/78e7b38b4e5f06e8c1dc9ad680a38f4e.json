@@ -1,0 +1,44 @@
+{
+  "remainingRequest": "/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/node_modules/docz/node_modules/babel-loader/lib/index.js?{\"presets\":[[\"/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/node_modules/docz/node_modules/babel-preset-docz/dist/index.js\",{\"flow\":true,\"typescript\":false,\"parseProps\":true}]],\"plugins\":[[\"/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/node_modules/docz-utils/lib/named-asset-import.js\",{\"loaderMap\":{\"svg\":{\"ReactComponent\":\"@svgr/webpack?-prettier,-svgo![path]\"}}}],\"/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/node_modules/docz/node_modules/react-hot-loader/babel.js\"],\"babelrc\":false,\"cacheCompression\":false,\"compact\":false}!/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/src/components/molecules/loadable/Loadable.js",
+  "dependencies": [
+    {
+      "path": "/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/src/components/molecules/loadable/Loadable.js",
+      "mtime": 1548682191921
+    },
+    {
+      "path": "/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/node_modules/docz/node_modules/cache-loader/dist/cjs.js",
+      "mtime": 1548265359778
+    },
+    {
+      "path": "/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/node_modules/docz/node_modules/babel-loader/lib/index.js",
+      "mtime": 1548158528866
+    }
+  ],
+  "contextDependencies": [],
+  "result": [
+    "var _jsxFileName = \"/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/src/components/molecules/loadable/Loadable.js\";\n\n(function () {\n  var enterModule = require('react-hot-loader').enterModule;\n\n  enterModule && enterModule(module);\n})();\n\nimport React, { Suspense } from 'react';\nimport { oneOfType, element, array } from 'prop-types';\n\nvar Loadable = function Loadable(_ref) {\n  var children = _ref.children,\n      loadingContent = _ref.loadingContent;\n  return React.createElement(Suspense, {\n    fallback: loadingContent,\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 5\n    },\n    __self: this\n  }, children);\n};\n\nLoadable.propTypes = {\n  loadingContent: element,\n  children: oneOfType([element, array]).isRequired\n};\nLoadable.defaultProps = {\n  loadingContent: React.createElement(\"div\", {\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 16\n    },\n    __self: this\n  }, \"Loading...\")\n};\nvar _default = Loadable;\nexport default _default;\n;\n\n(function () {\n  var reactHotLoader = require('react-hot-loader').default;\n\n  var leaveModule = require('react-hot-loader').leaveModule;\n\n  if (!reactHotLoader) {\n    return;\n  }\n\n  reactHotLoader.register(Loadable, \"Loadable\", \"/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/src/components/molecules/loadable/Loadable.js\");\n  reactHotLoader.register(_default, \"default\", \"/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/src/components/molecules/loadable/Loadable.js\");\n  leaveModule(module);\n})();\n\n;\nLoadable.__docgenInfo = {\n  \"description\": \"\",\n  \"methods\": [],\n  \"displayName\": \"Loadable\",\n  \"props\": {\n    \"loadingContent\": {\n      \"defaultValue\": {\n        \"value\": \"<div>Loading...</div>\",\n        \"computed\": false\n      },\n      \"type\": {\n        \"name\": \"element\"\n      },\n      \"required\": false,\n      \"description\": \"\"\n    },\n    \"children\": {\n      \"type\": {\n        \"name\": \"union\",\n        \"value\": [{\n          \"name\": \"element\"\n        }, {\n          \"name\": \"array\"\n        }]\n      },\n      \"required\": true,\n      \"description\": \"\"\n    }\n  }\n};",
+    {
+      "version": 3,
+      "sources": [
+        "/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/src/components/molecules/loadable/Loadable.js"
+      ],
+      "names": [
+        "React",
+        "Suspense",
+        "oneOfType",
+        "element",
+        "array",
+        "Loadable",
+        "children",
+        "loadingContent",
+        "propTypes",
+        "isRequired",
+        "defaultProps"
+      ],
+      "mappings": ";;;;;;;;AAAA,OAAOA,KAAP,IAAgBC,QAAhB,QAAgC,OAAhC;AACA,SAASC,SAAT,EAAoBC,OAApB,EAA6BC,KAA7B,QAA0C,YAA1C;;AAEA,IAAMC,QAAQ,GAAG,SAAXA,QAAW;AAAA,MAAGC,QAAH,QAAGA,QAAH;AAAA,MAAaC,cAAb,QAAaA,cAAb;AAAA,SACf,oBAAC,QAAD;AAAU,IAAA,QAAQ,EAAEA,cAApB;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,KACGD,QADH,CADe;AAAA,CAAjB;;AAMAD,QAAQ,CAACG,SAAT,GAAqB;AACnBD,EAAAA,cAAc,EAAEJ,OADG;AAEnBG,EAAAA,QAAQ,EAAEJ,SAAS,CAAC,CAACC,OAAD,EAAUC,KAAV,CAAD,CAAT,CAA4BK;AAFnB,CAArB;AAKAJ,QAAQ,CAACK,YAAT,GAAwB;AACtBH,EAAAA,cAAc,EAAG;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AADK,CAAxB;eAIeF,Q;AAAf;;;;;;;;;;;;0BAfMA,Q",
+      "sourcesContent": [
+        "import React, { Suspense } from 'react'\nimport { oneOfType, element, array } from 'prop-types'\n\nconst Loadable = ({ children, loadingContent }) => (\n  <Suspense fallback={loadingContent}>\n    {children}\n  </Suspense>\n)\n\nLoadable.propTypes = {\n  loadingContent: element,\n  children: oneOfType([element, array]).isRequired\n}\n\nLoadable.defaultProps = {\n  loadingContent: (<div>Loading...</div>),\n}\n\nexport default Loadable\n"
+      ]
+    }
+  ]
+}

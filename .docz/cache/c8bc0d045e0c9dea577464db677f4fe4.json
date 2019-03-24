@@ -1,0 +1,32 @@
+{
+  "remainingRequest": "/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/node_modules/docz/node_modules/babel-loader/lib/index.js?{\"presets\":[[\"/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/node_modules/docz/node_modules/babel-preset-docz/dist/index.js\",{\"flow\":true,\"typescript\":false,\"parseProps\":true}]],\"plugins\":[[\"/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/node_modules/docz-utils/lib/named-asset-import.js\",{\"loaderMap\":{\"svg\":{\"ReactComponent\":\"@svgr/webpack?-prettier,-svgo![path]\"}}}],\"/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/node_modules/docz/node_modules/react-hot-loader/babel.js\"],\"babelrc\":false,\"cacheCompression\":false,\"compact\":false}!/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/src/components/molecules/index.js",
+  "dependencies": [
+    {
+      "path": "/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/src/components/molecules/index.js",
+      "mtime": 1548593772240
+    },
+    {
+      "path": "/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/node_modules/docz/node_modules/cache-loader/dist/cjs.js",
+      "mtime": 1548265359778
+    },
+    {
+      "path": "/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/node_modules/docz/node_modules/babel-loader/lib/index.js",
+      "mtime": 1548158528866
+    }
+  ],
+  "contextDependencies": [],
+  "result": [
+    "import Card from './card';\nimport Loadable from './loadable';\nimport Header from './header';\nimport Hero from './hero';\nimport Footer from './footer';\nimport SearchBar from './search-bar';\nexport { Card, Loadable, Header, Hero, Footer, SearchBar };",
+    {
+      "version": 3,
+      "sources": [
+        "/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/src/components/molecules/index.js"
+      ],
+      "names": ["Card", "Loadable", "Header", "Hero", "Footer", "SearchBar"],
+      "mappings": "AAAA,OAAOA,IAAP,MAAiB,QAAjB;AACA,OAAOC,QAAP,MAAqB,YAArB;AACA,OAAOC,MAAP,MAAmB,UAAnB;AACA,OAAOC,IAAP,MAAiB,QAAjB;AACA,OAAOC,MAAP,MAAmB,UAAnB;AACA,OAAOC,SAAP,MAAsB,cAAtB;AAEA,SAASL,IAAT,EAAeC,QAAf,EAAyBC,MAAzB,EAAiCC,IAAjC,EAAuCC,MAAvC,EAA+CC,SAA/C",
+      "sourcesContent": [
+        "import Card from './card'\nimport Loadable from './loadable'\nimport Header from './header'\nimport Hero from './hero'\nimport Footer from './footer'\nimport SearchBar from './search-bar'\n\nexport { Card, Loadable, Header, Hero, Footer, SearchBar }\n"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "remainingRequest": "/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/node_modules/docz/node_modules/babel-loader/lib/index.js?{\"presets\":[[\"/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/node_modules/docz/node_modules/babel-preset-docz/dist/index.js\",{\"flow\":true,\"typescript\":false,\"parseProps\":true}]],\"plugins\":[[\"/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/node_modules/docz-utils/lib/named-asset-import.js\",{\"loaderMap\":{\"svg\":{\"ReactComponent\":\"@svgr/webpack?-prettier,-svgo![path]\"}}}],\"/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/node_modules/docz/node_modules/react-hot-loader/babel.js\"],\"babelrc\":false,\"cacheCompression\":false,\"compact\":false}!/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/src/pages/default/Default.js",
+  "dependencies": [
+    {
+      "path": "/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/src/pages/default/Default.js",
+      "mtime": 1548594472928
+    },
+    {
+      "path": "/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/node_modules/docz/node_modules/cache-loader/dist/cjs.js",
+      "mtime": 1548265359778
+    },
+    {
+      "path": "/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/node_modules/docz/node_modules/babel-loader/lib/index.js",
+      "mtime": 1548158528866
+    }
+  ],
+  "contextDependencies": [],
+  "result": [
+    "var _jsxFileName = \"/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/src/pages/default/Default.js\";\n\n(function () {\n  var enterModule = require('react-hot-loader').enterModule;\n\n  enterModule && enterModule(module);\n})();\n\nimport React from 'react'; // Styles\n\nimport './styles.scss';\n\nvar DefaultPage = function DefaultPage(_ref) {\n  var Consumer = _ref.Consumer;\n  return React.createElement(Consumer, {\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 6\n    },\n    __self: this\n  }, React.createElement(\"span\", {\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 7\n    },\n    __self: this\n  }, \"Oi\"));\n};\n\nvar _default = DefaultPage;\nexport default _default;\n;\n\n(function () {\n  var reactHotLoader = require('react-hot-loader').default;\n\n  var leaveModule = require('react-hot-loader').leaveModule;\n\n  if (!reactHotLoader) {\n    return;\n  }\n\n  reactHotLoader.register(DefaultPage, \"DefaultPage\", \"/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/src/pages/default/Default.js\");\n  reactHotLoader.register(_default, \"default\", \"/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/src/pages/default/Default.js\");\n  leaveModule(module);\n})();\n\n;\nDefaultPage.__docgenInfo = {\n  \"description\": \"\",\n  \"methods\": [],\n  \"displayName\": \"DefaultPage\"\n};",
+    {
+      "version": 3,
+      "sources": [
+        "/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/src/pages/default/Default.js"
+      ],
+      "names": ["React", "DefaultPage", "Consumer"],
+      "mappings": ";;;;;;;;AAAA,OAAOA,KAAP,MAAkB,OAAlB,C,CACA;;AACA,OAAO,eAAP;;AAEA,IAAMC,WAAW,GAAG,SAAdA,WAAc;AAAA,MAAGC,QAAH,QAAGA,QAAH;AAAA,SAClB,oBAAC,QAAD;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,KACE;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,UADF,CADkB;AAAA,CAApB;;eAMeD,W;AAAf;;;;;;;;;;;;0BANMA,W",
+      "sourcesContent": [
+        "import React from 'react'\n// Styles\nimport './styles.scss'\n\nconst DefaultPage = ({ Consumer }) => (\n  <Consumer>\n    <span>Oi</span>\n  </Consumer>\n)\n\nexport default DefaultPage\n"
+      ]
+    }
+  ]
+}

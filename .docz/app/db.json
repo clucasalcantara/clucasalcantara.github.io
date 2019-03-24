@@ -1,0 +1,232 @@
+{
+  "config": {
+    "title": "Work With Coffee Playground",
+    "description": "My awesome app using docz",
+    "menu": [],
+    "ordering": "descending",
+    "version": "0.1.0",
+    "repository": null,
+    "native": false,
+    "codeSandbox": true,
+    "themeConfig": {},
+    "htmlContext": {
+      "head": {
+        "links": [
+          {
+            "rel": "stylesheet",
+            "href": "src/assets/css/global.scss"
+          }
+        ]
+      }
+    },
+    "plugins": [{}]
+  },
+  "entries": {
+    "src/components/index.mdx": {
+      "name": "Hi, there",
+      "route": "/",
+      "id": "8f6609a989594e49bce5582173f1be02",
+      "filepath": "src/components/index.mdx",
+      "link": null,
+      "slug": "src-components-index",
+      "order": 0,
+      "menu": null,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "hello-world",
+          "value": "Hello, world"
+        }
+      ]
+    },
+    "src/components/atoms/extra-info/ExtraInfo.mdx": {
+      "name": "ExtraInfo",
+      "menu": "Atoms",
+      "id": "ff864db2218dbbb8a3c59d13926d3002",
+      "filepath": "src/components/atoms/extra-info/ExtraInfo.mdx",
+      "link": null,
+      "slug": "src-components-atoms-extra-info-extra-info",
+      "route": "/src-components-atoms-extra-info-extra-info",
+      "order": 0,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "extrainfo-component",
+          "value": "ExtraInfo component"
+        },
+        {
+          "depth": 2,
+          "slug": "basic-usage",
+          "value": "Basic usage"
+        },
+        {
+          "depth": 2,
+          "slug": "properties",
+          "value": "Properties"
+        }
+      ]
+    },
+    "src/components/atoms/rating/Rating.mdx": {
+      "name": "Rating",
+      "menu": "Atoms",
+      "id": "8c5f8869b0dab12d210344929ed0fe6d",
+      "filepath": "src/components/atoms/rating/Rating.mdx",
+      "link": null,
+      "slug": "src-components-atoms-rating-rating",
+      "route": "/src-components-atoms-rating-rating",
+      "order": 0,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "rating-component",
+          "value": "Rating component"
+        },
+        {
+          "depth": 2,
+          "slug": "basic-usage",
+          "value": "Basic usage"
+        },
+        {
+          "depth": 2,
+          "slug": "properties",
+          "value": "Properties"
+        }
+      ]
+    },
+    "src/components/atoms/title/Title.mdx": {
+      "name": "Title",
+      "menu": "Atoms",
+      "id": "9da90ffb1b11a3d96c05d1984373560c",
+      "filepath": "src/components/atoms/title/Title.mdx",
+      "link": null,
+      "slug": "src-components-atoms-title-title",
+      "route": "/src-components-atoms-title-title",
+      "order": 0,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "title-component",
+          "value": "Title component"
+        },
+        {
+          "depth": 2,
+          "slug": "basic-usage",
+          "value": "Basic usage"
+        },
+        {
+          "depth": 2,
+          "slug": "properties",
+          "value": "Properties"
+        }
+      ]
+    },
+    "src/components/molecules/header/Header.mdx": {
+      "name": "Header",
+      "menu": "Molecules",
+      "id": "8c9f2331df37bd2c33a75e1e564a9419",
+      "filepath": "src/components/molecules/header/Header.mdx",
+      "link": null,
+      "slug": "src-components-molecules-header-header",
+      "route": "/src-components-molecules-header-header",
+      "order": 0,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "header-component",
+          "value": "Header component"
+        },
+        {
+          "depth": 2,
+          "slug": "basic-usage",
+          "value": "Basic usage"
+        },
+        {
+          "depth": 2,
+          "slug": "properties",
+          "value": "Properties"
+        }
+      ]
+    },
+    "src/components/molecules/hero/Hero.mdx": {
+      "name": "Hero",
+      "menu": "Molecules",
+      "id": "529da344ed1bf084cd31afb0d956b6dc",
+      "filepath": "src/components/molecules/hero/Hero.mdx",
+      "link": null,
+      "slug": "src-components-molecules-hero-hero",
+      "route": "/src-components-molecules-hero-hero",
+      "order": 0,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "hero-component",
+          "value": "Hero component"
+        },
+        {
+          "depth": 2,
+          "slug": "basic-usage",
+          "value": "Basic usage"
+        },
+        {
+          "depth": 2,
+          "slug": "properties",
+          "value": "Properties"
+        }
+      ]
+    },
+    "src/components/molecules/loadable/Loadable.mdx": {
+      "name": "Loadable",
+      "menu": "Molecules",
+      "id": "103c814891de15528ce58a42e8912d1b",
+      "filepath": "src/components/molecules/loadable/Loadable.mdx",
+      "link": null,
+      "slug": "src-components-molecules-loadable-loadable",
+      "route": "/src-components-molecules-loadable-loadable",
+      "order": 0,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "loadable-component",
+          "value": "Loadable component"
+        },
+        {
+          "depth": 2,
+          "slug": "basic-usage",
+          "value": "Basic usage"
+        },
+        {
+          "depth": 2,
+          "slug": "properties",
+          "value": "Properties"
+        }
+      ]
+    },
+    "src/components/molecules/search-bar/SearchBar.mdx": {
+      "name": "SearchBar",
+      "menu": "Molecules",
+      "id": "1ecc3ec7c39bc7e220db31a758ebef93",
+      "filepath": "src/components/molecules/search-bar/SearchBar.mdx",
+      "link": null,
+      "slug": "src-components-molecules-search-bar-search-bar",
+      "route": "/src-components-molecules-search-bar-search-bar",
+      "order": 0,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "searchbar-component",
+          "value": "SearchBar component"
+        },
+        {
+          "depth": 2,
+          "slug": "basic-usage",
+          "value": "Basic usage"
+        },
+        {
+          "depth": 2,
+          "slug": "properties",
+          "value": "Properties"
+        }
+      ]
+    }
+  }
+}

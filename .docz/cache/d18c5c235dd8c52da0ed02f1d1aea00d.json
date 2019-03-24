@@ -1,0 +1,32 @@
+{
+  "remainingRequest": "/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/node_modules/docz/node_modules/babel-loader/lib/index.js?{\"presets\":[[\"/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/node_modules/docz/node_modules/babel-preset-docz/dist/index.js\",{\"flow\":true,\"typescript\":false,\"parseProps\":true}]],\"plugins\":[[\"/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/node_modules/docz-utils/lib/named-asset-import.js\",{\"loaderMap\":{\"svg\":{\"ReactComponent\":\"@svgr/webpack?-prettier,-svgo![path]\"}}}],\"/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/node_modules/docz/node_modules/react-hot-loader/babel.js\"],\"babelrc\":false,\"cacheCompression\":false,\"compact\":false}!/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/src/components/atoms/button/Button.js",
+  "dependencies": [
+    {
+      "path": "/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/src/components/atoms/button/Button.js",
+      "mtime": 1548666252653
+    },
+    {
+      "path": "/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/node_modules/docz/node_modules/cache-loader/dist/cjs.js",
+      "mtime": 1548265359778
+    },
+    {
+      "path": "/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/node_modules/docz/node_modules/babel-loader/lib/index.js",
+      "mtime": 1548158528866
+    }
+  ],
+  "contextDependencies": [],
+  "result": [
+    "var _jsxFileName = \"/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/src/components/atoms/button/Button.js\";\n\n(function () {\n  var enterModule = require('react-hot-loader').enterModule;\n\n  enterModule && enterModule(module);\n})();\n\nimport React from 'react';\nimport { Button as Btn } from 'semantic-ui-react';\n\nvar Button = function Button(_ref) {\n  var text = _ref.text,\n      handleClick = _ref.handleClick;\n  return React.createElement(Btn, {\n    content: text,\n    onClick: handleClick,\n    className: \"ui primary button\",\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 5\n    },\n    __self: this\n  });\n};\n\nvar _default = Button;\nexport default _default;\n;\n\n(function () {\n  var reactHotLoader = require('react-hot-loader').default;\n\n  var leaveModule = require('react-hot-loader').leaveModule;\n\n  if (!reactHotLoader) {\n    return;\n  }\n\n  reactHotLoader.register(Button, \"Button\", \"/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/src/components/atoms/button/Button.js\");\n  reactHotLoader.register(_default, \"default\", \"/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/src/components/atoms/button/Button.js\");\n  leaveModule(module);\n})();\n\n;\nButton.__docgenInfo = {\n  \"description\": \"\",\n  \"methods\": [],\n  \"displayName\": \"Button\"\n};",
+    {
+      "version": 3,
+      "sources": [
+        "/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/src/components/atoms/button/Button.js"
+      ],
+      "names": ["React", "Button", "Btn", "text", "handleClick"],
+      "mappings": ";;;;;;;;AAAA,OAAOA,KAAP,MAAkB,OAAlB;AACA,SAASC,MAAM,IAAIC,GAAnB,QAA8B,mBAA9B;;AAEA,IAAMD,MAAM,GAAG,SAATA,MAAS;AAAA,MAAGE,IAAH,QAAGA,IAAH;AAAA,MAASC,WAAT,QAASA,WAAT;AAAA,SACb,oBAAC,GAAD;AAAK,IAAA,OAAO,EAAED,IAAd;AAAoB,IAAA,OAAO,EAAEC,WAA7B;AAA0C,IAAA,SAAS,EAAC,mBAApD;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,IADa;AAAA,CAAf;;eAIeH,M;AAAf;;;;;;;;;;;;0BAJMA,M",
+      "sourcesContent": [
+        "import React from 'react'\nimport { Button as Btn } from 'semantic-ui-react'\n\nconst Button = ({ text, handleClick }) => (\n  <Btn content={text} onClick={handleClick} className=\"ui primary button\" />\n)\n\nexport default Button\n"
+      ]
+    }
+  ]
+}

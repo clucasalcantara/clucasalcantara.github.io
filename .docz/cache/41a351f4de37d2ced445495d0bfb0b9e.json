@@ -1,0 +1,42 @@
+{
+  "remainingRequest": "/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/node_modules/docz/node_modules/babel-loader/lib/index.js?{\"presets\":[[\"/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/node_modules/docz/node_modules/babel-preset-docz/dist/index.js\",{\"flow\":true,\"typescript\":false,\"parseProps\":true}]],\"plugins\":[[\"/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/node_modules/docz-utils/lib/named-asset-import.js\",{\"loaderMap\":{\"svg\":{\"ReactComponent\":\"@svgr/webpack?-prettier,-svgo![path]\"}}}],\"/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/node_modules/docz/node_modules/react-hot-loader/babel.js\"],\"babelrc\":false,\"cacheCompression\":false,\"compact\":false}!/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/src/components/organisms/card-list/CardList.js",
+  "dependencies": [
+    {
+      "path": "/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/src/components/organisms/card-list/CardList.js",
+      "mtime": 1548592217718
+    },
+    {
+      "path": "/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/node_modules/docz/node_modules/cache-loader/dist/cjs.js",
+      "mtime": 1548265359778
+    },
+    {
+      "path": "/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/node_modules/docz/node_modules/babel-loader/lib/index.js",
+      "mtime": 1548158528866
+    }
+  ],
+  "contextDependencies": [],
+  "result": [
+    "var _jsxFileName = \"/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/src/components/organisms/card-list/CardList.js\";\n\n(function () {\n  var enterModule = require('react-hot-loader').enterModule;\n\n  enterModule && enterModule(module);\n})();\n\nimport React from 'react'; // UI Elements\n\nimport { Title } from 'components/atoms';\nimport { Card } from 'components/molecules'; // Styles\n\nimport './style.scss';\n\nvar CardList = function CardList(_ref) {\n  var cards = _ref.cards,\n      error = _ref.error;\n  if (error) return React.createElement(\"div\", {\n    className: \"card-list\",\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 11\n    },\n    __self: this\n  }, React.createElement(Title, {\n    content: \"Ops, something went wrong...!\",\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 12\n    },\n    __self: this\n  }));\n  return React.createElement(\"div\", {\n    className: \"card-list\",\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 17\n    },\n    __self: this\n  }, cards.map(function (card) {\n    return React.createElement(Card, {\n      key: card.id,\n      data: card,\n      __source: {\n        fileName: _jsxFileName,\n        lineNumber: 19\n      },\n      __self: this\n    });\n  }));\n};\n\nvar _default = CardList;\nexport default _default;\n;\n\n(function () {\n  var reactHotLoader = require('react-hot-loader').default;\n\n  var leaveModule = require('react-hot-loader').leaveModule;\n\n  if (!reactHotLoader) {\n    return;\n  }\n\n  reactHotLoader.register(CardList, \"CardList\", \"/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/src/components/organisms/card-list/CardList.js\");\n  reactHotLoader.register(_default, \"default\", \"/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/src/components/organisms/card-list/CardList.js\");\n  leaveModule(module);\n})();\n\n;\nCardList.__docgenInfo = {\n  \"description\": \"\",\n  \"methods\": [],\n  \"displayName\": \"CardList\"\n};",
+    {
+      "version": 3,
+      "sources": [
+        "/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/src/components/organisms/card-list/CardList.js"
+      ],
+      "names": [
+        "React",
+        "Title",
+        "Card",
+        "CardList",
+        "cards",
+        "error",
+        "map",
+        "card",
+        "id"
+      ],
+      "mappings": ";;;;;;;;AAAA,OAAOA,KAAP,MAAkB,OAAlB,C,CACA;;AACA,SAASC,KAAT,QAAsB,kBAAtB;AACA,SAASC,IAAT,QAAqB,sBAArB,C,CACA;;AACA,OAAO,cAAP;;AAEA,IAAMC,QAAQ,GAAG,SAAXA,QAAW,OAAsB;AAAA,MAAnBC,KAAmB,QAAnBA,KAAmB;AAAA,MAAZC,KAAY,QAAZA,KAAY;AACrC,MAAIA,KAAJ,EACE,OACE;AAAK,IAAA,SAAS,EAAC,WAAf;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,KACE,oBAAC,KAAD;AAAO,IAAA,OAAO,EAAC,+BAAf;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,IADF,CADF;AAMF,SACE;AAAK,IAAA,SAAS,EAAC,WAAf;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,KACGD,KAAK,CAACE,GAAN,CAAU,UAAAC,IAAI;AAAA,WACb,oBAAC,IAAD;AAAM,MAAA,GAAG,EAAEA,IAAI,CAACC,EAAhB;AAAoB,MAAA,IAAI,EAAED,IAA1B;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,MADa;AAAA,GAAd,CADH,CADF;AAOD,CAfD;;eAiBeJ,Q;AAAf;;;;;;;;;;;;0BAjBMA,Q",
+      "sourcesContent": [
+        "import React from 'react'\n// UI Elements\nimport { Title } from 'components/atoms'\nimport { Card } from 'components/molecules'\n// Styles\nimport './style.scss'\n\nconst CardList = ({ cards, error }) => {\n  if (error)\n    return (\n      <div className=\"card-list\">\n        <Title content=\"Ops, something went wrong...!\" />\n      </div>\n    )\n\n  return (\n    <div className=\"card-list\">\n      {cards.map(card => (\n        <Card key={card.id} data={card} />\n      ))}\n    </div>\n  )\n}\n\nexport default CardList\n"
+      ]
+    }
+  ]
+}

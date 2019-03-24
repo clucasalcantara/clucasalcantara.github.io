@@ -1,0 +1,45 @@
+{
+  "remainingRequest": "/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/node_modules/docz/node_modules/babel-loader/lib/index.js?{\"presets\":[[\"/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/node_modules/docz/node_modules/babel-preset-docz/dist/index.js\",{\"flow\":true,\"typescript\":false,\"parseProps\":true}]],\"plugins\":[[\"/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/node_modules/docz-utils/lib/named-asset-import.js\",{\"loaderMap\":{\"svg\":{\"ReactComponent\":\"@svgr/webpack?-prettier,-svgo![path]\"}}}],\"/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/node_modules/docz/node_modules/react-hot-loader/babel.js\"],\"babelrc\":false,\"cacheCompression\":false,\"compact\":false}!/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/src/components/molecules/card/Card.js",
+  "dependencies": [
+    {
+      "path": "/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/src/components/molecules/card/Card.js",
+      "mtime": 1548592217711
+    },
+    {
+      "path": "/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/node_modules/docz/node_modules/cache-loader/dist/cjs.js",
+      "mtime": 1548265359778
+    },
+    {
+      "path": "/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/node_modules/docz/node_modules/babel-loader/lib/index.js",
+      "mtime": 1548158528866
+    }
+  ],
+  "contextDependencies": [],
+  "result": [
+    "var _jsxFileName = \"/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/src/components/molecules/card/Card.js\";\n\n(function () {\n  var enterModule = require('react-hot-loader').enterModule;\n\n  enterModule && enterModule(module);\n})();\n\nimport React from 'react';\nimport { Card as CardContainer, Image } from 'semantic-ui-react'; // UI Elements\n\nimport { ExtraInfo, Rating } from 'components/atoms';\nvar Content = CardContainer.Content,\n    Header = CardContainer.Header,\n    Meta = CardContainer.Meta;\n\nvar Card = function Card(_ref) {\n  var _ref$data = _ref.data,\n      name = _ref$data.name,\n      image = _ref$data.image;\n  return React.createElement(\"div\", {\n    className: \"column\",\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 9\n    },\n    __self: this\n  }, React.createElement(CardContainer, {\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 10\n    },\n    __self: this\n  }, React.createElement(Image, {\n    src: image,\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 11\n    },\n    __self: this\n  }), React.createElement(Content, {\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 12\n    },\n    __self: this\n  }, React.createElement(Header, {\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 13\n    },\n    __self: this\n  }, name), React.createElement(Rating, {\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 14\n    },\n    __self: this\n  }), React.createElement(Meta, {\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 15\n    },\n    __self: this\n  }, React.createElement(\"div\", {\n    className: \"meta\",\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 16\n    },\n    __self: this\n  }, \"Shopping Bela Vista\", React.createElement(\"br\", {\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 18\n    },\n    __self: this\n  }), \"1,8km \\xB7 Salvador - BA\"), React.createElement(\"div\", {\n    className: \"description wwc-status-open\",\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 21\n    },\n    __self: this\n  }, \"Aberto agora\")), React.createElement(Content, {\n    extra: true,\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 23\n    },\n    __self: this\n  }, React.createElement(ExtraInfo, {\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 24\n    },\n    __self: this\n  })))));\n};\n\nvar _default = Card;\nexport default _default;\n;\n\n(function () {\n  var reactHotLoader = require('react-hot-loader').default;\n\n  var leaveModule = require('react-hot-loader').leaveModule;\n\n  if (!reactHotLoader) {\n    return;\n  }\n\n  reactHotLoader.register(Content, \"Content\", \"/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/src/components/molecules/card/Card.js\");\n  reactHotLoader.register(Header, \"Header\", \"/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/src/components/molecules/card/Card.js\");\n  reactHotLoader.register(Meta, \"Meta\", \"/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/src/components/molecules/card/Card.js\");\n  reactHotLoader.register(Card, \"Card\", \"/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/src/components/molecules/card/Card.js\");\n  reactHotLoader.register(_default, \"default\", \"/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/src/components/molecules/card/Card.js\");\n  leaveModule(module);\n})();\n\n;\nCard.__docgenInfo = {\n  \"description\": \"\",\n  \"methods\": [],\n  \"displayName\": \"Card\"\n};",
+    {
+      "version": 3,
+      "sources": [
+        "/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/src/components/molecules/card/Card.js"
+      ],
+      "names": [
+        "React",
+        "Card",
+        "CardContainer",
+        "Image",
+        "ExtraInfo",
+        "Rating",
+        "Content",
+        "Header",
+        "Meta",
+        "data",
+        "name",
+        "image"
+      ],
+      "mappings": ";;;;;;;;AAAA,OAAOA,KAAP,MAAkB,OAAlB;AACA,SAASC,IAAI,IAAIC,aAAjB,EAAgCC,KAAhC,QAA6C,mBAA7C,C,CACA;;AACA,SAASC,SAAT,EAAoBC,MAApB,QAAkC,kBAAlC;IAEQC,O,GAA0BJ,a,CAA1BI,O;IAASC,M,GAAiBL,a,CAAjBK,M;IAAQC,I,GAASN,a,CAATM,I;;AAEzB,IAAMP,IAAI,GAAG,SAAPA,IAAO;AAAA,uBAAGQ,IAAH;AAAA,MAAWC,IAAX,aAAWA,IAAX;AAAA,MAAiBC,KAAjB,aAAiBA,KAAjB;AAAA,SACX;AAAK,IAAA,SAAS,EAAC,QAAf;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,KACE,oBAAC,aAAD;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,KACE,oBAAC,KAAD;AAAO,IAAA,GAAG,EAAEA,KAAZ;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,IADF,EAEE,oBAAC,OAAD;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,KACE,oBAAC,MAAD;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,KAASD,IAAT,CADF,EAEE,oBAAC,MAAD;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,IAFF,EAGE,oBAAC,IAAD;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,KACE;AAAK,IAAA,SAAS,EAAC,MAAf;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,4BAEE;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,IAFF,6BADF,EAME;AAAK,IAAA,SAAS,EAAC,6BAAf;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,oBANF,CAHF,EAWE,oBAAC,OAAD;AAAS,IAAA,KAAK,MAAd;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,KACE,oBAAC,SAAD;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,IADF,CAXF,CAFF,CADF,CADW;AAAA,CAAb;;eAuBeT,I;AAAf;;;;;;;;;;;;0BAzBQK,O;0BAASC,M;0BAAQC,I;0BAEnBP,I",
+      "sourcesContent": [
+        "import React from 'react'\nimport { Card as CardContainer, Image } from 'semantic-ui-react'\n// UI Elements\nimport { ExtraInfo, Rating } from 'components/atoms'\n\nconst { Content, Header, Meta } = CardContainer\n\nconst Card = ({ data: { name, image } }) => (\n  <div className=\"column\">\n    <CardContainer>\n      <Image src={image} />\n      <Content>\n        <Header>{name}</Header>\n        <Rating />\n        <Meta>\n          <div className=\"meta\">\n            Shopping Bela Vista\n            <br />\n            1,8km · Salvador - BA\n          </div>\n          <div className=\"description wwc-status-open\">Aberto agora</div>\n        </Meta>\n        <Content extra>\n          <ExtraInfo />\n        </Content>\n      </Content>\n    </CardContainer>\n  </div>\n)\n\nexport default Card\n"
+      ]
+    }
+  ]
+}

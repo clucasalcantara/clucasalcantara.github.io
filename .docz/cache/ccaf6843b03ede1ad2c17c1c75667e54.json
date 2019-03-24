@@ -1,0 +1,41 @@
+{
+  "remainingRequest": "/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/node_modules/docz/node_modules/babel-loader/lib/index.js?{\"presets\":[[\"/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/node_modules/docz/node_modules/babel-preset-docz/dist/index.js\",{\"flow\":true,\"typescript\":false,\"parseProps\":true}]],\"plugins\":[[\"/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/node_modules/docz-utils/lib/named-asset-import.js\",{\"loaderMap\":{\"svg\":{\"ReactComponent\":\"@svgr/webpack?-prettier,-svgo![path]\"}}}],\"/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/node_modules/docz/node_modules/react-hot-loader/babel.js\"],\"babelrc\":false,\"cacheCompression\":false,\"compact\":false}!/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/src/components/atoms/title/Title.js",
+  "dependencies": [
+    {
+      "path": "/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/src/components/atoms/title/Title.js",
+      "mtime": 1548666252655
+    },
+    {
+      "path": "/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/node_modules/docz/node_modules/cache-loader/dist/cjs.js",
+      "mtime": 1548265359778
+    },
+    {
+      "path": "/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/node_modules/docz/node_modules/babel-loader/lib/index.js",
+      "mtime": 1548158528866
+    }
+  ],
+  "contextDependencies": [],
+  "result": [
+    "var _jsxFileName = \"/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/src/components/atoms/title/Title.js\";\n\n(function () {\n  var enterModule = require('react-hot-loader').enterModule;\n\n  enterModule && enterModule(module);\n})();\n\nimport React from 'react';\nimport PropTypes from 'prop-types';\nimport { Header } from 'semantic-ui-react';\n\nvar Title = function Title(_ref) {\n  var content = _ref.content;\n  return React.createElement(Header, {\n    as: \"h1\",\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 5\n    },\n    __self: this\n  }, content);\n};\n\nTitle.propTypes = {\n  content: PropTypes.string.isRequired\n};\nvar _default = Title;\nexport default _default;\n;\n\n(function () {\n  var reactHotLoader = require('react-hot-loader').default;\n\n  var leaveModule = require('react-hot-loader').leaveModule;\n\n  if (!reactHotLoader) {\n    return;\n  }\n\n  reactHotLoader.register(Title, \"Title\", \"/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/src/components/atoms/title/Title.js\");\n  reactHotLoader.register(_default, \"default\", \"/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/src/components/atoms/title/Title.js\");\n  leaveModule(module);\n})();\n\n;\nTitle.__docgenInfo = {\n  \"description\": \"\",\n  \"methods\": [],\n  \"displayName\": \"Title\",\n  \"props\": {\n    \"content\": {\n      \"type\": {\n        \"name\": \"string\"\n      },\n      \"required\": true,\n      \"description\": \"\"\n    }\n  }\n};",
+    {
+      "version": 3,
+      "sources": [
+        "/Users/clucasalcantara/projects/open-source/wwcoffee-portal/wwcoffee-frontend/src/components/atoms/title/Title.js"
+      ],
+      "names": [
+        "React",
+        "PropTypes",
+        "Header",
+        "Title",
+        "content",
+        "propTypes",
+        "string",
+        "isRequired"
+      ],
+      "mappings": ";;;;;;;;AAAA,OAAOA,KAAP,MAAkB,OAAlB;AACA,OAAOC,SAAP,MAAsB,YAAtB;AACA,SAASC,MAAT,QAAuB,mBAAvB;;AAEA,IAAMC,KAAK,GAAG,SAARA,KAAQ;AAAA,MAAGC,OAAH,QAAGA,OAAH;AAAA,SAAiB,oBAAC,MAAD;AAAQ,IAAA,EAAE,EAAC,IAAX;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,KAAiBA,OAAjB,CAAjB;AAAA,CAAd;;AAEAD,KAAK,CAACE,SAAN,GAAkB;AAChBD,EAAAA,OAAO,EAAEH,SAAS,CAACK,MAAV,CAAiBC;AADV,CAAlB;eAIeJ,K;AAAf;;;;;;;;;;;;0BANMA,K",
+      "sourcesContent": [
+        "import React from 'react'\nimport PropTypes from 'prop-types'\nimport { Header } from 'semantic-ui-react'\n\nconst Title = ({ content }) => <Header as=\"h1\">{content}</Header>\n\nTitle.propTypes = {\n  content: PropTypes.string.isRequired\n}\n\nexport default Title\n"
+      ]
+    }
+  ]
+}
