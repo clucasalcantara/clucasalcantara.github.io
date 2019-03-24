@@ -1,7 +1,11 @@
-import React, { useState, useEffect } from 'react'
+import React, { Fragment, useState, useEffect } from 'react'
 import styled from '@emotion/styled'
+import { Global, css } from '@emotion/core'
 
-const Page = styled.div({
+// UI Elements
+import { DarkMode } from 'components/molecules'
+
+const Wrapper = styled.div({
   flex: 1,
   padding: '1rem',
   fontFamily: 'Quicksand'
@@ -20,15 +24,54 @@ const useWindowWidth = () => {
   return width
 }
 
-export default ({ children, theme }) => {
+export default function Page({ children, theme, isDarkmodeToggable }) {
+  const [darkMode, setDarkMode] = useState(false)
+  const getLayoutProps = () => ({
+    isMobile: useWindowWidth() <= 360,
+    darkMode
+  })
+  const { colors } = theme
+
   const childrenWithInjectedTheme = React.Children.map(children, child =>
     child
       ? React.cloneElement(child, {
           theme,
-          isMobile: useWindowWidth() < 320
+          ...getLayoutProps()
         })
       : null
   )
 
-  return <Page>{childrenWithInjectedTheme}</Page>
+  return (
+    <Fragment>
+      {isDarkmodeToggable && (
+        <DarkMode setDarkMode={setDarkMode} darkMode={darkMode} />
+      )}
+      <Global
+        styles={css`
+          * {
+            background-color: ${darkMode
+              ? colors.black
+              : colors.white} !important;
+            ${darkMode ? 'color: white !important;' : ''}
+          }
+
+          .react-toggle-track,
+          .react-toggle-track-check,
+          .react-toggle-track-x {
+            background-color: #4d4d4d !important;
+          }
+
+          svg {
+            background-color: transparent !important;
+            color: ${colors.main};
+          }
+        `}
+      />
+      <Wrapper>{childrenWithInjectedTheme}</Wrapper>
+    </Fragment>
+  )
+}
+
+Page.defaultProps = {
+  isDarkmodeToggable: true
 }

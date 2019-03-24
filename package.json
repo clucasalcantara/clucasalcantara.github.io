@@ -1,7 +1,6 @@
 {
   "name": "clucasalcantara.github.io",
   "description": "My personal website written in react",
-  "homepage": "http://clucasalcantara.github.io/build",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -15,10 +14,12 @@
     "prop-types": "^15.6.2",
     "react": "16.8.0-alpha.1",
     "react-dom": "16.8.0-alpha.1",
+    "react-icons": "^3.5.0",
     "react-router-config": "^4.4.0-beta.6",
     "react-router-dom": "^4.3.1",
     "react-scripts": "2.1.3",
     "react-test-renderer": "^16.7.0",
+    "react-toggle": "^4.0.2",
     "webpack": "4.19.1"
   },
   "lint-staged": {

@@ -12,12 +12,13 @@ const Items = styled.ul({
   padding: '1rem'
 })
 
-export default ({ navItems }) => (
+export default ({ navItems, isMobile }) => (
   <Navigation>
     <Items>
-      {navItems.map(({ text, path }) => (
-        <NavItem key={path} text={text} path={path} />
-      ))}
+      {!isMobile &&
+        navItems.map(({ text, path }) => (
+          <NavItem key={path} text={text} path={path} />
+        ))}
     </Items>
   </Navigation>
 )

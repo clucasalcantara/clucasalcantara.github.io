@@ -1,30 +1,39 @@
 import React from 'react'
-import { array, object, string } from 'prop-types'
+import { array, bool, object, string } from 'prop-types'
 import styled from '@emotion/styled'
 // UI Elements
 import { Title } from '../../atoms'
 import Navigation from '../navigation'
 
-const Header = styled.div({
+const Header = styled.div(({ palette, darkMode }) => ({
   textTransform: 'uppercase',
   display: 'flex',
   justifyContent: 'space-between',
-  alignItems: 'center'
-})
+  alignItems: 'center',
+  backgroundColor: darkMode ? palette.black : palette.white
+}))
 
-export default ({ navItems, title, subtitle, theme: { colors } }) => (
-  <Header>
+export default ({
+  navItems,
+  title,
+  subtitle,
+  theme: { colors },
+  isMobile,
+  darkMode
+}) => (
+  <Header palette={colors} darkMode={darkMode}>
     <Title
       content={title}
       subtitle={subtitle}
       color={colors.main}
       subtitleColor={colors.blue}
     />
-    <Navigation navItems={navItems} />
+    <Navigation navItems={navItems} isMobile={isMobile} />
   </Header>
 )
 
 Header.propTypes = {
+  isMobile: bool,
   navItems: array,
   title: string,
   subtitle: string,
