@@ -49,21 +49,31 @@ export default function Page({ children, theme, isDarkmodeToggable }) {
       <Global
         styles={css`
           * {
-            background-color: ${darkMode
-              ? colors.black
-              : colors.white} !important;
-            ${darkMode ? 'color: white !important;' : ''}
-          }
+            .react-toggle-track,
+            .react-toggle-track-check,
+            .react-toggle-track-x {
+              background-color: #4d4d4d !important;
+            }
 
-          .react-toggle-track,
-          .react-toggle-track-check,
-          .react-toggle-track-x {
-            background-color: #4d4d4d !important;
-          }
+            svg {
+              background-color: transparent !important;
+              color: ${colors.main};
+            }
 
-          svg {
-            background-color: transparent !important;
-            color: ${colors.main};
+            background-color: ${colors.white};
+            ${darkMode &&
+              `
+              background-color: ${colors.black} !important;
+              color: white !important;
+              transition: all .5s ease-in;
+
+              .react-toggle-track,
+              .react-toggle-track-check,
+              .react-toggle-track-x {
+                background-color: ${colors.white} !important;
+                transition: all .2s ease;
+              }
+            `}
           }
         `}
       />

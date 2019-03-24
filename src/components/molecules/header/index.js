@@ -5,13 +5,12 @@ import styled from '@emotion/styled'
 import { Title } from '../../atoms'
 import Navigation from '../navigation'
 
-const Header = styled.div(({ palette, darkMode }) => ({
+const Header = styled.div({
   textTransform: 'uppercase',
   display: 'flex',
   justifyContent: 'space-between',
-  alignItems: 'center',
-  backgroundColor: darkMode ? palette.black : palette.white
-}))
+  alignItems: 'center'
+})
 
 export default ({
   navItems,
