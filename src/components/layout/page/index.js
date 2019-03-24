@@ -6,8 +6,9 @@ import { Global, css } from '@emotion/core'
 import { DarkMode } from 'components/molecules'
 
 const Wrapper = styled.div({
+  height: '100%',
   flex: 1,
-  padding: '1rem',
+  padding: '0 1rem;',
   fontFamily: 'Quicksand'
 })
 
@@ -48,6 +49,10 @@ export default function Page({ children, theme, isDarkmodeToggable }) {
       )}
       <Global
         styles={css`
+          .react-toggle-track-x {
+            margin-left: 0.2rem;
+          }
+
           * {
             .react-toggle-track,
             .react-toggle-track-check,
@@ -61,6 +66,8 @@ export default function Page({ children, theme, isDarkmodeToggable }) {
             }
 
             background-color: ${colors.white};
+            top: 0;
+            left: 0;
             ${darkMode &&
               `
               background-color: ${colors.black} !important;

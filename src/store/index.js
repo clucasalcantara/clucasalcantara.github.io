@@ -8,19 +8,19 @@ const initialState = {
     nav: [
       {
         text: 'Sobre mim',
-        path: '/#'
+        path: '/#1'
       },
       {
         text: 'Projetos',
-        path: '/#'
+        path: '/#2'
       },
       {
         text: 'Posts',
-        path: '/#'
+        path: '/#3'
       },
       {
         text: 'Contato',
-        path: '/#'
+        path: '/#4'
       }
     ]
   },
@@ -32,8 +32,8 @@ const initialState = {
       main: '#243033',
       black: '#0E1111',
       gray: '#3D4A4D',
-      blue: '#00ACB4',
-      white: '#DAE6E6'
+      blue: '#2E2F8F',
+      white: '#F5F5FD'
     }
   }
 }

@@ -9,7 +9,9 @@ const Header = styled.div({
   textTransform: 'uppercase',
   display: 'flex',
   justifyContent: 'space-between',
-  alignItems: 'center'
+  alignItems: 'center',
+  marginBottom: '1rem',
+  position: 'sticky'
 })
 
 export default ({

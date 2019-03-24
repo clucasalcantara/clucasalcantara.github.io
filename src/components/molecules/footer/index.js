@@ -3,20 +3,17 @@ import styled from '@emotion/styled'
 
 const Footer = styled.footer({
   width: '100%',
-  padding: '1rem',
   display: 'flex',
   justifyContent: 'space-around',
   bottom: 0,
-  position: 'fixed'
+  left: 0,
+  position: 'sticky',
+  fontSize: '.7rem',
+  marginTop: '5rem'
 })
 
-const H4 = styled.h4({
-  textTransform: 'uppercase'
-})
-
-export default ({ title }) => (
+export default () => (
   <Footer>
-    <H4>{title}</H4>
-    <p>© 2019 Todos os direitos reservados.</p>
+    <p>© 2019 Todos os direitos reservados</p>
   </Footer>
 )

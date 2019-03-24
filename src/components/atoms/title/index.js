@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import styled from '@emotion/styled'
 
 const Title = styled.div(({ color }) => ({
-  padding: '1rem',
+  padding: '.5rem',
   justifyContent: 'center',
   textTransform: 'uppercase',
   color: color || 'black'

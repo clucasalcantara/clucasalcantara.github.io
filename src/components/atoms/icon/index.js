@@ -3,7 +3,8 @@ import * as Ionicons from 'react-icons/io'
 import styled from '@emotion/styled'
 
 const Icon = styled.div({
-  padding: '.3rem'
+  padding: '.3rem',
+  background: 'transparent'
 })
 
 export default ({ iconName }) => {
