@@ -53,7 +53,11 @@ export default function Page({ children, theme, isDarkmodeToggable }) {
             margin-left: 0.2rem;
           }
 
-          * {
+          a {
+            text-decoration: none;
+          }
+
+          body {
             .react-toggle-track,
             .react-toggle-track-check,
             .react-toggle-track-x {
@@ -62,7 +66,6 @@ export default function Page({ children, theme, isDarkmodeToggable }) {
 
             svg {
               background-color: transparent !important;
-              color: ${colors.main};
             }
 
             background-color: ${colors.white};
@@ -70,6 +73,10 @@ export default function Page({ children, theme, isDarkmodeToggable }) {
             left: 0;
             ${darkMode &&
               `
+              * {
+                color: white !important;
+              }
+
               background-color: ${colors.black} !important;
               color: white !important;
               transition: all .5s ease-in;

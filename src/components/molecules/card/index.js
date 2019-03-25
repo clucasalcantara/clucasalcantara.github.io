@@ -1,43 +1,72 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import styled from '@emotion/styled'
 
-const Wrapper = styled.div(({ palette, image }) => ({
+const Wrapper = styled.div(({ palette, darkMode }) => ({
   display: 'flex',
   flexDirection: 'column',
-  width: '25rem',
-  background: !image ? palette.black : `url("${image}")`,
+  minWidth: '25rem',
+  minHeight: '12rem',
+  background: darkMode ? palette.main : palette.black,
   padding: '1rem',
   margin: '.5rem',
   borderRadius: '.5rem'
 }))
 
 const TransparentText = styled.div({
-  background: 'transparent'
+  background: 'transparent',
+  zIndex: 2
 })
 
-const Title = styled.div(({ palette }) => ({
+// Extract to Tag ITEM
+const Category = styled.div(({ palette }) => ({
+  marginTop: '1rem',
+  display: 'flex',
+  flexWrap: 'wrap',
   background: 'transparent',
   color: palette.white
 }))
 
-const Description = styled.p(({ palette }) => ({
+const CategoryItem = styled.div(({ palette }) => ({
+  margin: '.5rem',
+  padding: '.5rem',
+  fontSize: '.7rem',
+  background: `${palette.blue} !important`,
+  color: 'white'
+}))
+// Extract to Tag ITEM
+
+const Title = styled.div(({ palette }) => ({
   background: 'transparent',
-  color: palette.gray
+  color: palette.white,
+  fontSize: '1.5rem',
+  zIndex: 2
 }))
 
 export default function Card({
-  data: { title, description, image = '' },
-  palette
+  data: { title, categories = [], link = '' },
+  palette,
+  darkMode
 }) {
+  const postUrl = `//${link.replace('https://', '')}`
+
   return (
-    <Wrapper palette={palette} image={image}>
-      <TransparentText>
-        <Title palette={palette}>{title}</Title>
-      </TransparentText>
-      <TransparentText>
-        <Description palette={palette}>{description}</Description>
-      </TransparentText>
-    </Wrapper>
+    <Link to={postUrl} target="_blank">
+      <Wrapper palette={palette} darkMode={darkMode}>
+        <TransparentText>
+          <Title palette={palette} darkMode={darkMode}>
+            {title}
+          </Title>
+        </TransparentText>
+        {categories.length > 0 && (
+          <Category palette={palette}>
+            {categories.map(category => (
+              <CategoryItem palette={palette}>{category}</CategoryItem>
+            ))}
+          </Category>
+        )}
+      </Wrapper>
+    </Link>
   )
 }
 
