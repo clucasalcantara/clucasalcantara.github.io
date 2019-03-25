@@ -25,9 +25,7 @@ const initialState = {
     ]
   },
   theme: {
-    fonts: {
-      default: 'Quicksand'
-    },
+    fontFamily: 'Quicksand',
     colors: {
       main: '#243033',
       black: '#0E1111',

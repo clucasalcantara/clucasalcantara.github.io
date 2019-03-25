@@ -23,7 +23,6 @@ const getUnsplashImage = async cb => {
     .then(data => data)
 
   if (image.urls) {
-    console.log(image)
     return cb(image)
   }
 

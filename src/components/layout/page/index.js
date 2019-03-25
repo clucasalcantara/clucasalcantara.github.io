@@ -5,12 +5,12 @@ import { Global, css } from '@emotion/core'
 // UI Elements
 import { DarkMode } from 'components/molecules'
 
-const Wrapper = styled.div({
+const Wrapper = styled.div(({ theme: { fontFamily } }) => ({
   height: '100%',
   flex: 1,
   padding: '0 1rem;',
-  fontFamily: 'Quicksand'
-})
+  fontFamily
+}))
 
 const useWindowWidth = () => {
   const [width, setWidth] = useState(window.innerWidth)
@@ -84,7 +84,7 @@ export default function Page({ children, theme, isDarkmodeToggable }) {
           }
         `}
       />
-      <Wrapper>{childrenWithInjectedTheme}</Wrapper>
+      <Wrapper theme={theme}>{childrenWithInjectedTheme}</Wrapper>
     </Fragment>
   )
 }
