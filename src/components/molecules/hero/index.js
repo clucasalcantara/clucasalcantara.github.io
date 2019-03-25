@@ -5,8 +5,8 @@ import Unsplash from 'unsplash-js'
 
 const unsplash = new Unsplash({
   applicationId:
-    'd9b211b688d91574749ec84699eab83d4331721a3738ae16b9112e079a7cbeef',
-  secret: 'edfe605a4ea823c08cafdac18f67274e51be53d5902a4ca6b357fae44370a573'
+    '5059820b95e1a8d09bcedd1f81e56039ff2d85d11dfa5ea2d4a7dcf262595a49',
+  secret: '200648d2a599ab7130da5065e65fb337c9d40893b6c76e1708234f4c009a80d0'
 })
 
 const CoverImage = styled.div(({ urls }) => ({

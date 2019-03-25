@@ -93,14 +93,7 @@ ShallowWrapper {
       "__emotion_forwardProp": undefined,
       "__emotion_real": [Circular],
       "__emotion_styles": Array [
-        Object {
-          "alignItems": "center",
-          "display": "flex",
-          "justifyContent": "space-between",
-          "marginBottom": "1rem",
-          "position": "sticky",
-          "textTransform": "uppercase",
-        },
+        [Function],
       ],
       "defaultProps": Object {
         "navItems": Array [],
@@ -183,14 +176,7 @@ ShallowWrapper {
         "__emotion_forwardProp": undefined,
         "__emotion_real": [Circular],
         "__emotion_styles": Array [
-          Object {
-            "alignItems": "center",
-            "display": "flex",
-            "justifyContent": "space-between",
-            "marginBottom": "1rem",
-            "position": "sticky",
-            "textTransform": "uppercase",
-          },
+          [Function],
         ],
         "defaultProps": Object {
           "navItems": Array [],

@@ -3,6 +3,8 @@ import React, { useState, useEffect } from 'react'
 import { CardList } from 'components/organisms'
 import { Header, Hero, Footer } from 'components/molecules'
 import { Page } from 'components/layout'
+
+// Services
 import { getMediumFeed } from 'services'
 
 const Home = ({ baseContext: { config, theme } }) => {
@@ -22,7 +24,7 @@ const Home = ({ baseContext: { config, theme } }) => {
         navItems={config.nav}
       />
       <Hero />
-      <CardList dataset={posts} title="Últimos textos" />
+      <CardList id="posts" dataset={posts} title="Últimos textos" />
       <Footer title={config.title} />
     </Page>
   )

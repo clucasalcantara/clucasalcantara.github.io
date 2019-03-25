@@ -16,7 +16,7 @@ const initialState = {
       },
       {
         text: 'Posts',
-        path: '/#3'
+        path: '#posts'
       },
       {
         text: 'Contato',

@@ -69,6 +69,7 @@ export default function Page({ children, theme, isDarkmodeToggable }) {
             }
 
             background-color: ${colors.white};
+            transition: all 0.2s ease-in;
             top: 0;
             left: 0;
             ${darkMode &&
@@ -79,7 +80,7 @@ export default function Page({ children, theme, isDarkmodeToggable }) {
 
               background-color: ${colors.black} !important;
               color: white !important;
-              transition: all .5s ease-in;
+              transition: all .2s ease-in;
 
               .react-toggle-track,
               .react-toggle-track-check,

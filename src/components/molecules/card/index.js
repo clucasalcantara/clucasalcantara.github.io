@@ -61,7 +61,9 @@ export default function Card({
         {categories.length > 0 && (
           <Category palette={palette}>
             {categories.map(category => (
-              <CategoryItem palette={palette}>{category}</CategoryItem>
+              <CategoryItem key={category} palette={palette}>
+                {category}
+              </CategoryItem>
             ))}
           </Category>
         )}

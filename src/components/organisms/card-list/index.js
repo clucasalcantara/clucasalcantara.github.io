@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react'
+import ScrollableAnchor from 'react-scrollable-anchor'
 import styled from '@emotion/styled'
 // UI Elements
 import { Title } from 'components/atoms'
@@ -29,26 +30,29 @@ export default ({
 }) => {
   const CardElement = cardElement || Card
 
-  if (error)
+  if (error) {
     return (
       <Wrapper>
         <Title content="Ops, something went wrong...!" />
       </Wrapper>
     )
+  }
 
   return (
     <Fragment>
       <SectionTitle palette={colors}>{title}</SectionTitle>
-      <Wrapper>
-        {dataset.map(card => (
-          <CardElement
-            data={card}
-            key={card.title}
-            palette={colors}
-            darkMode={darkMode}
-          />
-        ))}
-      </Wrapper>
+      <ScrollableAnchor id="posts">
+        <Wrapper>
+          {dataset.map(card => (
+            <CardElement
+              data={card}
+              key={card.guid}
+              palette={colors}
+              darkMode={darkMode}
+            />
+          ))}
+        </Wrapper>
+      </ScrollableAnchor>
     </Fragment>
   )
 }
