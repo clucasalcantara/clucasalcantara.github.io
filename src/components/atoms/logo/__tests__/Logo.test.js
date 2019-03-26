@@ -1,10 +1,10 @@
 import React from 'react'
 import { shallow } from 'enzyme'
-import Title from '..'
+import Logo from '..'
 
-describe('Title component', () => {
+describe('Logo component', () => {
   it('should renders without crash', () => {
-    const wrapper = shallow(<Title content="Work with coffee" />)
+    const wrapper = shallow(<Logo content="Work with coffee" />)
 
     expect(wrapper).toMatchSnapshot()
   })

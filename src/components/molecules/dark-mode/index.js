@@ -18,7 +18,6 @@ export default ({ darkMode, setDarkMode }) => (
   <DarkMode>
     <Icon iconName="IoIosSunny" handleClick={() => setDarkMode(false)} />
     <Toggle
-      defaultChecked={false}
       checked={darkMode}
       icons={false}
       onChange={() => setDarkMode(!darkMode)}

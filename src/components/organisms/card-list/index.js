@@ -1,8 +1,8 @@
 import React, { Fragment } from 'react'
 import ScrollableAnchor from 'react-scrollable-anchor'
 import styled from '@emotion/styled'
+
 // UI Elements
-import { Title } from 'components/atoms'
 import { Card } from 'components/molecules'
 
 const Wrapper = styled.section({
@@ -11,7 +11,8 @@ const Wrapper = styled.section({
   justifyContent: 'space-between',
   alignItems: 'center',
   overflow: 'scroll',
-  marginLeft: '-.5rem'
+  marginLeft: '-.5rem',
+  minHeight: '20rem'
 })
 
 const SectionTitle = styled.h3(({ palette }) => ({
@@ -33,7 +34,7 @@ export default ({
   if (error) {
     return (
       <Wrapper>
-        <Title content="Ops, something went wrong...!" />
+        <SectionTitle content="Ops, something went wrong...!" />
       </Wrapper>
     )
   }

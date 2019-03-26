@@ -15,16 +15,25 @@ const SubTitle = styled.div(({ color }) => ({
   color: color || 'blue'
 }))
 
-export default ({ content, subtitle, color, subtitleColor }) => (
-  <Title color={color}>
-    <div className="content">{content}</div>
-    {subtitle && <SubTitle color={subtitleColor}>{subtitle}</SubTitle>}
-  </Title>
-)
+export default function Logo({ content, subtitle, color, subtitleColor }) {
+  return (
+    <Title color={color}>
+      <div className="content">{content}</div>
+      {subtitle && <SubTitle color={subtitleColor}>{subtitle}</SubTitle>}
+    </Title>
+  )
+}
 
-Title.propTypes = {
+Logo.propTypes = {
   content: PropTypes.string,
   subtitle: PropTypes.string,
   color: PropTypes.string,
   subtitleColor: PropTypes.string
+}
+
+Logo.defaultProps = {
+  content: 'LOGO',
+  subtitle: 'Sua logo aqui',
+  color: 'black',
+  subtitleColor: 'blue'
 }

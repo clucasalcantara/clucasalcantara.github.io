@@ -2,12 +2,15 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import styled from '@emotion/styled'
 
+// UI Elements
+import { Tags } from 'components/molecules'
+
 const Wrapper = styled.div(({ palette, darkMode }) => ({
   display: 'flex',
   flexDirection: 'column',
   minWidth: '25rem',
   minHeight: '12rem',
-  background: darkMode ? palette.main : palette.black,
+  background: darkMode ? palette.main : palette.gray,
   padding: '1rem',
   margin: '.5rem',
   borderRadius: '.5rem'
@@ -17,24 +20,6 @@ const TransparentText = styled.div({
   background: 'transparent',
   zIndex: 2
 })
-
-// Extract to Tag ITEM
-const Category = styled.div(({ palette }) => ({
-  marginTop: '1rem',
-  display: 'flex',
-  flexWrap: 'wrap',
-  background: 'transparent',
-  color: palette.white
-}))
-
-const CategoryItem = styled.div(({ palette }) => ({
-  margin: '.5rem',
-  padding: '.5rem',
-  fontSize: '.7rem',
-  background: `${palette.blue} !important`,
-  color: 'white'
-}))
-// Extract to Tag ITEM
 
 const Title = styled.div(({ palette }) => ({
   background: 'transparent',
@@ -59,13 +44,7 @@ export default function Card({
           </Title>
         </TransparentText>
         {categories.length > 0 && (
-          <Category palette={palette}>
-            {categories.map(category => (
-              <CategoryItem key={category} palette={palette}>
-                {category}
-              </CategoryItem>
-            ))}
-          </Category>
+          <Tags palette={palette} categories={categories} />
         )}
       </Wrapper>
     </Link>

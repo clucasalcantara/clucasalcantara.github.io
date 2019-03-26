@@ -2,7 +2,7 @@ import React from 'react'
 import { array, bool, object, string } from 'prop-types'
 import styled from '@emotion/styled'
 // UI Elements
-import { Title } from '../../atoms'
+import { Logo } from 'components/atoms'
 import Navigation from '../navigation'
 
 const Header = styled.div(({ palette, darkMode }) => ({
@@ -27,7 +27,7 @@ export default ({
   darkMode
 }) => (
   <Header palette={colors} darkMode={darkMode}>
-    <Title
+    <Logo
       content={title}
       subtitle={subtitle}
       color={colors.main}

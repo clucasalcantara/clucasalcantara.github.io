@@ -7,7 +7,7 @@ const Footer = styled.footer({
   justifyContent: 'space-around',
   bottom: 0,
   left: 0,
-  position: 'sticky',
+  position: 'relative',
   fontSize: '.7rem',
   marginTop: '5rem'
 })

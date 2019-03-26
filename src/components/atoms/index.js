@@ -1,7 +1,10 @@
 import Button from './button'
-import Title from './title'
+import Logo from './logo'
 import NavItem from './nav-item'
 import Link from './link'
 import Icon from './icon'
+import Credits from './credits'
+import Author from './author'
+import Tag from './tag'
 
-export { Button, Title, NavItem, Link, Icon }
+export { Author, Button, Credits, Tag, Logo, NavItem, Link, Icon }

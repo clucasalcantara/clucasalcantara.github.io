@@ -5,5 +5,6 @@ import Loadable from './loadable'
 import Navigation from './navigation'
 import Card from './card'
 import Hero from './hero'
+import Tags from './tags'
 
-export { Hero, Card, DarkMode, Footer, Header, Loadable, Navigation }
+export { Hero, Card, DarkMode, Footer, Tags, Header, Loadable, Navigation }

@@ -29,7 +29,7 @@ const initialState = {
     colors: {
       main: '#243033',
       black: '#0E1111',
-      gray: '#3D4A4D',
+      gray: '#333',
       blue: '#3A3CD4',
       white: '#F5F5FD'
     }
