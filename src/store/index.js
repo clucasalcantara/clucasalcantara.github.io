@@ -30,7 +30,7 @@ const initialState = {
       main: '#243033',
       black: '#0E1111',
       gray: '#3D4A4D',
-      blue: '#2E2F8F',
+      blue: '#3A3CD4',
       white: '#F5F5FD'
     }
   }
