@@ -16,12 +16,13 @@ const DarkMode = styled.div({
 
 export default ({ darkMode, setDarkMode }) => (
   <DarkMode>
-    <Icon iconName="IoIosSunny" />
+    <Icon iconName="IoIosSunny" handleClick={() => setDarkMode(false)} />
     <Toggle
-      defaultChecked={darkMode}
+      defaultChecked={false}
+      checked={darkMode}
       icons={false}
       onChange={() => setDarkMode(!darkMode)}
     />
-    <Icon iconName="IoMdMoon" />
+    <Icon iconName="IoMdMoon" handleClick={() => setDarkMode(true)} />
   </DarkMode>
 )

@@ -4,15 +4,16 @@ import styled from '@emotion/styled'
 
 const Icon = styled.div({
   padding: '.3rem',
-  background: 'transparent'
+  background: 'transparent',
+  cursor: 'pointer'
 })
 
-export default ({ iconName }) => {
+export default ({ iconName, handleClick }) => {
   const IconComponent = Ionicons[iconName]
 
   return (
     <Icon>
-      <IconComponent />
+      <IconComponent onClick={() => handleClick()} />
     </Icon>
   )
 }
