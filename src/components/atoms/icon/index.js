@@ -8,12 +8,16 @@ const Icon = styled.div({
   cursor: 'pointer'
 })
 
-export default ({ iconName, handleClick }) => {
+export default ({
+  iconName,
+  size = '1em',
+  handleClick = () => console.log('Clicked')
+}) => {
   const IconComponent = Ionicons[iconName]
 
   return (
     <Icon>
-      <IconComponent onClick={() => handleClick()} />
+      <IconComponent size={size} onClick={() => handleClick()} />
     </Icon>
   )
 }

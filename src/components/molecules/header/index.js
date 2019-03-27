@@ -24,7 +24,9 @@ export default ({
   subtitle,
   theme: { colors },
   isMobile,
-  darkMode
+  darkMode,
+  handleOpen,
+  isOpen
 }) => (
   <Header palette={colors} darkMode={darkMode}>
     <Logo
@@ -33,7 +35,12 @@ export default ({
       color={colors.main}
       subtitleColor={colors.blue}
     />
-    <Navigation navItems={navItems} isMobile={isMobile} />
+    <Navigation
+      navItems={navItems}
+      isMobile={isMobile}
+      handleOpen={handleOpen}
+      isOpen={isOpen}
+    />
   </Header>
 )
 

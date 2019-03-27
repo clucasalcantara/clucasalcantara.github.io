@@ -34,9 +34,11 @@ ShallowWrapper {
     "nodeType": "function",
     "props": Object {
       "children": Array [
-        <_default
+        <Logo
+          color="black"
           content="Title"
           subtitle="Subtitle"
+          subtitleColor="blue"
         />,
         <_default
           navItems={
@@ -60,10 +62,10 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "function",
         "props": Object {
-          "color": undefined,
+          "color": "black",
           "content": "Title",
           "subtitle": "Subtitle",
-          "subtitleColor": undefined,
+          "subtitleColor": "blue",
         },
         "ref": null,
         "rendered": null,
@@ -74,7 +76,9 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "function",
         "props": Object {
+          "handleOpen": undefined,
           "isMobile": undefined,
+          "isOpen": undefined,
           "navItems": Array [
             Object {
               "path": "/",
@@ -117,9 +121,11 @@ ShallowWrapper {
       "nodeType": "function",
       "props": Object {
         "children": Array [
-          <_default
+          <Logo
+            color="black"
             content="Title"
             subtitle="Subtitle"
+            subtitleColor="blue"
           />,
           <_default
             navItems={
@@ -143,10 +149,10 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "function",
           "props": Object {
-            "color": undefined,
+            "color": "black",
             "content": "Title",
             "subtitle": "Subtitle",
-            "subtitleColor": undefined,
+            "subtitleColor": "blue",
           },
           "ref": null,
           "rendered": null,
@@ -157,7 +163,9 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "function",
           "props": Object {
+            "handleOpen": undefined,
             "isMobile": undefined,
+            "isOpen": undefined,
             "navItems": Array [
               Object {
                 "path": "/",

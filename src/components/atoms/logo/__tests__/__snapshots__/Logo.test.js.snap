@@ -1,10 +1,13 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Title component should renders without crash 1`] = `
+exports[`Logo component should renders without crash 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <_default
+  Symbol(enzyme.__unrendered__): <Logo
+    color="black"
     content="Work with coffee"
+    subtitle="Sua logo aqui"
+    subtitleColor="blue"
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
@@ -25,9 +28,13 @@ ShallowWrapper {
         >
           Work with coffee
         </div>,
-        undefined,
+        <ForwardRef(render)
+          color="blue"
+        >
+          Sua logo aqui
+        </ForwardRef(render)>,
       ],
-      "color": undefined,
+      "color": "black",
     },
     "ref": null,
     "rendered": Array [
@@ -43,7 +50,30 @@ ShallowWrapper {
         "rendered": "Work with coffee",
         "type": "div",
       },
-      undefined,
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": "Sua logo aqui",
+          "color": "blue",
+        },
+        "ref": null,
+        "rendered": "Sua logo aqui",
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "__emotion_base": "div",
+          "__emotion_forwardProp": undefined,
+          "__emotion_real": [Circular],
+          "__emotion_styles": Array [
+            [Function],
+          ],
+          "defaultProps": undefined,
+          "displayName": "Styled(div)",
+          "render": [Function],
+          "withComponent": [Function],
+        },
+      },
     ],
     "type": Object {
       "$$typeof": Symbol(react.forward_ref),
@@ -55,12 +85,6 @@ ShallowWrapper {
       ],
       "defaultProps": undefined,
       "displayName": "Styled(div)",
-      "propTypes": Object {
-        "color": [Function],
-        "content": [Function],
-        "subtitle": [Function],
-        "subtitleColor": [Function],
-      },
       "render": [Function],
       "withComponent": [Function],
     },
@@ -77,9 +101,13 @@ ShallowWrapper {
           >
             Work with coffee
           </div>,
-          undefined,
+          <ForwardRef(render)
+            color="blue"
+          >
+            Sua logo aqui
+          </ForwardRef(render)>,
         ],
-        "color": undefined,
+        "color": "black",
       },
       "ref": null,
       "rendered": Array [
@@ -95,7 +123,30 @@ ShallowWrapper {
           "rendered": "Work with coffee",
           "type": "div",
         },
-        undefined,
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": "Sua logo aqui",
+            "color": "blue",
+          },
+          "ref": null,
+          "rendered": "Sua logo aqui",
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "__emotion_base": "div",
+            "__emotion_forwardProp": undefined,
+            "__emotion_real": [Circular],
+            "__emotion_styles": Array [
+              [Function],
+            ],
+            "defaultProps": undefined,
+            "displayName": "Styled(div)",
+            "render": [Function],
+            "withComponent": [Function],
+          },
+        },
       ],
       "type": Object {
         "$$typeof": Symbol(react.forward_ref),
@@ -107,12 +158,6 @@ ShallowWrapper {
         ],
         "defaultProps": undefined,
         "displayName": "Styled(div)",
-        "propTypes": Object {
-          "color": [Function],
-          "content": [Function],
-          "subtitle": [Function],
-          "subtitleColor": [Function],
-        },
         "render": [Function],
         "withComponent": [Function],
       },
