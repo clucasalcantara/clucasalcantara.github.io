@@ -1,0 +1,63 @@
+{
+  "remainingRequest": "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/babel-loader/lib/index.js?{\"presets\":[[\"/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/babel-preset-docz/dist/index.js\",{\"flow\":true,\"typescript\":false,\"parseProps\":true}]],\"plugins\":[[\"/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz-utils/lib/named-asset-import.js\",{\"loaderMap\":{\"svg\":{\"ReactComponent\":\"@svgr/webpack?-prettier,-svgo![path]\"}}}]],\"babelrc\":false,\"cacheCompression\":true,\"compact\":true}!/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/src/components/molecules/header/index.js",
+  "dependencies": [
+    {
+      "path": "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/src/components/molecules/header/index.js",
+      "mtime": 1553598089257
+    },
+    {
+      "path": "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/cache-loader/dist/cjs.js",
+      "mtime": 1553357715411
+    },
+    {
+      "path": "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/babel-loader/lib/index.js",
+      "mtime": 1553357715290
+    }
+  ],
+  "contextDependencies": [],
+  "result": [
+    "import React from'react';import styled from'@emotion/styled';// UI Elements\nimport{Logo}from'components/atoms';import Navigation from'../navigation';var Wrapper=styled.div(function(_ref){var palette=_ref.palette,darkMode=_ref.darkMode;return{top:0,left:0,textTransform:'uppercase',display:'flex',justifyContent:'space-between',alignItems:'center',marginBottom:'1rem',position:'sticky',background:darkMode?palette.black:palette.white,transition:'all .2s ease-in'};});export default function Header(_ref2){var navItems=_ref2.navItems,title=_ref2.title,subtitle=_ref2.subtitle,colors=_ref2.theme.colors,isMobile=_ref2.isMobile,darkMode=_ref2.darkMode;return React.createElement(Wrapper,{palette:colors,darkMode:darkMode},React.createElement(Logo,{content:title,subtitle:subtitle,color:colors.main,subtitleColor:colors.blue}),React.createElement(Navigation,{navItems:navItems,isMobile:isMobile}));}Header.defaultProps={navItems:[]};Header.__docgenInfo={\"description\":\"\",\"methods\":[],\"displayName\":\"Header\",\"props\":{\"navItems\":{\"defaultValue\":{\"value\":\"[]\",\"computed\":false},\"type\":{\"name\":\"array\"},\"required\":false,\"description\":\"\"},\"isMobile\":{\"type\":{\"name\":\"bool\"},\"required\":false,\"description\":\"\"},\"title\":{\"type\":{\"name\":\"string\"},\"required\":false,\"description\":\"\"},\"subtitle\":{\"type\":{\"name\":\"string\"},\"required\":false,\"description\":\"\"},\"theme\":{\"type\":{\"name\":\"object\"},\"required\":false,\"description\":\"\"}}};",
+    {
+      "version": 3,
+      "sources": [
+        "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/src/components/molecules/header/index.js"
+      ],
+      "names": [
+        "React",
+        "styled",
+        "Logo",
+        "Navigation",
+        "Wrapper",
+        "div",
+        "palette",
+        "darkMode",
+        "top",
+        "left",
+        "textTransform",
+        "display",
+        "justifyContent",
+        "alignItems",
+        "marginBottom",
+        "position",
+        "background",
+        "black",
+        "white",
+        "transition",
+        "Header",
+        "navItems",
+        "title",
+        "subtitle",
+        "colors",
+        "theme",
+        "isMobile",
+        "main",
+        "blue",
+        "defaultProps"
+      ],
+      "mappings": "AAAA,MAAOA,CAAAA,KAAP,KAAkB,OAAlB,CAEA,MAAOC,CAAAA,MAAP,KAAmB,iBAAnB,CAEA;AACA,OAASC,IAAT,KAAqB,kBAArB,CACA,MAAOC,CAAAA,UAAP,KAAuB,eAAvB,CAEA,GAAMC,CAAAA,OAAO,CAAGH,MAAM,CAACI,GAAP,CAAW,kBAAGC,CAAAA,OAAH,MAAGA,OAAH,CAAYC,QAAZ,MAAYA,QAAZ,OAA4B,CACrDC,GAAG,CAAE,CADgD,CAErDC,IAAI,CAAE,CAF+C,CAGrDC,aAAa,CAAE,WAHsC,CAIrDC,OAAO,CAAE,MAJ4C,CAKrDC,cAAc,CAAE,eALqC,CAMrDC,UAAU,CAAE,QANyC,CAOrDC,YAAY,CAAE,MAPuC,CAQrDC,QAAQ,CAAE,QAR2C,CASrDC,UAAU,CAAET,QAAQ,CAAGD,OAAO,CAACW,KAAX,CAAmBX,OAAO,CAACY,KATM,CAUrDC,UAAU,CAAE,iBAVyC,CAA5B,EAAX,CAAhB,CAaA,cAAe,SAASC,CAAAA,MAAT,OAOZ,IANDC,CAAAA,QAMC,OANDA,QAMC,CALDC,KAKC,OALDA,KAKC,CAJDC,QAIC,OAJDA,QAIC,CAHQC,MAGR,OAHDC,KAGC,CAHQD,MAGR,CAFDE,QAEC,OAFDA,QAEC,CADDnB,QACC,OADDA,QACC,CACD,MACE,qBAAC,OAAD,EAAS,OAAO,CAAEiB,MAAlB,CAA0B,QAAQ,CAAEjB,QAApC,EACE,oBAAC,IAAD,EACE,OAAO,CAAEe,KADX,CAEE,QAAQ,CAAEC,QAFZ,CAGE,KAAK,CAAEC,MAAM,CAACG,IAHhB,CAIE,aAAa,CAAEH,MAAM,CAACI,IAJxB,EADF,CAOE,oBAAC,UAAD,EAAY,QAAQ,CAAEP,QAAtB,CAAgC,QAAQ,CAAEK,QAA1C,EAPF,CADF,CAWD,CAUDN,MAAM,CAACS,YAAP,CAAsB,CACpBR,QAAQ,CAAE,EADU,CAAtB,C",
+      "sourcesContent": [
+        "import React from 'react'\nimport { array, bool, object, string } from 'prop-types'\nimport styled from '@emotion/styled'\n\n// UI Elements\nimport { Logo } from 'components/atoms'\nimport Navigation from '../navigation'\n\nconst Wrapper = styled.div(({ palette, darkMode }) => ({\n  top: 0,\n  left: 0,\n  textTransform: 'uppercase',\n  display: 'flex',\n  justifyContent: 'space-between',\n  alignItems: 'center',\n  marginBottom: '1rem',\n  position: 'sticky',\n  background: darkMode ? palette.black : palette.white,\n  transition: 'all .2s ease-in'\n}))\n\nexport default function Header({\n  navItems,\n  title,\n  subtitle,\n  theme: { colors },\n  isMobile,\n  darkMode\n}) {\n  return (\n    <Wrapper palette={colors} darkMode={darkMode}>\n      <Logo\n        content={title}\n        subtitle={subtitle}\n        color={colors.main}\n        subtitleColor={colors.blue}\n      />\n      <Navigation navItems={navItems} isMobile={isMobile} />\n    </Wrapper>\n  )\n}\n\nHeader.propTypes = {\n  isMobile: bool,\n  navItems: array,\n  title: string,\n  subtitle: string,\n  theme: object\n}\n\nHeader.defaultProps = {\n  navItems: []\n}\n"
+      ]
+    }
+  ]
+}

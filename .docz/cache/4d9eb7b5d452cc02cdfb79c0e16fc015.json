@@ -1,0 +1,68 @@
+{
+  "remainingRequest": "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/babel-loader/lib/index.js?{\"presets\":[[\"/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/babel-preset-docz/dist/index.js\",{\"flow\":true,\"typescript\":false,\"parseProps\":true}]],\"plugins\":[[\"/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz-utils/lib/named-asset-import.js\",{\"loaderMap\":{\"svg\":{\"ReactComponent\":\"@svgr/webpack?-prettier,-svgo![path]\"}}}],\"/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/react-hot-loader/babel.js\"],\"babelrc\":false,\"cacheCompression\":false,\"compact\":false}!/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/src/components/molecules/header/index.js",
+  "dependencies": [
+    {
+      "path": "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/src/components/molecules/header/index.js",
+      "mtime": 1553598089257
+    },
+    {
+      "path": "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/cache-loader/dist/cjs.js",
+      "mtime": 1553357715411
+    },
+    {
+      "path": "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/babel-loader/lib/index.js",
+      "mtime": 1553357715290
+    }
+  ],
+  "contextDependencies": [],
+  "result": [
+    "var _jsxFileName = \"/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/src/components/molecules/header/index.js\";\n\n(function () {\n  var enterModule = require('react-hot-loader').enterModule;\n\n  enterModule && enterModule(module);\n})();\n\nimport React from 'react';\nimport { array, bool, object, string } from 'prop-types';\nimport styled from '@emotion/styled'; // UI Elements\n\nimport { Logo } from 'components/atoms';\nimport Navigation from '../navigation';\nvar Wrapper = styled.div(function (_ref) {\n  var palette = _ref.palette,\n      darkMode = _ref.darkMode;\n  return {\n    top: 0,\n    left: 0,\n    textTransform: 'uppercase',\n    display: 'flex',\n    justifyContent: 'space-between',\n    alignItems: 'center',\n    marginBottom: '1rem',\n    position: 'sticky',\n    background: darkMode ? palette.black : palette.white,\n    transition: 'all .2s ease-in'\n  };\n});\nexport default function Header(_ref2) {\n  var navItems = _ref2.navItems,\n      title = _ref2.title,\n      subtitle = _ref2.subtitle,\n      colors = _ref2.theme.colors,\n      isMobile = _ref2.isMobile,\n      darkMode = _ref2.darkMode;\n  return React.createElement(Wrapper, {\n    palette: colors,\n    darkMode: darkMode,\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 31\n    },\n    __self: this\n  }, React.createElement(Logo, {\n    content: title,\n    subtitle: subtitle,\n    color: colors.main,\n    subtitleColor: colors.blue,\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 32\n    },\n    __self: this\n  }), React.createElement(Navigation, {\n    navItems: navItems,\n    isMobile: isMobile,\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 38\n    },\n    __self: this\n  }));\n}\nHeader.propTypes = {\n  isMobile: bool,\n  navItems: array,\n  title: string,\n  subtitle: string,\n  theme: object\n};\nHeader.defaultProps = {\n  navItems: []\n};\n;\n\n(function () {\n  var reactHotLoader = require('react-hot-loader').default;\n\n  var leaveModule = require('react-hot-loader').leaveModule;\n\n  if (!reactHotLoader) {\n    return;\n  }\n\n  reactHotLoader.register(Wrapper, \"Wrapper\", \"/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/src/components/molecules/header/index.js\");\n  reactHotLoader.register(Header, \"Header\", \"/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/src/components/molecules/header/index.js\");\n  leaveModule(module);\n})();\n\n;\nHeader.__docgenInfo = {\n  \"description\": \"\",\n  \"methods\": [],\n  \"displayName\": \"Header\",\n  \"props\": {\n    \"navItems\": {\n      \"defaultValue\": {\n        \"value\": \"[]\",\n        \"computed\": false\n      },\n      \"type\": {\n        \"name\": \"array\"\n      },\n      \"required\": false,\n      \"description\": \"\"\n    },\n    \"isMobile\": {\n      \"type\": {\n        \"name\": \"bool\"\n      },\n      \"required\": false,\n      \"description\": \"\"\n    },\n    \"title\": {\n      \"type\": {\n        \"name\": \"string\"\n      },\n      \"required\": false,\n      \"description\": \"\"\n    },\n    \"subtitle\": {\n      \"type\": {\n        \"name\": \"string\"\n      },\n      \"required\": false,\n      \"description\": \"\"\n    },\n    \"theme\": {\n      \"type\": {\n        \"name\": \"object\"\n      },\n      \"required\": false,\n      \"description\": \"\"\n    }\n  }\n};",
+    {
+      "version": 3,
+      "sources": [
+        "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/src/components/molecules/header/index.js"
+      ],
+      "names": [
+        "React",
+        "array",
+        "bool",
+        "object",
+        "string",
+        "styled",
+        "Logo",
+        "Navigation",
+        "Wrapper",
+        "div",
+        "palette",
+        "darkMode",
+        "top",
+        "left",
+        "textTransform",
+        "display",
+        "justifyContent",
+        "alignItems",
+        "marginBottom",
+        "position",
+        "background",
+        "black",
+        "white",
+        "transition",
+        "Header",
+        "navItems",
+        "title",
+        "subtitle",
+        "colors",
+        "theme",
+        "isMobile",
+        "main",
+        "blue",
+        "propTypes",
+        "defaultProps"
+      ],
+      "mappings": ";;;;;;;;AAAA,OAAOA,KAAP,MAAkB,OAAlB;AACA,SAASC,KAAT,EAAgBC,IAAhB,EAAsBC,MAAtB,EAA8BC,MAA9B,QAA4C,YAA5C;AACA,OAAOC,MAAP,MAAmB,iBAAnB,C,CAEA;;AACA,SAASC,IAAT,QAAqB,kBAArB;AACA,OAAOC,UAAP,MAAuB,eAAvB;AAEA,IAAMC,OAAO,GAAGH,MAAM,CAACI,GAAP,CAAW;AAAA,MAAGC,OAAH,QAAGA,OAAH;AAAA,MAAYC,QAAZ,QAAYA,QAAZ;AAAA,SAA4B;AACrDC,IAAAA,GAAG,EAAE,CADgD;AAErDC,IAAAA,IAAI,EAAE,CAF+C;AAGrDC,IAAAA,aAAa,EAAE,WAHsC;AAIrDC,IAAAA,OAAO,EAAE,MAJ4C;AAKrDC,IAAAA,cAAc,EAAE,eALqC;AAMrDC,IAAAA,UAAU,EAAE,QANyC;AAOrDC,IAAAA,YAAY,EAAE,MAPuC;AAQrDC,IAAAA,QAAQ,EAAE,QAR2C;AASrDC,IAAAA,UAAU,EAAET,QAAQ,GAAGD,OAAO,CAACW,KAAX,GAAmBX,OAAO,CAACY,KATM;AAUrDC,IAAAA,UAAU,EAAE;AAVyC,GAA5B;AAAA,CAAX,CAAhB;AAaA,eAAe,SAASC,MAAT,QAOZ;AAAA,MANDC,QAMC,SANDA,QAMC;AAAA,MALDC,KAKC,SALDA,KAKC;AAAA,MAJDC,QAIC,SAJDA,QAIC;AAAA,MAHQC,MAGR,SAHDC,KAGC,CAHQD,MAGR;AAAA,MAFDE,QAEC,SAFDA,QAEC;AAAA,MADDnB,QACC,SADDA,QACC;AACD,SACE,oBAAC,OAAD;AAAS,IAAA,OAAO,EAAEiB,MAAlB;AAA0B,IAAA,QAAQ,EAAEjB,QAApC;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,KACE,oBAAC,IAAD;AACE,IAAA,OAAO,EAAEe,KADX;AAEE,IAAA,QAAQ,EAAEC,QAFZ;AAGE,IAAA,KAAK,EAAEC,MAAM,CAACG,IAHhB;AAIE,IAAA,aAAa,EAAEH,MAAM,CAACI,IAJxB;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,IADF,EAOE,oBAAC,UAAD;AAAY,IAAA,QAAQ,EAAEP,QAAtB;AAAgC,IAAA,QAAQ,EAAEK,QAA1C;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,IAPF,CADF;AAWD;AAEDN,MAAM,CAACS,SAAP,GAAmB;AACjBH,EAAAA,QAAQ,EAAE5B,IADO;AAEjBuB,EAAAA,QAAQ,EAAExB,KAFO;AAGjByB,EAAAA,KAAK,EAAEtB,MAHU;AAIjBuB,EAAAA,QAAQ,EAAEvB,MAJO;AAKjByB,EAAAA,KAAK,EAAE1B;AALU,CAAnB;AAQAqB,MAAM,CAACU,YAAP,GAAsB;AACpBT,EAAAA,QAAQ,EAAE;AADU,CAAtB;;;;;;;;;;;;0BA1CMjB,O;0BAakBgB,M",
+      "sourcesContent": [
+        "import React from 'react'\nimport { array, bool, object, string } from 'prop-types'\nimport styled from '@emotion/styled'\n\n// UI Elements\nimport { Logo } from 'components/atoms'\nimport Navigation from '../navigation'\n\nconst Wrapper = styled.div(({ palette, darkMode }) => ({\n  top: 0,\n  left: 0,\n  textTransform: 'uppercase',\n  display: 'flex',\n  justifyContent: 'space-between',\n  alignItems: 'center',\n  marginBottom: '1rem',\n  position: 'sticky',\n  background: darkMode ? palette.black : palette.white,\n  transition: 'all .2s ease-in'\n}))\n\nexport default function Header({\n  navItems,\n  title,\n  subtitle,\n  theme: { colors },\n  isMobile,\n  darkMode\n}) {\n  return (\n    <Wrapper palette={colors} darkMode={darkMode}>\n      <Logo\n        content={title}\n        subtitle={subtitle}\n        color={colors.main}\n        subtitleColor={colors.blue}\n      />\n      <Navigation navItems={navItems} isMobile={isMobile} />\n    </Wrapper>\n  )\n}\n\nHeader.propTypes = {\n  isMobile: bool,\n  navItems: array,\n  title: string,\n  subtitle: string,\n  theme: object\n}\n\nHeader.defaultProps = {\n  navItems: []\n}\n"
+      ]
+    }
+  ]
+}

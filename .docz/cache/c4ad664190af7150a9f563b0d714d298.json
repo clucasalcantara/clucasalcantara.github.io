@@ -1,0 +1,42 @@
+{
+  "remainingRequest": "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/babel-loader/lib/index.js?{\"presets\":[[\"/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/babel-preset-docz/dist/index.js\",{\"flow\":true,\"typescript\":false,\"parseProps\":true}]],\"plugins\":[[\"/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz-utils/lib/named-asset-import.js\",{\"loaderMap\":{\"svg\":{\"ReactComponent\":\"@svgr/webpack?-prettier,-svgo![path]\"}}}],\"/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/react-hot-loader/babel.js\"],\"babelrc\":false,\"cacheCompression\":false,\"compact\":false}!/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/src/components/atoms/tag/index.js",
+  "dependencies": [
+    {
+      "path": "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/src/components/atoms/tag/index.js",
+      "mtime": 1553597225638
+    },
+    {
+      "path": "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/cache-loader/dist/cjs.js",
+      "mtime": 1553357715411
+    },
+    {
+      "path": "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/babel-loader/lib/index.js",
+      "mtime": 1553357715290
+    }
+  ],
+  "contextDependencies": [],
+  "result": [
+    "(function () {\n  var enterModule = require('react-hot-loader').enterModule;\n\n  enterModule && enterModule(module);\n})();\n\nimport styled from '@emotion/styled';\n\nvar _default = styled.div(function (_ref) {\n  var palette = _ref.palette;\n  return {\n    margin: '.5rem',\n    padding: '.5rem',\n    fontSize: '.7rem',\n    background: \"\".concat(palette.blue, \" !important\"),\n    color: 'white'\n  };\n});\n\nexport default _default;\n;\n\n(function () {\n  var reactHotLoader = require('react-hot-loader').default;\n\n  var leaveModule = require('react-hot-loader').leaveModule;\n\n  if (!reactHotLoader) {\n    return;\n  }\n\n  reactHotLoader.register(_default, \"default\", \"/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/src/components/atoms/tag/index.js\");\n  leaveModule(module);\n})();\n\n;",
+    {
+      "version": 3,
+      "sources": [
+        "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/src/components/atoms/tag/index.js"
+      ],
+      "names": [
+        "styled",
+        "div",
+        "palette",
+        "margin",
+        "padding",
+        "fontSize",
+        "background",
+        "blue",
+        "color"
+      ],
+      "mappings": ";;;;;;AAAA,OAAOA,MAAP,MAAmB,iBAAnB;;eAEeA,MAAM,CAACC,GAAP,CAAW;AAAA,MAAGC,OAAH,QAAGA,OAAH;AAAA,SAAkB;AAC1CC,IAAAA,MAAM,EAAE,OADkC;AAE1CC,IAAAA,OAAO,EAAE,OAFiC;AAG1CC,IAAAA,QAAQ,EAAE,OAHgC;AAI1CC,IAAAA,UAAU,YAAKJ,OAAO,CAACK,IAAb,gBAJgC;AAK1CC,IAAAA,KAAK,EAAE;AALmC,GAAlB;AAAA,CAAX,C;;AAAf",
+      "sourcesContent": [
+        "import styled from '@emotion/styled'\n\nexport default styled.div(({ palette }) => ({\n  margin: '.5rem',\n  padding: '.5rem',\n  fontSize: '.7rem',\n  background: `${palette.blue} !important`,\n  color: 'white'\n}))\n"
+      ]
+    }
+  ]
+}

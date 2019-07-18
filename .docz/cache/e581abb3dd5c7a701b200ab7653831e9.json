@@ -1,0 +1,39 @@
+{
+  "remainingRequest": "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/babel-loader/lib/index.js?{\"presets\":[[\"/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/babel-preset-docz/dist/index.js\",{\"flow\":true,\"typescript\":false,\"parseProps\":true}]],\"plugins\":[[\"/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz-utils/lib/named-asset-import.js\",{\"loaderMap\":{\"svg\":{\"ReactComponent\":\"@svgr/webpack?-prettier,-svgo![path]\"}}}]],\"babelrc\":false,\"cacheCompression\":true,\"compact\":true}!/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/src/components/molecules/loadable/index.js",
+  "dependencies": [
+    {
+      "path": "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/src/components/molecules/loadable/index.js",
+      "mtime": 1553390610043
+    },
+    {
+      "path": "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/cache-loader/dist/cjs.js",
+      "mtime": 1553357715411
+    },
+    {
+      "path": "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/babel-loader/lib/index.js",
+      "mtime": 1553357715290
+    }
+  ],
+  "contextDependencies": [],
+  "result": [
+    "import React,{Suspense}from'react';var Loadable=function Loadable(_ref){var children=_ref.children,loadingContent=_ref.loadingContent;return React.createElement(Suspense,{fallback:loadingContent},children);};Loadable.defaultProps={loadingContent:React.createElement(\"div\",null,\"Loading...\")};export default Loadable;Loadable.__docgenInfo={\"description\":\"\",\"methods\":[],\"displayName\":\"Loadable\",\"props\":{\"loadingContent\":{\"defaultValue\":{\"value\":\"<div>Loading...</div>\",\"computed\":false},\"type\":{\"name\":\"element\"},\"required\":false,\"description\":\"\"},\"children\":{\"type\":{\"name\":\"union\",\"value\":[{\"name\":\"element\"},{\"name\":\"array\"}]},\"required\":true,\"description\":\"\"}}};",
+    {
+      "version": 3,
+      "sources": [
+        "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/src/components/molecules/loadable/index.js"
+      ],
+      "names": [
+        "React",
+        "Suspense",
+        "Loadable",
+        "children",
+        "loadingContent",
+        "defaultProps"
+      ],
+      "mappings": "AAAA,MAAOA,CAAAA,KAAP,EAAgBC,QAAhB,KAAgC,OAAhC,CAGA,GAAMC,CAAAA,QAAQ,CAAG,QAAXA,CAAAA,QAAW,UAAGC,CAAAA,QAAH,MAAGA,QAAH,CAAaC,cAAb,MAAaA,cAAb,OACb,qBAAC,QAAD,EAAU,QAAQ,CAAEA,cAApB,EAAqCD,QAArC,CADa,EAAjB,CASAD,QAAQ,CAACG,YAAT,CAAwB,CACpBD,cAAc,CAAE,4CADI,CAAxB,CAIA,cAAeF,CAAAA,QAAf,C",
+      "sourcesContent": [
+        "import React, { Suspense } from 'react'\nimport { oneOfType, element, array } from 'prop-types'\n\nconst Loadable = ({ children, loadingContent }) => (\n    <Suspense fallback={loadingContent}>{children}</Suspense>\n)\n\nLoadable.propTypes = {\n    loadingContent: element,\n    children: oneOfType([element, array]).isRequired\n}\n\nLoadable.defaultProps = {\n    loadingContent: <div>Loading...</div>\n}\n\nexport default Loadable\n"
+      ]
+    }
+  ]
+}

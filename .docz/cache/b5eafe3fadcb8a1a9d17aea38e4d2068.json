@@ -1,0 +1,49 @@
+{
+  "remainingRequest": "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/babel-loader/lib/index.js?{\"presets\":[[\"/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/babel-preset-docz/dist/index.js\",{\"flow\":true,\"typescript\":false,\"parseProps\":true}]],\"plugins\":[[\"/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz-utils/lib/named-asset-import.js\",{\"loaderMap\":{\"svg\":{\"ReactComponent\":\"@svgr/webpack?-prettier,-svgo![path]\"}}}]],\"babelrc\":false,\"cacheCompression\":true,\"compact\":true}!/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/src/components/atoms/credits/index.js",
+  "dependencies": [
+    {
+      "path": "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/src/components/atoms/credits/index.js",
+      "mtime": 1553598833898
+    },
+    {
+      "path": "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/cache-loader/dist/cjs.js",
+      "mtime": 1553357715411
+    },
+    {
+      "path": "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/babel-loader/lib/index.js",
+      "mtime": 1553357715290
+    }
+  ],
+  "contextDependencies": [],
+  "result": [
+    "import React from'react';import{Link}from'react-router-dom';import styled from'@emotion/styled';// UI Elements\nimport{Author}from'components/atoms';var Wrapper=styled.div({marginTop:'1rem',textAlign:'center',padding:'.5rem',fontSize:'.7rem'});export default function Credits(_ref){var description=_ref.description,author=_ref.author,url=_ref.url,darkMode=_ref.darkMode;return React.createElement(Wrapper,null,description,\" by\",' ',React.createElement(Link,{to:url,target:\"_blank\"},React.createElement(Author,{darkMode:darkMode},\"\".concat(author))));}Credits.defaultProps={darkMode:false};Credits.__docgenInfo={\"description\":\"\",\"methods\":[],\"displayName\":\"Credits\",\"props\":{\"darkMode\":{\"defaultValue\":{\"value\":\"false\",\"computed\":false},\"type\":{\"name\":\"bool\"},\"required\":false,\"description\":\"\"},\"description\":{\"type\":{\"name\":\"string\"},\"required\":true,\"description\":\"\"},\"author\":{\"type\":{\"name\":\"string\"},\"required\":true,\"description\":\"\"},\"url\":{\"type\":{\"name\":\"string\"},\"required\":true,\"description\":\"\"}}};",
+    {
+      "version": 3,
+      "sources": [
+        "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/src/components/atoms/credits/index.js"
+      ],
+      "names": [
+        "React",
+        "Link",
+        "styled",
+        "Author",
+        "Wrapper",
+        "div",
+        "marginTop",
+        "textAlign",
+        "padding",
+        "fontSize",
+        "Credits",
+        "description",
+        "author",
+        "url",
+        "darkMode",
+        "defaultProps"
+      ],
+      "mappings": "AAAA,MAAOA,CAAAA,KAAP,KAAkB,OAAlB,CAEA,OAASC,IAAT,KAAqB,kBAArB,CACA,MAAOC,CAAAA,MAAP,KAAmB,iBAAnB,CAEA;AACA,OAASC,MAAT,KAAuB,kBAAvB,CAEA,GAAMC,CAAAA,OAAO,CAAGF,MAAM,CAACG,GAAP,CAAW,CACzBC,SAAS,CAAE,MADc,CAEzBC,SAAS,CAAE,QAFc,CAGzBC,OAAO,CAAE,OAHgB,CAIzBC,QAAQ,CAAE,OAJe,CAAX,CAAhB,CAOA,cAAe,SAASC,CAAAA,OAAT,MAAyD,IAAtCC,CAAAA,WAAsC,MAAtCA,WAAsC,CAAzBC,MAAyB,MAAzBA,MAAyB,CAAjBC,GAAiB,MAAjBA,GAAiB,CAAZC,QAAY,MAAZA,QAAY,CACtE,MACE,qBAAC,OAAD,MACGH,WADH,OACmB,GADnB,CAEE,oBAAC,IAAD,EAAM,EAAE,CAAEE,GAAV,CAAe,MAAM,CAAC,QAAtB,EACE,oBAAC,MAAD,EAAQ,QAAQ,CAAEC,QAAlB,YAAgCF,MAAhC,EADF,CAFF,CADF,CAQD,CASDF,OAAO,CAACK,YAAR,CAAuB,CACrBD,QAAQ,CAAE,KADW,CAAvB,C",
+      "sourcesContent": [
+        "import React from 'react'\nimport { string, bool } from 'prop-types'\nimport { Link } from 'react-router-dom'\nimport styled from '@emotion/styled'\n\n// UI Elements\nimport { Author } from 'components/atoms'\n\nconst Wrapper = styled.div({\n  marginTop: '1rem',\n  textAlign: 'center',\n  padding: '.5rem',\n  fontSize: '.7rem'\n})\n\nexport default function Credits({ description, author, url, darkMode }) {\n  return (\n    <Wrapper>\n      {description} by{' '}\n      <Link to={url} target=\"_blank\">\n        <Author darkMode={darkMode}>{`${author}`}</Author>\n      </Link>\n    </Wrapper>\n  )\n}\n\nCredits.propTypes = {\n  description: string.isRequired,\n  author: string.isRequired,\n  url: string.isRequired,\n  darkMode: bool\n}\n\nCredits.defaultProps = {\n  darkMode: false\n}"
+      ]
+    }
+  ]
+}

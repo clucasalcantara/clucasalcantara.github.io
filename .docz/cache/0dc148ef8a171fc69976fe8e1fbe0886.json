@@ -1,0 +1,41 @@
+{
+  "remainingRequest": "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/babel-loader/lib/index.js?{\"presets\":[[\"/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/babel-preset-docz/dist/index.js\",{\"flow\":true,\"typescript\":false,\"parseProps\":true}]],\"plugins\":[[\"/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz-utils/lib/named-asset-import.js\",{\"loaderMap\":{\"svg\":{\"ReactComponent\":\"@svgr/webpack?-prettier,-svgo![path]\"}}}],\"/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/react-hot-loader/babel.js\"],\"babelrc\":false,\"cacheCompression\":false,\"compact\":false}!/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/src/components/atoms/index.js",
+  "dependencies": [
+    {
+      "path": "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/src/components/atoms/index.js",
+      "mtime": 1553596973915
+    },
+    {
+      "path": "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/cache-loader/dist/cjs.js",
+      "mtime": 1553357715411
+    },
+    {
+      "path": "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/babel-loader/lib/index.js",
+      "mtime": 1553357715290
+    }
+  ],
+  "contextDependencies": [],
+  "result": [
+    "import Button from './button';\nimport Logo from './logo';\nimport NavItem from './nav-item';\nimport Link from './link';\nimport Icon from './icon';\nimport Credits from './credits';\nimport Author from './author';\nimport Tag from './tag';\nexport { Author, Button, Credits, Tag, Logo, NavItem, Link, Icon };",
+    {
+      "version": 3,
+      "sources": [
+        "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/src/components/atoms/index.js"
+      ],
+      "names": [
+        "Button",
+        "Logo",
+        "NavItem",
+        "Link",
+        "Icon",
+        "Credits",
+        "Author",
+        "Tag"
+      ],
+      "mappings": "AAAA,OAAOA,MAAP,MAAmB,UAAnB;AACA,OAAOC,IAAP,MAAiB,QAAjB;AACA,OAAOC,OAAP,MAAoB,YAApB;AACA,OAAOC,IAAP,MAAiB,QAAjB;AACA,OAAOC,IAAP,MAAiB,QAAjB;AACA,OAAOC,OAAP,MAAoB,WAApB;AACA,OAAOC,MAAP,MAAmB,UAAnB;AACA,OAAOC,GAAP,MAAgB,OAAhB;AAEA,SAASD,MAAT,EAAiBN,MAAjB,EAAyBK,OAAzB,EAAkCE,GAAlC,EAAuCN,IAAvC,EAA6CC,OAA7C,EAAsDC,IAAtD,EAA4DC,IAA5D",
+      "sourcesContent": [
+        "import Button from './button'\nimport Logo from './logo'\nimport NavItem from './nav-item'\nimport Link from './link'\nimport Icon from './icon'\nimport Credits from './credits'\nimport Author from './author'\nimport Tag from './tag'\n\nexport { Author, Button, Credits, Tag, Logo, NavItem, Link, Icon }\n"
+      ]
+    }
+  ]
+}

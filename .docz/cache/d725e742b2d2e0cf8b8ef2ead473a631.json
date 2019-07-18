@@ -1,0 +1,52 @@
+{
+  "remainingRequest": "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/babel-loader/lib/index.js?{\"presets\":[[\"/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/babel-preset-docz/dist/index.js\",{\"flow\":true,\"typescript\":false,\"parseProps\":true}]],\"plugins\":[[\"/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz-utils/lib/named-asset-import.js\",{\"loaderMap\":{\"svg\":{\"ReactComponent\":\"@svgr/webpack?-prettier,-svgo![path]\"}}}],\"/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/react-hot-loader/babel.js\"],\"babelrc\":false,\"cacheCompression\":false,\"compact\":false}!/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/src/components/atoms/logo/index.js",
+  "dependencies": [
+    {
+      "path": "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/src/components/atoms/logo/index.js",
+      "mtime": 1553596957955
+    },
+    {
+      "path": "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/cache-loader/dist/cjs.js",
+      "mtime": 1553357715411
+    },
+    {
+      "path": "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/babel-loader/lib/index.js",
+      "mtime": 1553357715290
+    }
+  ],
+  "contextDependencies": [],
+  "result": [
+    "var _jsxFileName = \"/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/src/components/atoms/logo/index.js\";\n\n(function () {\n  var enterModule = require('react-hot-loader').enterModule;\n\n  enterModule && enterModule(module);\n})();\n\nimport React from 'react';\nimport PropTypes from 'prop-types';\nimport styled from '@emotion/styled';\nvar Title = styled.div(function (_ref) {\n  var color = _ref.color;\n  return {\n    padding: '.5rem',\n    justifyContent: 'center',\n    textTransform: 'uppercase',\n    color: color || 'black'\n  };\n});\nvar SubTitle = styled.div(function (_ref2) {\n  var color = _ref2.color;\n  return {\n    fontSize: '.8rem',\n    fontWeight: 300,\n    color: color || 'blue'\n  };\n});\nexport default function Logo(_ref3) {\n  var content = _ref3.content,\n      subtitle = _ref3.subtitle,\n      color = _ref3.color,\n      subtitleColor = _ref3.subtitleColor;\n  return React.createElement(Title, {\n    color: color,\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 20\n    },\n    __self: this\n  }, React.createElement(\"div\", {\n    className: \"content\",\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 21\n    },\n    __self: this\n  }, content), subtitle && React.createElement(SubTitle, {\n    color: subtitleColor,\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 22\n    },\n    __self: this\n  }, subtitle));\n}\nLogo.propTypes = {\n  content: PropTypes.string,\n  subtitle: PropTypes.string,\n  color: PropTypes.string,\n  subtitleColor: PropTypes.string\n};\nLogo.defaultProps = {\n  content: 'LOGO',\n  subtitle: 'Sua logo aqui',\n  color: 'black',\n  subtitleColor: 'blue'\n};\n;\n\n(function () {\n  var reactHotLoader = require('react-hot-loader').default;\n\n  var leaveModule = require('react-hot-loader').leaveModule;\n\n  if (!reactHotLoader) {\n    return;\n  }\n\n  reactHotLoader.register(Title, \"Title\", \"/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/src/components/atoms/logo/index.js\");\n  reactHotLoader.register(SubTitle, \"SubTitle\", \"/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/src/components/atoms/logo/index.js\");\n  reactHotLoader.register(Logo, \"Logo\", \"/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/src/components/atoms/logo/index.js\");\n  leaveModule(module);\n})();\n\n;\nLogo.__docgenInfo = {\n  \"description\": \"\",\n  \"methods\": [],\n  \"displayName\": \"Logo\",\n  \"props\": {\n    \"content\": {\n      \"defaultValue\": {\n        \"value\": \"'LOGO'\",\n        \"computed\": false\n      },\n      \"type\": {\n        \"name\": \"string\"\n      },\n      \"required\": false,\n      \"description\": \"\"\n    },\n    \"subtitle\": {\n      \"defaultValue\": {\n        \"value\": \"'Sua logo aqui'\",\n        \"computed\": false\n      },\n      \"type\": {\n        \"name\": \"string\"\n      },\n      \"required\": false,\n      \"description\": \"\"\n    },\n    \"color\": {\n      \"defaultValue\": {\n        \"value\": \"'black'\",\n        \"computed\": false\n      },\n      \"type\": {\n        \"name\": \"string\"\n      },\n      \"required\": false,\n      \"description\": \"\"\n    },\n    \"subtitleColor\": {\n      \"defaultValue\": {\n        \"value\": \"'blue'\",\n        \"computed\": false\n      },\n      \"type\": {\n        \"name\": \"string\"\n      },\n      \"required\": false,\n      \"description\": \"\"\n    }\n  }\n};",
+    {
+      "version": 3,
+      "sources": [
+        "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/src/components/atoms/logo/index.js"
+      ],
+      "names": [
+        "React",
+        "PropTypes",
+        "styled",
+        "Title",
+        "div",
+        "color",
+        "padding",
+        "justifyContent",
+        "textTransform",
+        "SubTitle",
+        "fontSize",
+        "fontWeight",
+        "Logo",
+        "content",
+        "subtitle",
+        "subtitleColor",
+        "propTypes",
+        "string",
+        "defaultProps"
+      ],
+      "mappings": ";;;;;;;;AAAA,OAAOA,KAAP,MAAkB,OAAlB;AACA,OAAOC,SAAP,MAAsB,YAAtB;AACA,OAAOC,MAAP,MAAmB,iBAAnB;AAEA,IAAMC,KAAK,GAAGD,MAAM,CAACE,GAAP,CAAW;AAAA,MAAGC,KAAH,QAAGA,KAAH;AAAA,SAAgB;AACvCC,IAAAA,OAAO,EAAE,OAD8B;AAEvCC,IAAAA,cAAc,EAAE,QAFuB;AAGvCC,IAAAA,aAAa,EAAE,WAHwB;AAIvCH,IAAAA,KAAK,EAAEA,KAAK,IAAI;AAJuB,GAAhB;AAAA,CAAX,CAAd;AAOA,IAAMI,QAAQ,GAAGP,MAAM,CAACE,GAAP,CAAW;AAAA,MAAGC,KAAH,SAAGA,KAAH;AAAA,SAAgB;AAC1CK,IAAAA,QAAQ,EAAE,OADgC;AAE1CC,IAAAA,UAAU,EAAE,GAF8B;AAG1CN,IAAAA,KAAK,EAAEA,KAAK,IAAI;AAH0B,GAAhB;AAAA,CAAX,CAAjB;AAMA,eAAe,SAASO,IAAT,QAA2D;AAAA,MAA3CC,OAA2C,SAA3CA,OAA2C;AAAA,MAAlCC,QAAkC,SAAlCA,QAAkC;AAAA,MAAxBT,KAAwB,SAAxBA,KAAwB;AAAA,MAAjBU,aAAiB,SAAjBA,aAAiB;AACxE,SACE,oBAAC,KAAD;AAAO,IAAA,KAAK,EAAEV,KAAd;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,KACE;AAAK,IAAA,SAAS,EAAC,SAAf;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,KAA0BQ,OAA1B,CADF,EAEGC,QAAQ,IAAI,oBAAC,QAAD;AAAU,IAAA,KAAK,EAAEC,aAAjB;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,KAAiCD,QAAjC,CAFf,CADF;AAMD;AAEDF,IAAI,CAACI,SAAL,GAAiB;AACfH,EAAAA,OAAO,EAAEZ,SAAS,CAACgB,MADJ;AAEfH,EAAAA,QAAQ,EAAEb,SAAS,CAACgB,MAFL;AAGfZ,EAAAA,KAAK,EAAEJ,SAAS,CAACgB,MAHF;AAIfF,EAAAA,aAAa,EAAEd,SAAS,CAACgB;AAJV,CAAjB;AAOAL,IAAI,CAACM,YAAL,GAAoB;AAClBL,EAAAA,OAAO,EAAE,MADS;AAElBC,EAAAA,QAAQ,EAAE,eAFQ;AAGlBT,EAAAA,KAAK,EAAE,OAHW;AAIlBU,EAAAA,aAAa,EAAE;AAJG,CAApB;;;;;;;;;;;;0BA7BMZ,K;0BAOAM,Q;0BAMkBG,I",
+      "sourcesContent": [
+        "import React from 'react'\nimport PropTypes from 'prop-types'\nimport styled from '@emotion/styled'\n\nconst Title = styled.div(({ color }) => ({\n  padding: '.5rem',\n  justifyContent: 'center',\n  textTransform: 'uppercase',\n  color: color || 'black'\n}))\n\nconst SubTitle = styled.div(({ color }) => ({\n  fontSize: '.8rem',\n  fontWeight: 300,\n  color: color || 'blue'\n}))\n\nexport default function Logo({ content, subtitle, color, subtitleColor }) {\n  return (\n    <Title color={color}>\n      <div className=\"content\">{content}</div>\n      {subtitle && <SubTitle color={subtitleColor}>{subtitle}</SubTitle>}\n    </Title>\n  )\n}\n\nLogo.propTypes = {\n  content: PropTypes.string,\n  subtitle: PropTypes.string,\n  color: PropTypes.string,\n  subtitleColor: PropTypes.string\n}\n\nLogo.defaultProps = {\n  content: 'LOGO',\n  subtitle: 'Sua logo aqui',\n  color: 'black',\n  subtitleColor: 'blue'\n}\n"
+      ]
+    }
+  ]
+}

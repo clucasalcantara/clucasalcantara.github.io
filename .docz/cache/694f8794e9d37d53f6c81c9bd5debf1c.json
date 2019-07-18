@@ -1,0 +1,45 @@
+{
+  "remainingRequest": "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/babel-loader/lib/index.js?{\"presets\":[[\"/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/babel-preset-docz/dist/index.js\",{\"flow\":true,\"typescript\":false,\"parseProps\":true}]],\"plugins\":[[\"/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz-utils/lib/named-asset-import.js\",{\"loaderMap\":{\"svg\":{\"ReactComponent\":\"@svgr/webpack?-prettier,-svgo![path]\"}}}],\"/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/react-hot-loader/babel.js\"],\"babelrc\":false,\"cacheCompression\":false,\"compact\":false}!/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/src/components/molecules/footer/index.js",
+  "dependencies": [
+    {
+      "path": "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/src/components/molecules/footer/index.js",
+      "mtime": 1553594331786
+    },
+    {
+      "path": "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/cache-loader/dist/cjs.js",
+      "mtime": 1553357715411
+    },
+    {
+      "path": "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/babel-loader/lib/index.js",
+      "mtime": 1553357715290
+    }
+  ],
+  "contextDependencies": [],
+  "result": [
+    "var _jsxFileName = \"/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/src/components/molecules/footer/index.js\";\n\n(function () {\n  var enterModule = require('react-hot-loader').enterModule;\n\n  enterModule && enterModule(module);\n})();\n\nimport React from 'react';\nimport styled from '@emotion/styled';\nvar Footer = styled.footer({\n  width: '100%',\n  display: 'flex',\n  justifyContent: 'space-around',\n  bottom: 0,\n  left: 0,\n  position: 'relative',\n  fontSize: '.7rem',\n  marginTop: '5rem'\n});\n\nvar _default = function _default() {\n  return React.createElement(Footer, {\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 16\n    },\n    __self: this\n  }, React.createElement(\"p\", {\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 17\n    },\n    __self: this\n  }, \"\\xA9 2019 Todos os direitos reservados\"));\n};\n\nexport default _default;\n;\n\n(function () {\n  var reactHotLoader = require('react-hot-loader').default;\n\n  var leaveModule = require('react-hot-loader').leaveModule;\n\n  if (!reactHotLoader) {\n    return;\n  }\n\n  reactHotLoader.register(Footer, \"Footer\", \"/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/src/components/molecules/footer/index.js\");\n  reactHotLoader.register(_default, \"default\", \"/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/src/components/molecules/footer/index.js\");\n  leaveModule(module);\n})();\n\n;",
+    {
+      "version": 3,
+      "sources": [
+        "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/src/components/molecules/footer/index.js"
+      ],
+      "names": [
+        "React",
+        "styled",
+        "Footer",
+        "footer",
+        "width",
+        "display",
+        "justifyContent",
+        "bottom",
+        "left",
+        "position",
+        "fontSize",
+        "marginTop"
+      ],
+      "mappings": ";;;;;;;;AAAA,OAAOA,KAAP,MAAkB,OAAlB;AACA,OAAOC,MAAP,MAAmB,iBAAnB;AAEA,IAAMC,MAAM,GAAGD,MAAM,CAACE,MAAP,CAAc;AAC3BC,EAAAA,KAAK,EAAE,MADoB;AAE3BC,EAAAA,OAAO,EAAE,MAFkB;AAG3BC,EAAAA,cAAc,EAAE,cAHW;AAI3BC,EAAAA,MAAM,EAAE,CAJmB;AAK3BC,EAAAA,IAAI,EAAE,CALqB;AAM3BC,EAAAA,QAAQ,EAAE,UANiB;AAO3BC,EAAAA,QAAQ,EAAE,OAPiB;AAQ3BC,EAAAA,SAAS,EAAE;AARgB,CAAd,CAAf;;eAWe;AAAA,SACb,oBAAC,MAAD;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,KACE;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,8CADF,CADa;AAAA,C;;AAAf;;;;;;;;;;;;0BAXMT,M",
+      "sourcesContent": [
+        "import React from 'react'\nimport styled from '@emotion/styled'\n\nconst Footer = styled.footer({\n  width: '100%',\n  display: 'flex',\n  justifyContent: 'space-around',\n  bottom: 0,\n  left: 0,\n  position: 'relative',\n  fontSize: '.7rem',\n  marginTop: '5rem'\n})\n\nexport default () => (\n  <Footer>\n    <p>© 2019 Todos os direitos reservados</p>\n  </Footer>\n)\n"
+      ]
+    }
+  ]
+}

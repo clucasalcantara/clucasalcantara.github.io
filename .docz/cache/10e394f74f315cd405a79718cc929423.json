@@ -1,0 +1,49 @@
+{
+  "remainingRequest": "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/babel-loader/lib/index.js?{\"presets\":[[\"/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/babel-preset-docz/dist/index.js\",{\"flow\":true,\"typescript\":false,\"parseProps\":true}]],\"plugins\":[[\"/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz-utils/lib/named-asset-import.js\",{\"loaderMap\":{\"svg\":{\"ReactComponent\":\"@svgr/webpack?-prettier,-svgo![path]\"}}}]],\"babelrc\":false,\"cacheCompression\":true,\"compact\":true}!/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/src/components/atoms/logo/index.js",
+  "dependencies": [
+    {
+      "path": "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/src/components/atoms/logo/index.js",
+      "mtime": 1553596957955
+    },
+    {
+      "path": "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/cache-loader/dist/cjs.js",
+      "mtime": 1553357715411
+    },
+    {
+      "path": "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/babel-loader/lib/index.js",
+      "mtime": 1553357715290
+    }
+  ],
+  "contextDependencies": [],
+  "result": [
+    "import React from'react';import styled from'@emotion/styled';var Title=styled.div(function(_ref){var color=_ref.color;return{padding:'.5rem',justifyContent:'center',textTransform:'uppercase',color:color||'black'};});var SubTitle=styled.div(function(_ref2){var color=_ref2.color;return{fontSize:'.8rem',fontWeight:300,color:color||'blue'};});export default function Logo(_ref3){var content=_ref3.content,subtitle=_ref3.subtitle,color=_ref3.color,subtitleColor=_ref3.subtitleColor;return React.createElement(Title,{color:color},React.createElement(\"div\",{className:\"content\"},content),subtitle&&React.createElement(SubTitle,{color:subtitleColor},subtitle));}Logo.defaultProps={content:'LOGO',subtitle:'Sua logo aqui',color:'black',subtitleColor:'blue'};Logo.__docgenInfo={\"description\":\"\",\"methods\":[],\"displayName\":\"Logo\",\"props\":{\"content\":{\"defaultValue\":{\"value\":\"'LOGO'\",\"computed\":false},\"type\":{\"name\":\"string\"},\"required\":false,\"description\":\"\"},\"subtitle\":{\"defaultValue\":{\"value\":\"'Sua logo aqui'\",\"computed\":false},\"type\":{\"name\":\"string\"},\"required\":false,\"description\":\"\"},\"color\":{\"defaultValue\":{\"value\":\"'black'\",\"computed\":false},\"type\":{\"name\":\"string\"},\"required\":false,\"description\":\"\"},\"subtitleColor\":{\"defaultValue\":{\"value\":\"'blue'\",\"computed\":false},\"type\":{\"name\":\"string\"},\"required\":false,\"description\":\"\"}}};",
+    {
+      "version": 3,
+      "sources": [
+        "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/src/components/atoms/logo/index.js"
+      ],
+      "names": [
+        "React",
+        "styled",
+        "Title",
+        "div",
+        "color",
+        "padding",
+        "justifyContent",
+        "textTransform",
+        "SubTitle",
+        "fontSize",
+        "fontWeight",
+        "Logo",
+        "content",
+        "subtitle",
+        "subtitleColor",
+        "defaultProps"
+      ],
+      "mappings": "AAAA,MAAOA,CAAAA,KAAP,KAAkB,OAAlB,CAEA,MAAOC,CAAAA,MAAP,KAAmB,iBAAnB,CAEA,GAAMC,CAAAA,KAAK,CAAGD,MAAM,CAACE,GAAP,CAAW,kBAAGC,CAAAA,KAAH,MAAGA,KAAH,OAAgB,CACvCC,OAAO,CAAE,OAD8B,CAEvCC,cAAc,CAAE,QAFuB,CAGvCC,aAAa,CAAE,WAHwB,CAIvCH,KAAK,CAAEA,KAAK,EAAI,OAJuB,CAAhB,EAAX,CAAd,CAOA,GAAMI,CAAAA,QAAQ,CAAGP,MAAM,CAACE,GAAP,CAAW,mBAAGC,CAAAA,KAAH,OAAGA,KAAH,OAAgB,CAC1CK,QAAQ,CAAE,OADgC,CAE1CC,UAAU,CAAE,GAF8B,CAG1CN,KAAK,CAAEA,KAAK,EAAI,MAH0B,CAAhB,EAAX,CAAjB,CAMA,cAAe,SAASO,CAAAA,IAAT,OAA2D,IAA3CC,CAAAA,OAA2C,OAA3CA,OAA2C,CAAlCC,QAAkC,OAAlCA,QAAkC,CAAxBT,KAAwB,OAAxBA,KAAwB,CAAjBU,aAAiB,OAAjBA,aAAiB,CACxE,MACE,qBAAC,KAAD,EAAO,KAAK,CAAEV,KAAd,EACE,2BAAK,SAAS,CAAC,SAAf,EAA0BQ,OAA1B,CADF,CAEGC,QAAQ,EAAI,oBAAC,QAAD,EAAU,KAAK,CAAEC,aAAjB,EAAiCD,QAAjC,CAFf,CADF,CAMD,CASDF,IAAI,CAACI,YAAL,CAAoB,CAClBH,OAAO,CAAE,MADS,CAElBC,QAAQ,CAAE,eAFQ,CAGlBT,KAAK,CAAE,OAHW,CAIlBU,aAAa,CAAE,MAJG,CAApB,C",
+      "sourcesContent": [
+        "import React from 'react'\nimport PropTypes from 'prop-types'\nimport styled from '@emotion/styled'\n\nconst Title = styled.div(({ color }) => ({\n  padding: '.5rem',\n  justifyContent: 'center',\n  textTransform: 'uppercase',\n  color: color || 'black'\n}))\n\nconst SubTitle = styled.div(({ color }) => ({\n  fontSize: '.8rem',\n  fontWeight: 300,\n  color: color || 'blue'\n}))\n\nexport default function Logo({ content, subtitle, color, subtitleColor }) {\n  return (\n    <Title color={color}>\n      <div className=\"content\">{content}</div>\n      {subtitle && <SubTitle color={subtitleColor}>{subtitle}</SubTitle>}\n    </Title>\n  )\n}\n\nLogo.propTypes = {\n  content: PropTypes.string,\n  subtitle: PropTypes.string,\n  color: PropTypes.string,\n  subtitleColor: PropTypes.string\n}\n\nLogo.defaultProps = {\n  content: 'LOGO',\n  subtitle: 'Sua logo aqui',\n  color: 'black',\n  subtitleColor: 'blue'\n}\n"
+      ]
+    }
+  ]
+}

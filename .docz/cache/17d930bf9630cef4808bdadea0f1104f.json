@@ -1,0 +1,49 @@
+{
+  "remainingRequest": "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/babel-loader/lib/index.js?{\"presets\":[[\"/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/babel-preset-docz/dist/index.js\",{\"flow\":true,\"typescript\":false,\"parseProps\":true}]],\"plugins\":[[\"/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz-utils/lib/named-asset-import.js\",{\"loaderMap\":{\"svg\":{\"ReactComponent\":\"@svgr/webpack?-prettier,-svgo![path]\"}}}],\"/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/react-hot-loader/babel.js\"],\"babelrc\":false,\"cacheCompression\":false,\"compact\":false}!/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/src/components/molecules/tags/index.js",
+  "dependencies": [
+    {
+      "path": "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/src/components/molecules/tags/index.js",
+      "mtime": 1553597225752
+    },
+    {
+      "path": "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/cache-loader/dist/cjs.js",
+      "mtime": 1553357715411
+    },
+    {
+      "path": "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/babel-loader/lib/index.js",
+      "mtime": 1553357715290
+    }
+  ],
+  "contextDependencies": [],
+  "result": [
+    "var _jsxFileName = \"/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/src/components/molecules/tags/index.js\";\n\n(function () {\n  var enterModule = require('react-hot-loader').enterModule;\n\n  enterModule && enterModule(module);\n})();\n\nimport React from 'react';\nimport styled from '@emotion/styled'; // UI Elements\n\nimport { Tag } from 'components/atoms';\nvar TagList = styled.div(function (_ref) {\n  var palette = _ref.palette;\n  return {\n    marginTop: '1rem',\n    display: 'flex',\n    flexWrap: 'wrap',\n    background: 'transparent',\n    color: palette.white\n  };\n});\nexport default function Tags(_ref2) {\n  var palette = _ref2.palette,\n      categories = _ref2.categories;\n  return React.createElement(TagList, {\n    palette: palette,\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 17\n    },\n    __self: this\n  }, categories.map(function (category) {\n    return React.createElement(Tag, {\n      key: category,\n      palette: palette,\n      __source: {\n        fileName: _jsxFileName,\n        lineNumber: 19\n      },\n      __self: this\n    }, category);\n  }));\n}\n;\n\n(function () {\n  var reactHotLoader = require('react-hot-loader').default;\n\n  var leaveModule = require('react-hot-loader').leaveModule;\n\n  if (!reactHotLoader) {\n    return;\n  }\n\n  reactHotLoader.register(TagList, \"TagList\", \"/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/src/components/molecules/tags/index.js\");\n  reactHotLoader.register(Tags, \"Tags\", \"/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/src/components/molecules/tags/index.js\");\n  leaveModule(module);\n})();\n\n;\nTags.__docgenInfo = {\n  \"description\": \"\",\n  \"methods\": [],\n  \"displayName\": \"Tags\"\n};",
+    {
+      "version": 3,
+      "sources": [
+        "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/src/components/molecules/tags/index.js"
+      ],
+      "names": [
+        "React",
+        "styled",
+        "Tag",
+        "TagList",
+        "div",
+        "palette",
+        "marginTop",
+        "display",
+        "flexWrap",
+        "background",
+        "color",
+        "white",
+        "Tags",
+        "categories",
+        "map",
+        "category"
+      ],
+      "mappings": ";;;;;;;;AAAA,OAAOA,KAAP,MAAkB,OAAlB;AACA,OAAOC,MAAP,MAAmB,iBAAnB,C,CAEA;;AACA,SAASC,GAAT,QAAoB,kBAApB;AAEA,IAAMC,OAAO,GAAGF,MAAM,CAACG,GAAP,CAAW;AAAA,MAAGC,OAAH,QAAGA,OAAH;AAAA,SAAkB;AAC3CC,IAAAA,SAAS,EAAE,MADgC;AAE3CC,IAAAA,OAAO,EAAE,MAFkC;AAG3CC,IAAAA,QAAQ,EAAE,MAHiC;AAI3CC,IAAAA,UAAU,EAAE,aAJ+B;AAK3CC,IAAAA,KAAK,EAAEL,OAAO,CAACM;AAL4B,GAAlB;AAAA,CAAX,CAAhB;AAQA,eAAe,SAASC,IAAT,QAAuC;AAAA,MAAvBP,OAAuB,SAAvBA,OAAuB;AAAA,MAAdQ,UAAc,SAAdA,UAAc;AACpD,SACE,oBAAC,OAAD;AAAS,IAAA,OAAO,EAAER,OAAlB;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,KACGQ,UAAU,CAACC,GAAX,CAAe,UAAAC,QAAQ;AAAA,WACtB,oBAAC,GAAD;AAAK,MAAA,GAAG,EAAEA,QAAV;AAAoB,MAAA,OAAO,EAAEV,OAA7B;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,OACGU,QADH,CADsB;AAAA,GAAvB,CADH,CADF;AASD;;;;;;;;;;;;0BAlBKZ,O;0BAQkBS,I",
+      "sourcesContent": [
+        "import React from 'react'\nimport styled from '@emotion/styled'\n\n// UI Elements\nimport { Tag } from 'components/atoms'\n\nconst TagList = styled.div(({ palette }) => ({\n  marginTop: '1rem',\n  display: 'flex',\n  flexWrap: 'wrap',\n  background: 'transparent',\n  color: palette.white\n}))\n\nexport default function Tags({ palette, categories }) {\n  return (\n    <TagList palette={palette}>\n      {categories.map(category => (\n        <Tag key={category} palette={palette}>\n          {category}\n        </Tag>\n      ))}\n    </TagList>\n  )\n}\n"
+      ]
+    }
+  ]
+}

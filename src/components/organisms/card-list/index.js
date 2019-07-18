@@ -4,6 +4,7 @@ import styled from '@emotion/styled'
 
 // UI Elements
 import { Card } from 'components/molecules'
+import { SectionTitle } from 'components/atoms'
 
 const Wrapper = styled.section({
   display: 'flex',
@@ -15,13 +16,8 @@ const Wrapper = styled.section({
   minHeight: '20rem'
 })
 
-const SectionTitle = styled.h3(({ palette }) => ({
-  padding: '1rem 0 1rem 0',
-  fontWeight: 500,
-  color: palette.blue
-}))
-
 export default ({
+  id,
   dataset,
   error,
   theme: { colors },
@@ -42,7 +38,7 @@ export default ({
   return (
     <Fragment>
       <SectionTitle palette={colors}>{title}</SectionTitle>
-      <ScrollableAnchor id="posts">
+      <ScrollableAnchor id={id}>
         <Wrapper>
           {dataset.map(card => (
             <CardElement

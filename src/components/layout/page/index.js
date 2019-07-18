@@ -3,7 +3,7 @@ import styled from '@emotion/styled'
 import { Global, css } from '@emotion/core'
 
 // UI Elements
-import { DarkMode } from 'components/molecules'
+import { DarkMode, Footer, Header, MobileNav } from 'components/molecules'
 
 const Wrapper = styled.div(({ theme: { fontFamily } }) => ({
   height: '100%',
@@ -25,7 +25,8 @@ const useWindowWidth = () => {
   return width
 }
 
-export default function Page({ children, theme, isDarkmodeToggable }) {
+export default function Page({ children, theme, isDarkmodeToggable, config }) {
+  const [menuIsOpen, setIsOpen] = useState(false)
   const [darkMode, setDarkMode] = useState(false)
   const getLayoutProps = () => ({
     isMobile: useWindowWidth() <= 360,
@@ -47,6 +48,18 @@ export default function Page({ children, theme, isDarkmodeToggable }) {
       {isDarkmodeToggable && (
         <DarkMode setDarkMode={setDarkMode} darkMode={darkMode} />
       )}
+      <Header
+        darkMode={darkMode}
+        theme={theme}
+        title={config.title}
+        subtitle={config.subtitle}
+        navItems={config.nav}
+        handleOpen={setIsOpen}
+        isOpen={menuIsOpen}
+      />
+      <MobileNav isOpen={menuIsOpen} navItems={config.nav} />
+      <Wrapper theme={theme}>{childrenWithInjectedTheme}</Wrapper>
+      <Footer title={config.title} theme={theme} />
       <Global
         styles={css`
           .react-toggle-track-x {
@@ -72,6 +85,8 @@ export default function Page({ children, theme, isDarkmodeToggable }) {
             transition: all 0.2s ease-in;
             top: 0;
             left: 0;
+            margin: 0;
+            padding: 0;
             ${darkMode &&
               `
               * {
@@ -92,7 +107,6 @@ export default function Page({ children, theme, isDarkmodeToggable }) {
           }
         `}
       />
-      <Wrapper theme={theme}>{childrenWithInjectedTheme}</Wrapper>
     </Fragment>
   )
 }

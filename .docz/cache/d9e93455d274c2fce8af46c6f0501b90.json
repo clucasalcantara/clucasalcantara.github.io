@@ -1,0 +1,32 @@
+{
+  "remainingRequest": "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/babel-loader/lib/index.js?{\"presets\":[[\"/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/babel-preset-docz/dist/index.js\",{\"flow\":true,\"typescript\":false,\"parseProps\":true}]],\"plugins\":[[\"/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz-utils/lib/named-asset-import.js\",{\"loaderMap\":{\"svg\":{\"ReactComponent\":\"@svgr/webpack?-prettier,-svgo![path]\"}}}],\"/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/react-hot-loader/babel.js\"],\"babelrc\":false,\"cacheCompression\":false,\"compact\":false}!/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/src/components/atoms/author/index.js",
+  "dependencies": [
+    {
+      "path": "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/src/components/atoms/author/index.js",
+      "mtime": 1553597225487
+    },
+    {
+      "path": "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/cache-loader/dist/cjs.js",
+      "mtime": 1553357715411
+    },
+    {
+      "path": "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/babel-loader/lib/index.js",
+      "mtime": 1553357715290
+    }
+  ],
+  "contextDependencies": [],
+  "result": [
+    "(function () {\n  var enterModule = require('react-hot-loader').enterModule;\n\n  enterModule && enterModule(module);\n})();\n\nimport styled from '@emotion/styled';\n\nvar _default = styled.span(function (_ref) {\n  var darkMode = _ref.darkMode;\n  return {\n    textDecoration: darkMode ? 'underline !important' : 'none'\n  };\n});\n\nexport default _default;\n;\n\n(function () {\n  var reactHotLoader = require('react-hot-loader').default;\n\n  var leaveModule = require('react-hot-loader').leaveModule;\n\n  if (!reactHotLoader) {\n    return;\n  }\n\n  reactHotLoader.register(_default, \"default\", \"/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/src/components/atoms/author/index.js\");\n  leaveModule(module);\n})();\n\n;",
+    {
+      "version": 3,
+      "sources": [
+        "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/src/components/atoms/author/index.js"
+      ],
+      "names": ["styled", "span", "darkMode", "textDecoration"],
+      "mappings": ";;;;;;AAAA,OAAOA,MAAP,MAAmB,iBAAnB;;eAEeA,MAAM,CAACC,IAAP,CAAY;AAAA,MAAGC,QAAH,QAAGA,QAAH;AAAA,SAAmB;AAC5CC,IAAAA,cAAc,EAAED,QAAQ,GAAG,sBAAH,GAA4B;AADR,GAAnB;AAAA,CAAZ,C;;AAAf",
+      "sourcesContent": [
+        "import styled from '@emotion/styled'\n\nexport default styled.span(({ darkMode }) => ({\n  textDecoration: darkMode ? 'underline !important' : 'none'\n}))\n"
+      ]
+    }
+  ]
+}

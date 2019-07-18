@@ -6,5 +6,6 @@ import Icon from './icon'
 import Credits from './credits'
 import Author from './author'
 import Tag from './tag'
+import SectionTitle from './section-title'
 
-export { Author, Button, Credits, Tag, Logo, NavItem, Link, Icon }
+export { Author, Button, Credits, Tag, Logo, NavItem, Link, Icon, SectionTitle }

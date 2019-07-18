@@ -1,0 +1,44 @@
+{
+  "remainingRequest": "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/babel-loader/lib/index.js?{\"presets\":[[\"/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/babel-preset-docz/dist/index.js\",{\"flow\":true,\"typescript\":false,\"parseProps\":true}]],\"plugins\":[[\"/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz-utils/lib/named-asset-import.js\",{\"loaderMap\":{\"svg\":{\"ReactComponent\":\"@svgr/webpack?-prettier,-svgo![path]\"}}}]],\"babelrc\":false,\"cacheCompression\":true,\"compact\":true}!/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/src/components/molecules/navigation/index.js",
+  "dependencies": [
+    {
+      "path": "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/src/components/molecules/navigation/index.js",
+      "mtime": 1553555431270
+    },
+    {
+      "path": "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/cache-loader/dist/cjs.js",
+      "mtime": 1553357715411
+    },
+    {
+      "path": "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/babel-loader/lib/index.js",
+      "mtime": 1553357715290
+    }
+  ],
+  "contextDependencies": [],
+  "result": [
+    "import React from'react';import styled from'@emotion/styled';// UI Elements\nimport{NavItem}from'components/atoms';var Items=styled.ul({display:'flex'});export default(function(_ref){var navItems=_ref.navItems,isMobile=_ref.isMobile;return React.createElement(Items,null,!isMobile&&navItems.map(function(_ref2){var text=_ref2.text,path=_ref2.path;return React.createElement(NavItem,{key:path,text:text,path:path});}));});",
+    {
+      "version": 3,
+      "sources": [
+        "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/src/components/molecules/navigation/index.js"
+      ],
+      "names": [
+        "React",
+        "styled",
+        "NavItem",
+        "Items",
+        "ul",
+        "display",
+        "navItems",
+        "isMobile",
+        "map",
+        "text",
+        "path"
+      ],
+      "mappings": "AAAA,MAAOA,CAAAA,KAAP,KAAkB,OAAlB,CACA,MAAOC,CAAAA,MAAP,KAAmB,iBAAnB,CACA;AACA,OAASC,OAAT,KAAwB,kBAAxB,CAEA,GAAMC,CAAAA,KAAK,CAAGF,MAAM,CAACG,EAAP,CAAU,CACtBC,OAAO,CAAE,MADa,CAAV,CAAd,CAIA,eAAe,kBAAGC,CAAAA,QAAH,MAAGA,QAAH,CAAaC,QAAb,MAAaA,QAAb,OACb,qBAAC,KAAD,MACG,CAACA,QAAD,EACCD,QAAQ,CAACE,GAAT,CAAa,mBAAGC,CAAAA,IAAH,OAAGA,IAAH,CAASC,IAAT,OAASA,IAAT,OACX,qBAAC,OAAD,EAAS,GAAG,CAAEA,IAAd,CAAoB,IAAI,CAAED,IAA1B,CAAgC,IAAI,CAAEC,IAAtC,EADW,EAAb,CAFJ,CADa,EAAf",
+      "sourcesContent": [
+        "import React from 'react'\nimport styled from '@emotion/styled'\n// UI Elements\nimport { NavItem } from 'components/atoms'\n\nconst Items = styled.ul({\n  display: 'flex'\n})\n\nexport default ({ navItems, isMobile }) => (\n  <Items>\n    {!isMobile &&\n      navItems.map(({ text, path }) => (\n        <NavItem key={path} text={text} path={path} />\n      ))}\n  </Items>\n)\n"
+      ]
+    }
+  ]
+}

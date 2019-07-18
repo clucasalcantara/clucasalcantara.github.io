@@ -5,16 +5,18 @@ import styled from '@emotion/styled'
 import { Logo } from 'components/atoms'
 import Navigation from '../navigation'
 
-const Header = styled.div(({ palette, darkMode }) => ({
+const Header = styled.header(({ palette, darkMode, typography }) => ({
   top: 0,
   left: 0,
+  padding: '1rem',
   textTransform: 'uppercase',
   display: 'flex',
   justifyContent: 'space-between',
   alignItems: 'center',
   marginBottom: '1rem',
   position: 'sticky',
-  background: darkMode ? palette.black : palette.white,
+  background: darkMode ? `${palette.black} !important` : palette.white,
+  fontFamily: typography,
   transition: 'all .2s ease-in'
 }))
 
@@ -22,13 +24,13 @@ export default ({
   navItems,
   title,
   subtitle,
-  theme: { colors },
+  theme: { colors, fontFamily },
   isMobile,
   darkMode,
   handleOpen,
   isOpen
 }) => (
-  <Header palette={colors} darkMode={darkMode}>
+  <Header palette={colors} typography={fontFamily} darkMode={darkMode}>
     <Logo
       content={title}
       subtitle={subtitle}

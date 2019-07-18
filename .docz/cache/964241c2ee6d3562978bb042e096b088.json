@@ -1,0 +1,70 @@
+{
+  "remainingRequest": "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/babel-loader/lib/index.js?{\"presets\":[[\"/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/babel-preset-docz/dist/index.js\",{\"flow\":true,\"typescript\":false,\"parseProps\":true}]],\"plugins\":[[\"/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz-utils/lib/named-asset-import.js\",{\"loaderMap\":{\"svg\":{\"ReactComponent\":\"@svgr/webpack?-prettier,-svgo![path]\"}}}],\"/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/react-hot-loader/babel.js\"],\"babelrc\":false,\"cacheCompression\":false,\"compact\":false}!/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/src/components/molecules/card/index.js",
+  "dependencies": [
+    {
+      "path": "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/src/components/molecules/card/index.js",
+      "mtime": 1553598985282
+    },
+    {
+      "path": "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/cache-loader/dist/cjs.js",
+      "mtime": 1553357715411
+    },
+    {
+      "path": "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/babel-loader/lib/index.js",
+      "mtime": 1553357715290
+    }
+  ],
+  "contextDependencies": [],
+  "result": [
+    "var _jsxFileName = \"/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/src/components/molecules/card/index.js\";\n\n(function () {\n  var enterModule = require('react-hot-loader').enterModule;\n\n  enterModule && enterModule(module);\n})();\n\nimport React from 'react';\nimport { object, bool } from 'prop-types';\nimport { Link } from 'react-router-dom';\nimport styled from '@emotion/styled'; // UI Elements\n\nimport { Tags } from 'components/molecules';\nvar Wrapper = styled.div(function (_ref) {\n  var palette = _ref.palette,\n      darkMode = _ref.darkMode;\n  return {\n    display: 'flex',\n    flexDirection: 'column',\n    minWidth: '25rem',\n    minHeight: '12rem',\n    background: darkMode ? palette.main : palette.gray,\n    padding: '1rem',\n    margin: '.5rem',\n    borderRadius: '.5rem'\n  };\n});\nvar TransparentText = styled.div({\n  background: 'transparent',\n  zIndex: 2\n});\nvar Title = styled.div(function (_ref2) {\n  var palette = _ref2.palette;\n  return {\n    background: 'transparent',\n    color: palette.white,\n    fontSize: '1.5rem',\n    zIndex: 2\n  };\n});\nexport default function Card(_ref3) {\n  var _ref3$data = _ref3.data,\n      title = _ref3$data.title,\n      _ref3$data$categories = _ref3$data.categories,\n      categories = _ref3$data$categories === void 0 ? [] : _ref3$data$categories,\n      _ref3$data$link = _ref3$data.link,\n      link = _ref3$data$link === void 0 ? '' : _ref3$data$link,\n      palette = _ref3.palette,\n      darkMode = _ref3.darkMode;\n  var postUrl = \"//\".concat(link.replace('https://', ''));\n  return React.createElement(Link, {\n    to: postUrl,\n    target: \"_blank\",\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 40\n    },\n    __self: this\n  }, React.createElement(Wrapper, {\n    palette: palette,\n    darkMode: darkMode,\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 41\n    },\n    __self: this\n  }, React.createElement(TransparentText, {\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 42\n    },\n    __self: this\n  }, React.createElement(Title, {\n    palette: palette,\n    darkMode: darkMode,\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 43\n    },\n    __self: this\n  }, title)), categories.length > 0 && React.createElement(Tags, {\n    palette: palette,\n    categories: categories,\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 48\n    },\n    __self: this\n  })));\n}\nCard.propTypes = {\n  data: object.isRequired,\n  palette: object.isRequired,\n  darkMode: bool\n};\nCard.defaultProps = {\n  darkMode: false\n};\n;\n\n(function () {\n  var reactHotLoader = require('react-hot-loader').default;\n\n  var leaveModule = require('react-hot-loader').leaveModule;\n\n  if (!reactHotLoader) {\n    return;\n  }\n\n  reactHotLoader.register(Wrapper, \"Wrapper\", \"/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/src/components/molecules/card/index.js\");\n  reactHotLoader.register(TransparentText, \"TransparentText\", \"/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/src/components/molecules/card/index.js\");\n  reactHotLoader.register(Title, \"Title\", \"/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/src/components/molecules/card/index.js\");\n  reactHotLoader.register(Card, \"Card\", \"/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/src/components/molecules/card/index.js\");\n  leaveModule(module);\n})();\n\n;\nCard.__docgenInfo = {\n  \"description\": \"\",\n  \"methods\": [],\n  \"displayName\": \"Card\",\n  \"props\": {\n    \"darkMode\": {\n      \"defaultValue\": {\n        \"value\": \"false\",\n        \"computed\": false\n      },\n      \"type\": {\n        \"name\": \"bool\"\n      },\n      \"required\": false,\n      \"description\": \"\"\n    },\n    \"data\": {\n      \"type\": {\n        \"name\": \"object\"\n      },\n      \"required\": true,\n      \"description\": \"\"\n    },\n    \"palette\": {\n      \"type\": {\n        \"name\": \"object\"\n      },\n      \"required\": true,\n      \"description\": \"\"\n    }\n  }\n};",
+    {
+      "version": 3,
+      "sources": [
+        "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/src/components/molecules/card/index.js"
+      ],
+      "names": [
+        "React",
+        "object",
+        "bool",
+        "Link",
+        "styled",
+        "Tags",
+        "Wrapper",
+        "div",
+        "palette",
+        "darkMode",
+        "display",
+        "flexDirection",
+        "minWidth",
+        "minHeight",
+        "background",
+        "main",
+        "gray",
+        "padding",
+        "margin",
+        "borderRadius",
+        "TransparentText",
+        "zIndex",
+        "Title",
+        "color",
+        "white",
+        "fontSize",
+        "Card",
+        "data",
+        "title",
+        "categories",
+        "link",
+        "postUrl",
+        "replace",
+        "length",
+        "propTypes",
+        "isRequired",
+        "defaultProps"
+      ],
+      "mappings": "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",
+      "sourcesContent": [
+        "import React from 'react'\nimport { object, bool } from 'prop-types'\nimport { Link } from 'react-router-dom'\nimport styled from '@emotion/styled'\n\n// UI Elements\nimport { Tags } from 'components/molecules'\n\nconst Wrapper = styled.div(({ palette, darkMode }) => ({\n  display: 'flex',\n  flexDirection: 'column',\n  minWidth: '25rem',\n  minHeight: '12rem',\n  background: darkMode ? palette.main : palette.gray,\n  padding: '1rem',\n  margin: '.5rem',\n  borderRadius: '.5rem'\n}))\n\nconst TransparentText = styled.div({\n  background: 'transparent',\n  zIndex: 2\n})\n\nconst Title = styled.div(({ palette }) => ({\n  background: 'transparent',\n  color: palette.white,\n  fontSize: '1.5rem',\n  zIndex: 2\n}))\n\nexport default function Card({\n  data: { title, categories = [], link = '' },\n  palette,\n  darkMode\n}) {\n  const postUrl = `//${link.replace('https://', '')}`\n\n  return (\n    <Link to={postUrl} target=\"_blank\">\n      <Wrapper palette={palette} darkMode={darkMode}>\n        <TransparentText>\n          <Title palette={palette} darkMode={darkMode}>\n            {title}\n          </Title>\n        </TransparentText>\n        {categories.length > 0 && (\n          <Tags palette={palette} categories={categories} />\n        )}\n      </Wrapper>\n    </Link>\n  )\n}\n\nCard.propTypes = {\n  data: object.isRequired,\n  palette: object.isRequired,\n  darkMode: bool,\n}\n\nCard.defaultProps = {\n  darkMode: false,\n}\n"
+      ]
+    }
+  ]
+}

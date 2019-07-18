@@ -1,0 +1,59 @@
+{
+  "remainingRequest": "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/babel-loader/lib/index.js?{\"presets\":[[\"/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/babel-preset-docz/dist/index.js\",{\"flow\":true,\"typescript\":false,\"parseProps\":true}]],\"plugins\":[[\"/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz-utils/lib/named-asset-import.js\",{\"loaderMap\":{\"svg\":{\"ReactComponent\":\"@svgr/webpack?-prettier,-svgo![path]\"}}}],\"/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/react-hot-loader/babel.js\"],\"babelrc\":false,\"cacheCompression\":false,\"compact\":false}!/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/src/components/molecules/hero/index.js",
+  "dependencies": [
+    {
+      "path": "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/src/components/molecules/hero/index.js",
+      "mtime": 1553597594608
+    },
+    {
+      "path": "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/cache-loader/dist/cjs.js",
+      "mtime": 1553357715411
+    },
+    {
+      "path": "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/babel-loader/lib/index.js",
+      "mtime": 1553357715290
+    }
+  ],
+  "contextDependencies": [],
+  "result": [
+    "var _jsxFileName = \"/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/src/components/molecules/hero/index.js\";\n\n(function () {\n  var enterModule = require('react-hot-loader').enterModule;\n\n  enterModule && enterModule(module);\n})();\n\nfunction _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _nonIterableRest(); }\n\nfunction _nonIterableRest() { throw new TypeError(\"Invalid attempt to destructure non-iterable instance\"); }\n\nfunction _iterableToArrayLimit(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i[\"return\"] != null) _i[\"return\"](); } finally { if (_d) throw _e; } } return _arr; }\n\nfunction _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }\n\nimport React, { Fragment, useState, useEffect } from 'react';\nimport styled from '@emotion/styled'; // UI Elements\n\nimport { Credits } from 'components/atoms'; // Services\n\nimport { getRandomImage } from 'services';\nvar CoverImage = styled.div(function (_ref) {\n  var urls = _ref.urls;\n  return {\n    background: \"url('\".concat(urls.full, \"')\"),\n    height: '80vh',\n    backgroundSize: 'cover',\n    backgroundPosition: 'center'\n  };\n});\nexport default function Hero(_ref2) {\n  var darkMode = _ref2.darkMode;\n\n  var _useState = useState(''),\n      _useState2 = _slicedToArray(_useState, 2),\n      image = _useState2[0],\n      setImage = _useState2[1];\n\n  useEffect(function () {\n    getRandomImage(setImage);\n  }, []);\n\n  if (image) {\n    var photoUrl = \"//\".concat(image.user.links.html.replace('https://', ''));\n    return React.createElement(Fragment, {\n      __source: {\n        fileName: _jsxFileName,\n        lineNumber: 28\n      },\n      __self: this\n    }, React.createElement(CoverImage, {\n      urls: image.urls,\n      __source: {\n        fileName: _jsxFileName,\n        lineNumber: 29\n      },\n      __self: this\n    }), React.createElement(Credits, {\n      darkMode: darkMode,\n      description: image.alt_description,\n      author: image.user.username,\n      url: photoUrl,\n      __source: {\n        fileName: _jsxFileName,\n        lineNumber: 30\n      },\n      __self: this\n    }));\n  }\n\n  return null;\n}\n;\n\n(function () {\n  var reactHotLoader = require('react-hot-loader').default;\n\n  var leaveModule = require('react-hot-loader').leaveModule;\n\n  if (!reactHotLoader) {\n    return;\n  }\n\n  reactHotLoader.register(CoverImage, \"CoverImage\", \"/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/src/components/molecules/hero/index.js\");\n  reactHotLoader.register(Hero, \"Hero\", \"/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/src/components/molecules/hero/index.js\");\n  leaveModule(module);\n})();\n\n;\nHero.__docgenInfo = {\n  \"description\": \"\",\n  \"methods\": [],\n  \"displayName\": \"Hero\"\n};",
+    {
+      "version": 3,
+      "sources": [
+        "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/src/components/molecules/hero/index.js"
+      ],
+      "names": [
+        "React",
+        "Fragment",
+        "useState",
+        "useEffect",
+        "styled",
+        "Credits",
+        "getRandomImage",
+        "CoverImage",
+        "div",
+        "urls",
+        "background",
+        "full",
+        "height",
+        "backgroundSize",
+        "backgroundPosition",
+        "Hero",
+        "darkMode",
+        "image",
+        "setImage",
+        "photoUrl",
+        "user",
+        "links",
+        "html",
+        "replace",
+        "alt_description",
+        "username"
+      ],
+      "mappings": ";;;;;;;;;;;;;;;;AAAA,OAAOA,KAAP,IAAgBC,QAAhB,EAA0BC,QAA1B,EAAoCC,SAApC,QAAqD,OAArD;AACA,OAAOC,MAAP,MAAmB,iBAAnB,C,CAEA;;AACA,SAASC,OAAT,QAAwB,kBAAxB,C,CAEA;;AACA,SAASC,cAAT,QAA+B,UAA/B;AAEA,IAAMC,UAAU,GAAGH,MAAM,CAACI,GAAP,CAAW;AAAA,MAAGC,IAAH,QAAGA,IAAH;AAAA,SAAe;AAC3CC,IAAAA,UAAU,iBAAUD,IAAI,CAACE,IAAf,OADiC;AAE3CC,IAAAA,MAAM,EAAE,MAFmC;AAG3CC,IAAAA,cAAc,EAAE,OAH2B;AAI3CC,IAAAA,kBAAkB,EAAE;AAJuB,GAAf;AAAA,CAAX,CAAnB;AAOA,eAAe,SAASC,IAAT,QAA4B;AAAA,MAAZC,QAAY,SAAZA,QAAY;;AAAA,kBACfd,QAAQ,CAAC,EAAD,CADO;AAAA;AAAA,MAClCe,KADkC;AAAA,MAC3BC,QAD2B;;AAGzCf,EAAAA,SAAS,CAAC,YAAM;AACdG,IAAAA,cAAc,CAACY,QAAD,CAAd;AACD,GAFQ,EAEN,EAFM,CAAT;;AAIA,MAAID,KAAJ,EAAW;AACT,QAAME,QAAQ,eAAQF,KAAK,CAACG,IAAN,CAAWC,KAAX,CAAiBC,IAAjB,CAAsBC,OAAtB,CAA8B,UAA9B,EAA0C,EAA1C,CAAR,CAAd;AAEA,WACE,oBAAC,QAAD;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,OACE,oBAAC,UAAD;AAAY,MAAA,IAAI,EAAEN,KAAK,CAACR,IAAxB;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,MADF,EAEE,oBAAC,OAAD;AACE,MAAA,QAAQ,EAAEO,QADZ;AAEE,MAAA,WAAW,EAAEC,KAAK,CAACO,eAFrB;AAGE,MAAA,MAAM,EAAEP,KAAK,CAACG,IAAN,CAAWK,QAHrB;AAIE,MAAA,GAAG,EAAEN,QAJP;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,MAFF,CADF;AAWD;;AAED,SAAO,IAAP;AACD;;;;;;;;;;;;0BA/BKZ,U;0BAOkBQ,I",
+      "sourcesContent": [
+        "import React, { Fragment, useState, useEffect } from 'react'\nimport styled from '@emotion/styled'\n\n// UI Elements\nimport { Credits } from 'components/atoms'\n\n// Services\nimport { getRandomImage } from 'services'\n\nconst CoverImage = styled.div(({ urls }) => ({\n  background: `url('${urls.full}')`,\n  height: '80vh',\n  backgroundSize: 'cover',\n  backgroundPosition: 'center'\n}))\n\nexport default function Hero({ darkMode }) {\n  const [image, setImage] = useState('')\n\n  useEffect(() => {\n    getRandomImage(setImage)\n  }, [])\n\n  if (image) {\n    const photoUrl = `//${image.user.links.html.replace('https://', '')}`\n\n    return (\n      <Fragment>\n        <CoverImage urls={image.urls} />\n        <Credits\n          darkMode={darkMode}\n          description={image.alt_description}\n          author={image.user.username}\n          url={photoUrl}\n        />\n      </Fragment>\n    )\n  }\n\n  return null\n}\n"
+      ]
+    }
+  ]
+}

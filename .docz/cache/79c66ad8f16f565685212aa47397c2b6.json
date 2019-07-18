@@ -1,0 +1,53 @@
+{
+  "remainingRequest": "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/babel-loader/lib/index.js?{\"presets\":[[\"/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/babel-preset-docz/dist/index.js\",{\"flow\":true,\"typescript\":false,\"parseProps\":true}]],\"plugins\":[[\"/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz-utils/lib/named-asset-import.js\",{\"loaderMap\":{\"svg\":{\"ReactComponent\":\"@svgr/webpack?-prettier,-svgo![path]\"}}}],\"/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/react-hot-loader/babel.js\"],\"babelrc\":false,\"cacheCompression\":false,\"compact\":false}!/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/src/components/atoms/credits/index.js",
+  "dependencies": [
+    {
+      "path": "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/src/components/atoms/credits/index.js",
+      "mtime": 1553598833898
+    },
+    {
+      "path": "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/cache-loader/dist/cjs.js",
+      "mtime": 1553357715411
+    },
+    {
+      "path": "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/babel-loader/lib/index.js",
+      "mtime": 1553357715290
+    }
+  ],
+  "contextDependencies": [],
+  "result": [
+    "var _jsxFileName = \"/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/src/components/atoms/credits/index.js\";\n\n(function () {\n  var enterModule = require('react-hot-loader').enterModule;\n\n  enterModule && enterModule(module);\n})();\n\nimport React from 'react';\nimport { string, bool } from 'prop-types';\nimport { Link } from 'react-router-dom';\nimport styled from '@emotion/styled'; // UI Elements\n\nimport { Author } from 'components/atoms';\nvar Wrapper = styled.div({\n  marginTop: '1rem',\n  textAlign: 'center',\n  padding: '.5rem',\n  fontSize: '.7rem'\n});\nexport default function Credits(_ref) {\n  var description = _ref.description,\n      author = _ref.author,\n      url = _ref.url,\n      darkMode = _ref.darkMode;\n  return React.createElement(Wrapper, {\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 18\n    },\n    __self: this\n  }, description, \" by\", ' ', React.createElement(Link, {\n    to: url,\n    target: \"_blank\",\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 20\n    },\n    __self: this\n  }, React.createElement(Author, {\n    darkMode: darkMode,\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 21\n    },\n    __self: this\n  }, \"\".concat(author))));\n}\nCredits.propTypes = {\n  description: string.isRequired,\n  author: string.isRequired,\n  url: string.isRequired,\n  darkMode: bool\n};\nCredits.defaultProps = {\n  darkMode: false\n};\n;\n\n(function () {\n  var reactHotLoader = require('react-hot-loader').default;\n\n  var leaveModule = require('react-hot-loader').leaveModule;\n\n  if (!reactHotLoader) {\n    return;\n  }\n\n  reactHotLoader.register(Wrapper, \"Wrapper\", \"/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/src/components/atoms/credits/index.js\");\n  reactHotLoader.register(Credits, \"Credits\", \"/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/src/components/atoms/credits/index.js\");\n  leaveModule(module);\n})();\n\n;\nCredits.__docgenInfo = {\n  \"description\": \"\",\n  \"methods\": [],\n  \"displayName\": \"Credits\",\n  \"props\": {\n    \"darkMode\": {\n      \"defaultValue\": {\n        \"value\": \"false\",\n        \"computed\": false\n      },\n      \"type\": {\n        \"name\": \"bool\"\n      },\n      \"required\": false,\n      \"description\": \"\"\n    },\n    \"description\": {\n      \"type\": {\n        \"name\": \"string\"\n      },\n      \"required\": true,\n      \"description\": \"\"\n    },\n    \"author\": {\n      \"type\": {\n        \"name\": \"string\"\n      },\n      \"required\": true,\n      \"description\": \"\"\n    },\n    \"url\": {\n      \"type\": {\n        \"name\": \"string\"\n      },\n      \"required\": true,\n      \"description\": \"\"\n    }\n  }\n};",
+    {
+      "version": 3,
+      "sources": [
+        "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/src/components/atoms/credits/index.js"
+      ],
+      "names": [
+        "React",
+        "string",
+        "bool",
+        "Link",
+        "styled",
+        "Author",
+        "Wrapper",
+        "div",
+        "marginTop",
+        "textAlign",
+        "padding",
+        "fontSize",
+        "Credits",
+        "description",
+        "author",
+        "url",
+        "darkMode",
+        "propTypes",
+        "isRequired",
+        "defaultProps"
+      ],
+      "mappings": ";;;;;;;;AAAA,OAAOA,KAAP,MAAkB,OAAlB;AACA,SAASC,MAAT,EAAiBC,IAAjB,QAA6B,YAA7B;AACA,SAASC,IAAT,QAAqB,kBAArB;AACA,OAAOC,MAAP,MAAmB,iBAAnB,C,CAEA;;AACA,SAASC,MAAT,QAAuB,kBAAvB;AAEA,IAAMC,OAAO,GAAGF,MAAM,CAACG,GAAP,CAAW;AACzBC,EAAAA,SAAS,EAAE,MADc;AAEzBC,EAAAA,SAAS,EAAE,QAFc;AAGzBC,EAAAA,OAAO,EAAE,OAHgB;AAIzBC,EAAAA,QAAQ,EAAE;AAJe,CAAX,CAAhB;AAOA,eAAe,SAASC,OAAT,OAAyD;AAAA,MAAtCC,WAAsC,QAAtCA,WAAsC;AAAA,MAAzBC,MAAyB,QAAzBA,MAAyB;AAAA,MAAjBC,GAAiB,QAAjBA,GAAiB;AAAA,MAAZC,QAAY,QAAZA,QAAY;AACtE,SACE,oBAAC,OAAD;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,KACGH,WADH,SACmB,GADnB,EAEE,oBAAC,IAAD;AAAM,IAAA,EAAE,EAAEE,GAAV;AAAe,IAAA,MAAM,EAAC,QAAtB;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,KACE,oBAAC,MAAD;AAAQ,IAAA,QAAQ,EAAEC,QAAlB;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,eAAgCF,MAAhC,EADF,CAFF,CADF;AAQD;AAEDF,OAAO,CAACK,SAAR,GAAoB;AAClBJ,EAAAA,WAAW,EAAEZ,MAAM,CAACiB,UADF;AAElBJ,EAAAA,MAAM,EAAEb,MAAM,CAACiB,UAFG;AAGlBH,EAAAA,GAAG,EAAEd,MAAM,CAACiB,UAHM;AAIlBF,EAAAA,QAAQ,EAAEd;AAJQ,CAApB;AAOAU,OAAO,CAACO,YAAR,GAAuB;AACrBH,EAAAA,QAAQ,EAAE;AADW,CAAvB;;;;;;;;;;;;0BAzBMV,O;0BAOkBM,O",
+      "sourcesContent": [
+        "import React from 'react'\nimport { string, bool } from 'prop-types'\nimport { Link } from 'react-router-dom'\nimport styled from '@emotion/styled'\n\n// UI Elements\nimport { Author } from 'components/atoms'\n\nconst Wrapper = styled.div({\n  marginTop: '1rem',\n  textAlign: 'center',\n  padding: '.5rem',\n  fontSize: '.7rem'\n})\n\nexport default function Credits({ description, author, url, darkMode }) {\n  return (\n    <Wrapper>\n      {description} by{' '}\n      <Link to={url} target=\"_blank\">\n        <Author darkMode={darkMode}>{`${author}`}</Author>\n      </Link>\n    </Wrapper>\n  )\n}\n\nCredits.propTypes = {\n  description: string.isRequired,\n  author: string.isRequired,\n  url: string.isRequired,\n  darkMode: bool\n}\n\nCredits.defaultProps = {\n  darkMode: false\n}"
+      ]
+    }
+  ]
+}

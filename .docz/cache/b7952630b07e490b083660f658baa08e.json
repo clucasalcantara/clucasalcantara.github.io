@@ -1,0 +1,45 @@
+{
+  "remainingRequest": "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/babel-loader/lib/index.js?{\"presets\":[[\"/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/babel-preset-docz/dist/index.js\",{\"flow\":true,\"typescript\":false,\"parseProps\":true}]],\"plugins\":[[\"/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz-utils/lib/named-asset-import.js\",{\"loaderMap\":{\"svg\":{\"ReactComponent\":\"@svgr/webpack?-prettier,-svgo![path]\"}}}],\"/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/react-hot-loader/babel.js\"],\"babelrc\":false,\"cacheCompression\":false,\"compact\":false}!/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/src/components/atoms/link/index.js",
+  "dependencies": [
+    {
+      "path": "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/src/components/atoms/link/index.js",
+      "mtime": 1553598654787
+    },
+    {
+      "path": "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/cache-loader/dist/cjs.js",
+      "mtime": 1553357715411
+    },
+    {
+      "path": "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/babel-loader/lib/index.js",
+      "mtime": 1553357715290
+    }
+  ],
+  "contextDependencies": [],
+  "result": [
+    "var _jsxFileName = \"/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/src/components/atoms/link/index.js\";\n\n(function () {\n  var enterModule = require('react-hot-loader').enterModule;\n\n  enterModule && enterModule(module);\n})();\n\nimport React from 'react';\nimport { string } from 'prop-types';\nimport styled from '@emotion/styled';\nvar Wrapper = styled.a({\n  textDecoration: 'none',\n  color: 'black'\n});\n\nvar Link = function Link(_ref) {\n  var text = _ref.text,\n      href = _ref.href;\n  return React.createElement(Wrapper, {\n    href: href,\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 10\n    },\n    __self: this\n  }, text);\n};\n\nLink.propTypes = {\n  text: string.isRequired,\n  href: string.isRequired\n};\nvar _default = Link;\nexport default _default;\n;\n\n(function () {\n  var reactHotLoader = require('react-hot-loader').default;\n\n  var leaveModule = require('react-hot-loader').leaveModule;\n\n  if (!reactHotLoader) {\n    return;\n  }\n\n  reactHotLoader.register(Wrapper, \"Wrapper\", \"/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/src/components/atoms/link/index.js\");\n  reactHotLoader.register(Link, \"Link\", \"/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/src/components/atoms/link/index.js\");\n  reactHotLoader.register(_default, \"default\", \"/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/src/components/atoms/link/index.js\");\n  leaveModule(module);\n})();\n\n;\nLink.__docgenInfo = {\n  \"description\": \"\",\n  \"methods\": [],\n  \"displayName\": \"Link\",\n  \"props\": {\n    \"text\": {\n      \"type\": {\n        \"name\": \"string\"\n      },\n      \"required\": true,\n      \"description\": \"\"\n    },\n    \"href\": {\n      \"type\": {\n        \"name\": \"string\"\n      },\n      \"required\": true,\n      \"description\": \"\"\n    }\n  }\n};",
+    {
+      "version": 3,
+      "sources": [
+        "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/src/components/atoms/link/index.js"
+      ],
+      "names": [
+        "React",
+        "string",
+        "styled",
+        "Wrapper",
+        "a",
+        "textDecoration",
+        "color",
+        "Link",
+        "text",
+        "href",
+        "propTypes",
+        "isRequired"
+      ],
+      "mappings": ";;;;;;;;AAAA,OAAOA,KAAP,MAAkB,OAAlB;AACA,SAASC,MAAT,QAAuB,YAAvB;AACA,OAAOC,MAAP,MAAmB,iBAAnB;AAEA,IAAMC,OAAO,GAAGD,MAAM,CAACE,CAAP,CAAS;AACvBC,EAAAA,cAAc,EAAE,MADO;AAEvBC,EAAAA,KAAK,EAAE;AAFgB,CAAT,CAAhB;;AAKA,IAAMC,IAAI,GAAG,SAAPA,IAAO;AAAA,MAAGC,IAAH,QAAGA,IAAH;AAAA,MAASC,IAAT,QAASA,IAAT;AAAA,SAAoB,oBAAC,OAAD;AAAS,IAAA,IAAI,EAAEA,IAAf;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,KAAsBD,IAAtB,CAApB;AAAA,CAAb;;AAEAD,IAAI,CAACG,SAAL,GAAiB;AACfF,EAAAA,IAAI,EAAEP,MAAM,CAACU,UADE;AAEfF,EAAAA,IAAI,EAAER,MAAM,CAACU;AAFE,CAAjB;eAKeJ,I;AAAf;;;;;;;;;;;;0BAZMJ,O;0BAKAI,I",
+      "sourcesContent": [
+        "import React from 'react'\nimport { string } from 'prop-types'\nimport styled from '@emotion/styled'\n\nconst Wrapper = styled.a({\n  textDecoration: 'none',\n  color: 'black'\n})\n\nconst Link = ({ text, href }) => <Wrapper href={href}>{text}</Wrapper>\n\nLink.propTypes = {\n  text: string.isRequired,\n  href: string.isRequired\n}\n\nexport default Link"
+      ]
+    }
+  ]
+}

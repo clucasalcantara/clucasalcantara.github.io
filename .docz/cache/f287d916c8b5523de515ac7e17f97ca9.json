@@ -1,0 +1,32 @@
+{
+  "remainingRequest": "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/babel-loader/lib/index.js?{\"presets\":[[\"/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/babel-preset-docz/dist/index.js\",{\"flow\":true,\"typescript\":false,\"parseProps\":true}]],\"plugins\":[[\"/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz-utils/lib/named-asset-import.js\",{\"loaderMap\":{\"svg\":{\"ReactComponent\":\"@svgr/webpack?-prettier,-svgo![path]\"}}}]],\"babelrc\":false,\"cacheCompression\":true,\"compact\":true}!/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/.docz/app/imports.js",
+  "dependencies": [
+    {
+      "path": "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/.docz/app/imports.js",
+      "mtime": 1553599287669
+    },
+    {
+      "path": "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/cache-loader/dist/cjs.js",
+      "mtime": 1553357715411
+    },
+    {
+      "path": "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/babel-loader/lib/index.js",
+      "mtime": 1553357715290
+    }
+  ],
+  "contextDependencies": [],
+  "result": [
+    "export var imports={'components/index.mdx':function componentsIndexMdx(){return import(/* webpackPrefetch: true, webpackChunkName: \"components-index\" */'components/index.mdx');},'components/atoms/button/index.mdx':function componentsAtomsButtonIndexMdx(){return import(/* webpackPrefetch: true, webpackChunkName: \"components-atoms-button-index\" */'components/atoms/button/index.mdx');},'components/atoms/credits/index.mdx':function componentsAtomsCreditsIndexMdx(){return import(/* webpackPrefetch: true, webpackChunkName: \"components-atoms-credits-index\" */'components/atoms/credits/index.mdx');},'components/atoms/icon/index.mdx':function componentsAtomsIconIndexMdx(){return import(/* webpackPrefetch: true, webpackChunkName: \"components-atoms-icon-index\" */'components/atoms/icon/index.mdx');},'components/atoms/link/index.mdx':function componentsAtomsLinkIndexMdx(){return import(/* webpackPrefetch: true, webpackChunkName: \"components-atoms-link-index\" */'components/atoms/link/index.mdx');},'components/atoms/logo/index.mdx':function componentsAtomsLogoIndexMdx(){return import(/* webpackPrefetch: true, webpackChunkName: \"components-atoms-logo-index\" */'components/atoms/logo/index.mdx');},'components/atoms/nav-item/index.mdx':function componentsAtomsNavItemIndexMdx(){return import(/* webpackPrefetch: true, webpackChunkName: \"components-atoms-nav-item-index\" */'components/atoms/nav-item/index.mdx');},'components/molecules/header/index.mdx':function componentsMoleculesHeaderIndexMdx(){return import(/* webpackPrefetch: true, webpackChunkName: \"components-molecules-header-index\" */'components/molecules/header/index.mdx');},'components/molecules/loadable/index.mdx':function componentsMoleculesLoadableIndexMdx(){return import(/* webpackPrefetch: true, webpackChunkName: \"components-molecules-loadable-index\" */'components/molecules/loadable/index.mdx');}};",
+    {
+      "version": 3,
+      "sources": [
+        "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/.docz/app/imports.js"
+      ],
+      "names": ["imports"],
+      "mappings": "AAAA,MAAO,IAAMA,CAAAA,OAAO,CAAG,CACrB,uBAAwB,oCACtB,QAAO,iEAAkE,sBAAzE,CADsB,EADH,CAGrB,oCAAqC,+CACnC,QAAO,8EAA+E,mCAAtF,CADmC,EAHhB,CAKrB,qCAAsC,gDACpC,QAAO,+EAAgF,oCAAvF,CADoC,EALjB,CAOrB,kCAAmC,6CACjC,QAAO,4EAA6E,iCAApF,CADiC,EAPd,CASrB,kCAAmC,6CACjC,QAAO,4EAA6E,iCAApF,CADiC,EATd,CAWrB,kCAAmC,6CACjC,QAAO,4EAA6E,iCAApF,CADiC,EAXd,CAarB,sCAAuC,gDACrC,QAAO,gFAAiF,qCAAxF,CADqC,EAblB,CAerB,wCAAyC,mDACvC,QAAO,kFAAmF,uCAA1F,CADuC,EAfpB,CAiBrB,0CAA2C,qDACzC,QAAO,oFAAqF,yCAA5F,CADyC,EAjBtB,CAAhB",
+      "sourcesContent": [
+        "export const imports = {\n  'components/index.mdx': () =>\n    import(/* webpackPrefetch: true, webpackChunkName: \"components-index\" */ 'components/index.mdx'),\n  'components/atoms/button/index.mdx': () =>\n    import(/* webpackPrefetch: true, webpackChunkName: \"components-atoms-button-index\" */ 'components/atoms/button/index.mdx'),\n  'components/atoms/credits/index.mdx': () =>\n    import(/* webpackPrefetch: true, webpackChunkName: \"components-atoms-credits-index\" */ 'components/atoms/credits/index.mdx'),\n  'components/atoms/icon/index.mdx': () =>\n    import(/* webpackPrefetch: true, webpackChunkName: \"components-atoms-icon-index\" */ 'components/atoms/icon/index.mdx'),\n  'components/atoms/link/index.mdx': () =>\n    import(/* webpackPrefetch: true, webpackChunkName: \"components-atoms-link-index\" */ 'components/atoms/link/index.mdx'),\n  'components/atoms/logo/index.mdx': () =>\n    import(/* webpackPrefetch: true, webpackChunkName: \"components-atoms-logo-index\" */ 'components/atoms/logo/index.mdx'),\n  'components/atoms/nav-item/index.mdx': () =>\n    import(/* webpackPrefetch: true, webpackChunkName: \"components-atoms-nav-item-index\" */ 'components/atoms/nav-item/index.mdx'),\n  'components/molecules/header/index.mdx': () =>\n    import(/* webpackPrefetch: true, webpackChunkName: \"components-molecules-header-index\" */ 'components/molecules/header/index.mdx'),\n  'components/molecules/loadable/index.mdx': () =>\n    import(/* webpackPrefetch: true, webpackChunkName: \"components-molecules-loadable-index\" */ 'components/molecules/loadable/index.mdx'),\n}\n"
+      ]
+    }
+  ]
+}

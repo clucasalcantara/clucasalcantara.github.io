@@ -1,0 +1,41 @@
+{
+  "remainingRequest": "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/babel-loader/lib/index.js?{\"presets\":[[\"/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/babel-preset-docz/dist/index.js\",{\"flow\":true,\"typescript\":false,\"parseProps\":true}]],\"plugins\":[[\"/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz-utils/lib/named-asset-import.js\",{\"loaderMap\":{\"svg\":{\"ReactComponent\":\"@svgr/webpack?-prettier,-svgo![path]\"}}}],\"/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/react-hot-loader/babel.js\"],\"babelrc\":false,\"cacheCompression\":false,\"compact\":false}!/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/src/components/molecules/index.js",
+  "dependencies": [
+    {
+      "path": "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/src/components/molecules/index.js",
+      "mtime": 1553596730755
+    },
+    {
+      "path": "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/cache-loader/dist/cjs.js",
+      "mtime": 1553357715411
+    },
+    {
+      "path": "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/babel-loader/lib/index.js",
+      "mtime": 1553357715290
+    }
+  ],
+  "contextDependencies": [],
+  "result": [
+    "import DarkMode from './dark-mode';\nimport Footer from './footer';\nimport Header from './header';\nimport Loadable from './loadable';\nimport Navigation from './navigation';\nimport Card from './card';\nimport Hero from './hero';\nimport Tags from './tags';\nexport { Hero, Card, DarkMode, Footer, Tags, Header, Loadable, Navigation };",
+    {
+      "version": 3,
+      "sources": [
+        "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/src/components/molecules/index.js"
+      ],
+      "names": [
+        "DarkMode",
+        "Footer",
+        "Header",
+        "Loadable",
+        "Navigation",
+        "Card",
+        "Hero",
+        "Tags"
+      ],
+      "mappings": "AAAA,OAAOA,QAAP,MAAqB,aAArB;AACA,OAAOC,MAAP,MAAmB,UAAnB;AACA,OAAOC,MAAP,MAAmB,UAAnB;AACA,OAAOC,QAAP,MAAqB,YAArB;AACA,OAAOC,UAAP,MAAuB,cAAvB;AACA,OAAOC,IAAP,MAAiB,QAAjB;AACA,OAAOC,IAAP,MAAiB,QAAjB;AACA,OAAOC,IAAP,MAAiB,QAAjB;AAEA,SAASD,IAAT,EAAeD,IAAf,EAAqBL,QAArB,EAA+BC,MAA/B,EAAuCM,IAAvC,EAA6CL,MAA7C,EAAqDC,QAArD,EAA+DC,UAA/D",
+      "sourcesContent": [
+        "import DarkMode from './dark-mode'\nimport Footer from './footer'\nimport Header from './header'\nimport Loadable from './loadable'\nimport Navigation from './navigation'\nimport Card from './card'\nimport Hero from './hero'\nimport Tags from './tags'\n\nexport { Hero, Card, DarkMode, Footer, Tags, Header, Loadable, Navigation }\n"
+      ]
+    }
+  ]
+}

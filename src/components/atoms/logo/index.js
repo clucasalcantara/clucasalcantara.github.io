@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import styled from '@emotion/styled'
+import { Link } from 'react-router-dom'
 
 const Title = styled.div(({ color }) => ({
   padding: '.5rem',
@@ -17,10 +18,12 @@ const SubTitle = styled.div(({ color }) => ({
 
 export default function Logo({ content, subtitle, color, subtitleColor }) {
   return (
-    <Title color={color}>
-      <div className="content">{content}</div>
-      {subtitle && <SubTitle color={subtitleColor}>{subtitle}</SubTitle>}
-    </Title>
+    <Link to="/">
+      <Title color={color}>
+        <div className="content">{content}</div>
+        {subtitle && <SubTitle color={subtitleColor}>{subtitle}</SubTitle>}
+      </Title>
+    </Link>
   )
 }
 

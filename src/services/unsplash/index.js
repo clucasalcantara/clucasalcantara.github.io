@@ -6,7 +6,7 @@ const unsplash = new Unsplash({
   secret: '013bb4b541a0fa9e3070d93d847181aed0e36ca96d71f210b51825947b5d958e'
 })
 
-const getRandomImage = async (cb, query = 'drone') => {
+const getRandomImage = async (cb, query = 'white shark') => {
   const image = await unsplash.photos
     .getRandomPhoto({ query })
     .then(response => response.json())

@@ -1,0 +1,47 @@
+{
+  "remainingRequest": "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/babel-loader/lib/index.js?{\"presets\":[[\"/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/babel-preset-docz/dist/index.js\",{\"flow\":true,\"typescript\":false,\"parseProps\":true}]],\"plugins\":[[\"/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz-utils/lib/named-asset-import.js\",{\"loaderMap\":{\"svg\":{\"ReactComponent\":\"@svgr/webpack?-prettier,-svgo![path]\"}}}]],\"babelrc\":false,\"cacheCompression\":true,\"compact\":true}!/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/src/components/atoms/icon/index.js",
+  "dependencies": [
+    {
+      "path": "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/src/components/atoms/icon/index.js",
+      "mtime": 1553598731622
+    },
+    {
+      "path": "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/cache-loader/dist/cjs.js",
+      "mtime": 1553357715411
+    },
+    {
+      "path": "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/babel-loader/lib/index.js",
+      "mtime": 1553357715290
+    }
+  ],
+  "contextDependencies": [],
+  "result": [
+    "import React from'react';import*as Ionicons from'react-icons/io';import styled from'@emotion/styled';var Wrapper=styled.div({padding:'.3rem',background:'transparent',cursor:'pointer'});var Icon=function Icon(_ref){var iconName=_ref.iconName,handleClick=_ref.handleClick;var IconComponent=Ionicons[iconName];return React.createElement(Wrapper,null,React.createElement(IconComponent,{onClick:function onClick(){return handleClick();}}));};Icon.defaultProps={handleClick:function handleClick(){return alert('Clicked');}};export default Icon;Icon.__docgenInfo={\"description\":\"\",\"methods\":[],\"displayName\":\"Icon\",\"props\":{\"handleClick\":{\"defaultValue\":{\"value\":\"() => alert('Clicked')\",\"computed\":false},\"type\":{\"name\":\"func\"},\"required\":false,\"description\":\"\"},\"iconName\":{\"type\":{\"name\":\"string\"},\"required\":true,\"description\":\"\"}}};",
+    {
+      "version": 3,
+      "sources": [
+        "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/src/components/atoms/icon/index.js"
+      ],
+      "names": [
+        "React",
+        "Ionicons",
+        "styled",
+        "Wrapper",
+        "div",
+        "padding",
+        "background",
+        "cursor",
+        "Icon",
+        "iconName",
+        "handleClick",
+        "IconComponent",
+        "defaultProps",
+        "alert"
+      ],
+      "mappings": "AAAA,MAAOA,CAAAA,KAAP,KAAkB,OAAlB,CAEA,MAAO,GAAKC,CAAAA,QAAZ,KAA0B,gBAA1B,CACA,MAAOC,CAAAA,MAAP,KAAmB,iBAAnB,CAEA,GAAMC,CAAAA,OAAO,CAAGD,MAAM,CAACE,GAAP,CAAW,CACzBC,OAAO,CAAE,OADgB,CAEzBC,UAAU,CAAE,aAFa,CAGzBC,MAAM,CAAE,SAHiB,CAAX,CAAhB,CAMA,GAAMC,CAAAA,IAAI,CAAG,QAAPA,CAAAA,IAAO,MAA+B,IAA5BC,CAAAA,QAA4B,MAA5BA,QAA4B,CAAlBC,WAAkB,MAAlBA,WAAkB,CAC1C,GAAMC,CAAAA,aAAa,CAAGV,QAAQ,CAACQ,QAAD,CAA9B,CAEA,MACE,qBAAC,OAAD,MACE,oBAAC,aAAD,EAAe,OAAO,CAAE,yBAAMC,CAAAA,WAAW,EAAjB,EAAxB,EADF,CADF,CAKD,CARD,CAeAF,IAAI,CAACI,YAAL,CAAoB,CAClBF,WAAW,CAAE,6BAAMG,CAAAA,KAAK,CAAC,SAAD,CAAX,EADK,CAApB,CAGA,cAAeL,CAAAA,IAAf,C",
+      "sourcesContent": [
+        "import React from 'react'\nimport { string, func } from 'prop-types'\nimport * as Ionicons from 'react-icons/io'\nimport styled from '@emotion/styled'\n\nconst Wrapper = styled.div({\n  padding: '.3rem',\n  background: 'transparent',\n  cursor: 'pointer'\n})\n\nconst Icon = ({ iconName, handleClick }) => {\n  const IconComponent = Ionicons[iconName]\n\n  return (\n    <Wrapper>\n      <IconComponent onClick={() => handleClick()} />\n    </Wrapper>\n  )\n}\n\nIcon.propTypes = {\n  iconName: string.isRequired,\n  handleClick: func,\n}\n\nIcon.defaultProps = {\n  handleClick: () => alert('Clicked'),\n}\nexport default Icon"
+      ]
+    }
+  ]
+}

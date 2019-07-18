@@ -1,0 +1,46 @@
+{
+  "remainingRequest": "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/babel-loader/lib/index.js?{\"presets\":[[\"/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/babel-preset-docz/dist/index.js\",{\"flow\":true,\"typescript\":false,\"parseProps\":true}]],\"plugins\":[[\"/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz-utils/lib/named-asset-import.js\",{\"loaderMap\":{\"svg\":{\"ReactComponent\":\"@svgr/webpack?-prettier,-svgo![path]\"}}}],\"/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/react-hot-loader/babel.js\"],\"babelrc\":false,\"cacheCompression\":false,\"compact\":false}!/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/src/components/molecules/dark-mode/index.js",
+  "dependencies": [
+    {
+      "path": "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/src/components/molecules/dark-mode/index.js",
+      "mtime": 1553599504321
+    },
+    {
+      "path": "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/cache-loader/dist/cjs.js",
+      "mtime": 1553357715411
+    },
+    {
+      "path": "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/babel-loader/lib/index.js",
+      "mtime": 1553357715290
+    }
+  ],
+  "contextDependencies": [],
+  "result": [
+    "var _jsxFileName = \"/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/src/components/molecules/dark-mode/index.js\";\n\n(function () {\n  var enterModule = require('react-hot-loader').enterModule;\n\n  enterModule && enterModule(module);\n})();\n\nimport React from 'react';\nimport styled from '@emotion/styled'; // UI Elements\n\nimport Toggle from 'react-toggle';\nimport { Icon } from 'components/atoms'; // import 'react-toggle/style.css'\n\nvar DarkMode = styled.div({\n  display: 'flex',\n  padding: '1rem',\n  justifyContent: 'space-between',\n  alignItems: 'center',\n  background: 'transparent'\n});\n\nvar _default = function _default(_ref) {\n  var darkMode = _ref.darkMode,\n      setDarkMode = _ref.setDarkMode;\n  return React.createElement(DarkMode, {\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 18\n    },\n    __self: this\n  }, React.createElement(Icon, {\n    iconName: \"IoIosSunny\",\n    handleClick: function handleClick() {\n      return setDarkMode(false);\n    },\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 19\n    },\n    __self: this\n  }), React.createElement(Toggle, {\n    checked: darkMode,\n    icons: false,\n    onChange: function onChange() {\n      return setDarkMode(!darkMode);\n    },\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 20\n    },\n    __self: this\n  }), React.createElement(Icon, {\n    iconName: \"IoMdMoon\",\n    handleClick: function handleClick() {\n      return setDarkMode(true);\n    },\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 25\n    },\n    __self: this\n  }));\n};\n\nexport default _default;\n;\n\n(function () {\n  var reactHotLoader = require('react-hot-loader').default;\n\n  var leaveModule = require('react-hot-loader').leaveModule;\n\n  if (!reactHotLoader) {\n    return;\n  }\n\n  reactHotLoader.register(DarkMode, \"DarkMode\", \"/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/src/components/molecules/dark-mode/index.js\");\n  reactHotLoader.register(_default, \"default\", \"/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/src/components/molecules/dark-mode/index.js\");\n  leaveModule(module);\n})();\n\n;",
+    {
+      "version": 3,
+      "sources": [
+        "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/src/components/molecules/dark-mode/index.js"
+      ],
+      "names": [
+        "React",
+        "styled",
+        "Toggle",
+        "Icon",
+        "DarkMode",
+        "div",
+        "display",
+        "padding",
+        "justifyContent",
+        "alignItems",
+        "background",
+        "darkMode",
+        "setDarkMode"
+      ],
+      "mappings": ";;;;;;;;AAAA,OAAOA,KAAP,MAAkB,OAAlB;AACA,OAAOC,MAAP,MAAmB,iBAAnB,C,CAEA;;AACA,OAAOC,MAAP,MAAmB,cAAnB;AACA,SAASC,IAAT,QAAqB,kBAArB,C,CACA;;AAEA,IAAMC,QAAQ,GAAGH,MAAM,CAACI,GAAP,CAAW;AAC1BC,EAAAA,OAAO,EAAE,MADiB;AAE1BC,EAAAA,OAAO,EAAE,MAFiB;AAG1BC,EAAAA,cAAc,EAAE,eAHU;AAI1BC,EAAAA,UAAU,EAAE,QAJc;AAK1BC,EAAAA,UAAU,EAAE;AALc,CAAX,CAAjB;;eAQe;AAAA,MAAGC,QAAH,QAAGA,QAAH;AAAA,MAAaC,WAAb,QAAaA,WAAb;AAAA,SACb,oBAAC,QAAD;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,KACE,oBAAC,IAAD;AAAM,IAAA,QAAQ,EAAC,YAAf;AAA4B,IAAA,WAAW,EAAE;AAAA,aAAMA,WAAW,CAAC,KAAD,CAAjB;AAAA,KAAzC;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,IADF,EAEE,oBAAC,MAAD;AACE,IAAA,OAAO,EAAED,QADX;AAEE,IAAA,KAAK,EAAE,KAFT;AAGE,IAAA,QAAQ,EAAE;AAAA,aAAMC,WAAW,CAAC,CAACD,QAAF,CAAjB;AAAA,KAHZ;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,IAFF,EAOE,oBAAC,IAAD;AAAM,IAAA,QAAQ,EAAC,UAAf;AAA0B,IAAA,WAAW,EAAE;AAAA,aAAMC,WAAW,CAAC,IAAD,CAAjB;AAAA,KAAvC;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,IAPF,CADa;AAAA,C;;AAAf;;;;;;;;;;;;0BARMR,Q",
+      "sourcesContent": [
+        "import React from 'react'\nimport styled from '@emotion/styled'\n\n// UI Elements\nimport Toggle from 'react-toggle'\nimport { Icon } from 'components/atoms'\n// import 'react-toggle/style.css'\n\nconst DarkMode = styled.div({\n  display: 'flex',\n  padding: '1rem',\n  justifyContent: 'space-between',\n  alignItems: 'center',\n  background: 'transparent'\n})\n\nexport default ({ darkMode, setDarkMode }) => (\n  <DarkMode>\n    <Icon iconName=\"IoIosSunny\" handleClick={() => setDarkMode(false)} />\n    <Toggle\n      checked={darkMode}\n      icons={false}\n      onChange={() => setDarkMode(!darkMode)}\n    />\n    <Icon iconName=\"IoMdMoon\" handleClick={() => setDarkMode(true)} />\n  </DarkMode>\n)\n"
+      ]
+    }
+  ]
+}

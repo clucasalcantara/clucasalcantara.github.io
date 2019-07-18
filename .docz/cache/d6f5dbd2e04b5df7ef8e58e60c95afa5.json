@@ -1,0 +1,51 @@
+{
+  "remainingRequest": "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/babel-loader/lib/index.js?{\"presets\":[[\"/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/babel-preset-docz/dist/index.js\",{\"flow\":true,\"typescript\":false,\"parseProps\":true}]],\"plugins\":[[\"/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz-utils/lib/named-asset-import.js\",{\"loaderMap\":{\"svg\":{\"ReactComponent\":\"@svgr/webpack?-prettier,-svgo![path]\"}}}],\"/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/react-hot-loader/babel.js\"],\"babelrc\":false,\"cacheCompression\":false,\"compact\":false}!/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/src/components/atoms/icon/index.js",
+  "dependencies": [
+    {
+      "path": "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/src/components/atoms/icon/index.js",
+      "mtime": 1553598731622
+    },
+    {
+      "path": "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/cache-loader/dist/cjs.js",
+      "mtime": 1553357715411
+    },
+    {
+      "path": "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/babel-loader/lib/index.js",
+      "mtime": 1553357715290
+    }
+  ],
+  "contextDependencies": [],
+  "result": [
+    "var _jsxFileName = \"/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/src/components/atoms/icon/index.js\";\n\n(function () {\n  var enterModule = require('react-hot-loader').enterModule;\n\n  enterModule && enterModule(module);\n})();\n\nimport React from 'react';\nimport { string, func } from 'prop-types';\nimport * as Ionicons from 'react-icons/io';\nimport styled from '@emotion/styled';\nvar Wrapper = styled.div({\n  padding: '.3rem',\n  background: 'transparent',\n  cursor: 'pointer'\n});\n\nvar Icon = function Icon(_ref) {\n  var iconName = _ref.iconName,\n      handleClick = _ref.handleClick;\n  var IconComponent = Ionicons[iconName];\n  return React.createElement(Wrapper, {\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 16\n    },\n    __self: this\n  }, React.createElement(IconComponent, {\n    onClick: function onClick() {\n      return handleClick();\n    },\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 17\n    },\n    __self: this\n  }));\n};\n\nIcon.propTypes = {\n  iconName: string.isRequired,\n  handleClick: func\n};\nIcon.defaultProps = {\n  handleClick: function handleClick() {\n    return alert('Clicked');\n  }\n};\nvar _default = Icon;\nexport default _default;\n;\n\n(function () {\n  var reactHotLoader = require('react-hot-loader').default;\n\n  var leaveModule = require('react-hot-loader').leaveModule;\n\n  if (!reactHotLoader) {\n    return;\n  }\n\n  reactHotLoader.register(Wrapper, \"Wrapper\", \"/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/src/components/atoms/icon/index.js\");\n  reactHotLoader.register(Icon, \"Icon\", \"/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/src/components/atoms/icon/index.js\");\n  reactHotLoader.register(_default, \"default\", \"/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/src/components/atoms/icon/index.js\");\n  leaveModule(module);\n})();\n\n;\nIcon.__docgenInfo = {\n  \"description\": \"\",\n  \"methods\": [],\n  \"displayName\": \"Icon\",\n  \"props\": {\n    \"handleClick\": {\n      \"defaultValue\": {\n        \"value\": \"() => alert('Clicked')\",\n        \"computed\": false\n      },\n      \"type\": {\n        \"name\": \"func\"\n      },\n      \"required\": false,\n      \"description\": \"\"\n    },\n    \"iconName\": {\n      \"type\": {\n        \"name\": \"string\"\n      },\n      \"required\": true,\n      \"description\": \"\"\n    }\n  }\n};",
+    {
+      "version": 3,
+      "sources": [
+        "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/src/components/atoms/icon/index.js"
+      ],
+      "names": [
+        "React",
+        "string",
+        "func",
+        "Ionicons",
+        "styled",
+        "Wrapper",
+        "div",
+        "padding",
+        "background",
+        "cursor",
+        "Icon",
+        "iconName",
+        "handleClick",
+        "IconComponent",
+        "propTypes",
+        "isRequired",
+        "defaultProps",
+        "alert"
+      ],
+      "mappings": ";;;;;;;;AAAA,OAAOA,KAAP,MAAkB,OAAlB;AACA,SAASC,MAAT,EAAiBC,IAAjB,QAA6B,YAA7B;AACA,OAAO,KAAKC,QAAZ,MAA0B,gBAA1B;AACA,OAAOC,MAAP,MAAmB,iBAAnB;AAEA,IAAMC,OAAO,GAAGD,MAAM,CAACE,GAAP,CAAW;AACzBC,EAAAA,OAAO,EAAE,OADgB;AAEzBC,EAAAA,UAAU,EAAE,aAFa;AAGzBC,EAAAA,MAAM,EAAE;AAHiB,CAAX,CAAhB;;AAMA,IAAMC,IAAI,GAAG,SAAPA,IAAO,OAA+B;AAAA,MAA5BC,QAA4B,QAA5BA,QAA4B;AAAA,MAAlBC,WAAkB,QAAlBA,WAAkB;AAC1C,MAAMC,aAAa,GAAGV,QAAQ,CAACQ,QAAD,CAA9B;AAEA,SACE,oBAAC,OAAD;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,KACE,oBAAC,aAAD;AAAe,IAAA,OAAO,EAAE;AAAA,aAAMC,WAAW,EAAjB;AAAA,KAAxB;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,IADF,CADF;AAKD,CARD;;AAUAF,IAAI,CAACI,SAAL,GAAiB;AACfH,EAAAA,QAAQ,EAAEV,MAAM,CAACc,UADF;AAEfH,EAAAA,WAAW,EAAEV;AAFE,CAAjB;AAKAQ,IAAI,CAACM,YAAL,GAAoB;AAClBJ,EAAAA,WAAW,EAAE;AAAA,WAAMK,KAAK,CAAC,SAAD,CAAX;AAAA;AADK,CAApB;eAGeP,I;AAAf;;;;;;;;;;;;0BAxBML,O;0BAMAK,I",
+      "sourcesContent": [
+        "import React from 'react'\nimport { string, func } from 'prop-types'\nimport * as Ionicons from 'react-icons/io'\nimport styled from '@emotion/styled'\n\nconst Wrapper = styled.div({\n  padding: '.3rem',\n  background: 'transparent',\n  cursor: 'pointer'\n})\n\nconst Icon = ({ iconName, handleClick }) => {\n  const IconComponent = Ionicons[iconName]\n\n  return (\n    <Wrapper>\n      <IconComponent onClick={() => handleClick()} />\n    </Wrapper>\n  )\n}\n\nIcon.propTypes = {\n  iconName: string.isRequired,\n  handleClick: func,\n}\n\nIcon.defaultProps = {\n  handleClick: () => alert('Clicked'),\n}\nexport default Icon"
+      ]
+    }
+  ]
+}

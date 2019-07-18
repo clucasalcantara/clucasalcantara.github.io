@@ -8,11 +8,11 @@ const initialState = {
     nav: [
       {
         text: 'Sobre mim',
-        path: '/#1'
+        path: '/about'
       },
       {
         text: 'Projetos',
-        path: '/#2'
+        path: '/projects'
       },
       {
         text: 'Posts',
@@ -20,7 +20,7 @@ const initialState = {
       },
       {
         text: 'Contato',
-        path: '/#4'
+        path: '/contato'
       }
     ]
   },

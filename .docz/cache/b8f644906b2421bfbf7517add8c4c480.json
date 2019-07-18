@@ -1,0 +1,43 @@
+{
+  "remainingRequest": "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/babel-loader/lib/index.js?{\"presets\":[[\"/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/babel-preset-docz/dist/index.js\",{\"flow\":true,\"typescript\":false,\"parseProps\":true}]],\"plugins\":[[\"/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz-utils/lib/named-asset-import.js\",{\"loaderMap\":{\"svg\":{\"ReactComponent\":\"@svgr/webpack?-prettier,-svgo![path]\"}}}]],\"babelrc\":false,\"cacheCompression\":true,\"compact\":true}!/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/src/components/atoms/nav-item/index.js",
+  "dependencies": [
+    {
+      "path": "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/src/components/atoms/nav-item/index.js",
+      "mtime": 1553598556416
+    },
+    {
+      "path": "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/cache-loader/dist/cjs.js",
+      "mtime": 1553357715411
+    },
+    {
+      "path": "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/babel-loader/lib/index.js",
+      "mtime": 1553357715290
+    }
+  ],
+  "contextDependencies": [],
+  "result": [
+    "import React from'react';import styled from'@emotion/styled';// UI Elements\nimport Link from'../link';var Wrapper=styled.li({padding:'.5rem',listStyle:'none'});var NavItem=function NavItem(_ref){var text=_ref.text,path=_ref.path;return React.createElement(Wrapper,null,React.createElement(Link,{href:path,text:text}));};export default NavItem;NavItem.__docgenInfo={\"description\":\"\",\"methods\":[],\"displayName\":\"NavItem\",\"props\":{\"path\":{\"type\":{\"name\":\"string\"},\"required\":true,\"description\":\"\"},\"text\":{\"type\":{\"name\":\"string\"},\"required\":true,\"description\":\"\"}}};",
+    {
+      "version": 3,
+      "sources": [
+        "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/src/components/atoms/nav-item/index.js"
+      ],
+      "names": [
+        "React",
+        "styled",
+        "Link",
+        "Wrapper",
+        "li",
+        "padding",
+        "listStyle",
+        "NavItem",
+        "text",
+        "path"
+      ],
+      "mappings": "AAAA,MAAOA,CAAAA,KAAP,KAAkB,OAAlB,CAEA,MAAOC,CAAAA,MAAP,KAAmB,iBAAnB,CAEA;AACA,MAAOC,CAAAA,IAAP,KAAiB,SAAjB,CAEA,GAAMC,CAAAA,OAAO,CAAGF,MAAM,CAACG,EAAP,CAAU,CACxBC,OAAO,CAAE,OADe,CAExBC,SAAS,CAAE,MAFa,CAAV,CAAhB,CAKA,GAAMC,CAAAA,OAAO,CAAG,QAAVA,CAAAA,OAAU,UAAGC,CAAAA,IAAH,MAAGA,IAAH,CAASC,IAAT,MAASA,IAAT,OACd,qBAAC,OAAD,MACE,oBAAC,IAAD,EAAM,IAAI,CAAEA,IAAZ,CAAkB,IAAI,CAAED,IAAxB,EADF,CADc,EAAhB,CAWA,cAAeD,CAAAA,OAAf,C",
+      "sourcesContent": [
+        "import React from 'react'\nimport { string } from 'prop-types'\nimport styled from '@emotion/styled'\n\n// UI Elements\nimport Link from '../link'\n\nconst Wrapper = styled.li({\n  padding: '.5rem',\n  listStyle: 'none'\n})\n\nconst NavItem = ({ text, path }) => (\n  <Wrapper>\n    <Link href={path} text={text} />\n  </Wrapper>\n)\n\nNavItem.propTypes = {\n  path: string.isRequired,\n  text: string.isRequired\n}\n\nexport default NavItem\n"
+      ]
+    }
+  ]
+}

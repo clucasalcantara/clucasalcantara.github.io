@@ -1,3 +1,4 @@
 import Home from './home'
+import About from './about'
 
-export { Home }
+export { About, Home }

@@ -1,0 +1,42 @@
+{
+  "remainingRequest": "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/babel-loader/lib/index.js?{\"presets\":[[\"/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/babel-preset-docz/dist/index.js\",{\"flow\":true,\"typescript\":false,\"parseProps\":true}]],\"plugins\":[[\"/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz-utils/lib/named-asset-import.js\",{\"loaderMap\":{\"svg\":{\"ReactComponent\":\"@svgr/webpack?-prettier,-svgo![path]\"}}}]],\"babelrc\":false,\"cacheCompression\":true,\"compact\":true}!/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/src/components/atoms/link/index.js",
+  "dependencies": [
+    {
+      "path": "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/src/components/atoms/link/index.js",
+      "mtime": 1553598654787
+    },
+    {
+      "path": "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/cache-loader/dist/cjs.js",
+      "mtime": 1553357715411
+    },
+    {
+      "path": "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/node_modules/docz/node_modules/babel-loader/lib/index.js",
+      "mtime": 1553357715290
+    }
+  ],
+  "contextDependencies": [],
+  "result": [
+    "import React from'react';import styled from'@emotion/styled';var Wrapper=styled.a({textDecoration:'none',color:'black'});var Link=function Link(_ref){var text=_ref.text,href=_ref.href;return React.createElement(Wrapper,{href:href},text);};export default Link;Link.__docgenInfo={\"description\":\"\",\"methods\":[],\"displayName\":\"Link\",\"props\":{\"text\":{\"type\":{\"name\":\"string\"},\"required\":true,\"description\":\"\"},\"href\":{\"type\":{\"name\":\"string\"},\"required\":true,\"description\":\"\"}}};",
+    {
+      "version": 3,
+      "sources": [
+        "/Users/clucasalcantara/projects/open-source/clucasalcantara.github.io/src/components/atoms/link/index.js"
+      ],
+      "names": [
+        "React",
+        "styled",
+        "Wrapper",
+        "a",
+        "textDecoration",
+        "color",
+        "Link",
+        "text",
+        "href"
+      ],
+      "mappings": "AAAA,MAAOA,CAAAA,KAAP,KAAkB,OAAlB,CAEA,MAAOC,CAAAA,MAAP,KAAmB,iBAAnB,CAEA,GAAMC,CAAAA,OAAO,CAAGD,MAAM,CAACE,CAAP,CAAS,CACvBC,cAAc,CAAE,MADO,CAEvBC,KAAK,CAAE,OAFgB,CAAT,CAAhB,CAKA,GAAMC,CAAAA,IAAI,CAAG,QAAPA,CAAAA,IAAO,UAAGC,CAAAA,IAAH,MAAGA,IAAH,CAASC,IAAT,MAASA,IAAT,OAAoB,qBAAC,OAAD,EAAS,IAAI,CAAEA,IAAf,EAAsBD,IAAtB,CAApB,EAAb,CAOA,cAAeD,CAAAA,IAAf,C",
+      "sourcesContent": [
+        "import React from 'react'\nimport { string } from 'prop-types'\nimport styled from '@emotion/styled'\n\nconst Wrapper = styled.a({\n  textDecoration: 'none',\n  color: 'black'\n})\n\nconst Link = ({ text, href }) => <Wrapper href={href}>{text}</Wrapper>\n\nLink.propTypes = {\n  text: string.isRequired,\n  href: string.isRequired\n}\n\nexport default Link"
+      ]
+    }
+  ]
+}
